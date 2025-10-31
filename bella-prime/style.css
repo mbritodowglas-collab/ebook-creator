@@ -32,7 +32,7 @@ blockquote {
   margin: 1.5em 0;
 }
 
-/* ----- Frases de impacto isoladas ----- */
+/* Frases de impacto isoladas */
 .divider-gold {
   border: 0;
   border-top: 1px solid #d4af37;
@@ -49,60 +49,51 @@ blockquote {
   margin: 1em 0;
 }
 
-/* ----- Layout em duas colunas ----- */
+/* Citação central usada no texto */
+.quote-center {
+  text-align: center;
+  margin: 2.5em 0;
+  font-style: italic;
+  color: #444;
+}
+
+/* Layout em duas colunas (para trechos longos) */
 .two-columns {
   column-count: 2;
   column-gap: 2em;
 }
 
-/* ----- Imagens ----- */
+/* Imagens */
 img {
   display: block;
   margin: 0 auto 1em;
 }
 
-/* --------- Tamanho e margens do PDF (A4) --------- */
+/* --------- PDF (A4) --------- */
 @page {
   size: A4;
   margin: 20mm;
 }
 
 @page {
-  @top-center {
-    content: "Tratamento Bella Prime";
-    font-size: 10pt; color: #888;
-  }
-  @bottom-right {
-    content: counter(page);
-    font-size: 10pt; color: #888;
-  }
-  @bottom-center {
-    content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados.";
-    font-size: 10pt; color: #888;
-  }
+  @top-center   { content: "Tratamento Bella Prime"; font-size: 10pt; color: #888; }
+  @bottom-right { content: counter(page);           font-size: 10pt; color: #888; }
+  @bottom-center{ content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size: 10pt; color: #888; }
 }
 
-/* --------- Regras de QUEBRA DE PÁGINA --------- */
-.cover-page {            /* capa ocupa uma página só */
-  page-break-after: always;
-}
+/* --------- Quebras de página --------- */
+.cover-page { page-break-after: always; }   /* capa isolada */
+.page-break { page-break-before: always; }  /* utilitário */
 
-.page-break {            /* utilitário para forçar nova página onde quiser */
-  page-break-before: always;
-}
-
-/* Cada capítulo inicia em nova página (exceto o primeiro) */
 h1 { page-break-before: always; }
 h1:first-of-type { page-break-before: avoid; }
 
-/* ----- Ajustes específicos para PDF (modo impressão) ----- */
+/* ----- Ajustes para impressão ----- */
 @media print {
-  /* Esconde botões e elementos de interface */
-  button, .no-print {
-    display: none !important;
-  }
+  /* Esconde botões/itens de UI */
+  button, .no-print { display: none !important; }
 
-  /* Mantém o visual de livro no PDF */
+  /* Mantém visual de livro */
   body {
     background: #ffffff !important;
     color: #111 !important;
@@ -112,20 +103,9 @@ h1:first-of-type { page-break-before: avoid; }
     font-size: 13pt;
   }
 
-  h1, h2, h3 {
-    color: #000 !important;
-    text-align: center;
-  }
-
-  .two-columns {
-    column-count: 2;
-    column-gap: 2em;
-  }
-
-  .quote-impact, blockquote {
-    background: none !important;
-    box-shadow: none !important;
-  }
+  h1, h2, h3 { color: #000 !important; text-align: center; }
+  .two-columns { column-count: 2; column-gap: 2em; }
+  .quote-impact, blockquote { background: none !important; box-shadow: none !important; }
 }
 
 /* ---- Author Card ---- */
@@ -136,7 +116,6 @@ h1:first-of-type { page-break-before: avoid; }
   align-items: start;
   margin: 2em 0;
 }
-
 .author-photo img {
   width: 140px;
   height: 140px;
@@ -144,29 +123,26 @@ h1:first-of-type { page-break-before: avoid; }
   border-radius: 4px;
   border: 1px solid #ddd;
 }
-
-.author-bio h3 {
-  margin-top: 0.2em;
-  margin-bottom: 0.6em;
+.author-bio h3 { margin-top: 0.2em; margin-bottom: 0.6em; }
+.author-highlights { margin: 0.8em 0 1.2em 1em; }
+.author-highlights li { margin: 0.2em 0; }
+.author-cta p { text-align: left; margin: 0.2em 0; }
+.about-box {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  background: #fafafa;
 }
+.about-sign { margin-top: .6em; color: #555; }
 
-.author-highlights {
-  margin: 0.8em 0 1.2em 1em;
-}
-
-.author-highlights li {
-  margin: 0.2em 0;
-}
-
-.author-cta p {
-  text-align: left;
-  margin: 0.2em 0;
-}
-
-/* Impressão: garante layout limpo */
+/* Impressão: mantém bloco junto */
 @media print {
-  .author-card {
-    grid-template-columns: 140px 1fr;
-    page-break-inside: avoid;
-  }
+  .author-card { grid-template-columns: 140px 1fr; page-break-inside: avoid; }
+}
+
+/* Responsivo */
+@media (max-width: 780px) {
+  .author-card { grid-template-columns: 1fr; }
+  .author-photo img { margin: 0 auto; }
 }
