@@ -5,17 +5,14 @@ author: "Márcio Dowglas – Personal Trainer"
 date: "2025"
 ---
 
-<div align="center">
-  <img src="../assets/cover.jpg" alt="Capa Bella Prime" width="280"/>
+<div class="cover-page" align="center">
+  <img src="./cover.jpg" alt="Capa Bella Prime" width="320"/>
   <h1><strong>Tratamento Bella Prime</strong></h1>
   <h3><em>Um novo conceito em transformação física e mental</em></h3>
   <p><strong>Por Márcio Dowglas – Personal Trainer</strong></p>
   <hr style="border: 1px solid #ccc; width: 60%;">
+  <blockquote>“O trono não é o destino. É o reflexo de quem aprendeu a reinar sobre si.”</blockquote>
 </div>
-
-> “O trono não é o destino. É o reflexo de quem aprendeu a reinar sobre si.”
-
----
 
 # Sumário
 1. O Início de Tudo  
@@ -166,7 +163,7 @@ A mulher que passa pelo Bella Prime entende que **o trono não é o destino —
 
 <hr>
 
-<div align="center" style="margin-top: 3em;">
+<div align="center" class="no-print" style="margin-top: 3em;">
   <button onclick="window.print()" 
           style="background-color: #d4af37; 
                  color: #111; 
@@ -176,7 +173,7 @@ A mulher que passa pelo Bella Prime entende que **o trono não é o destino —
                  font-size: 1em; 
                  cursor: pointer; 
                  border-radius: 4px;">
-    📘 Imprimir / Baixar PDF
+    Imprimir / Baixar PDF
   </button>
   <p style="color:#888; font-size: 0.9em; margin-top: 0.5em;">
     Clique para gerar seu PDF formatado do e-book.
