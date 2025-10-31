@@ -11,7 +11,7 @@ body.ebook-body{
   background:#fff; 
   color:#222;
   font-family:"Georgia","Times New Roman",serif;
-  margin:25mm 20mm 25mm 30mm;       /* margens editoriais ABNT */
+  margin:25mm 20mm 25mm 30mm;       /* margens editoriais ABNT (visualização web) */
   line-height:1.7;
   font-size:13pt;
   text-rendering:optimizeLegibility;
@@ -19,7 +19,6 @@ body.ebook-body{
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
-
 @media (max-width:1024px){
   body.ebook-body{ margin:48px 28px; font-size:16px; line-height:1.75; }
 }
@@ -46,8 +45,8 @@ h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
    PARÁGRAFOS (formato livro)
    ======================= */
 p{
-  text-align:justify;               /* alinhamento justificado */
-  text-justify:inter-word;          /* melhor distribuição entre palavras */
+  text-align:justify;
+  text-justify:inter-word;
   margin:0 0 1em 0;
   line-height:1.65;
   text-indent:1.25cm;               /* recuo de primeira linha */
@@ -56,7 +55,7 @@ p{
 h1 + p, h2 + p, h3 + p, blockquote + p { text-indent:0; }
 
 /* =======================
-   CITAÇÕES E FRASES DE DESTAQUE
+   CITAÇÕES / DESTAQUES
    ======================= */
 blockquote{
   font-family:"Lora",serif;
@@ -68,7 +67,6 @@ blockquote{
   font-size:12pt;
   break-inside:avoid; page-break-inside:avoid;
 }
-
 .quote-center{
   text-align:center;
   font-family:"Playfair Display",serif;
@@ -77,16 +75,13 @@ blockquote{
   color:#111;
   margin:1.4em 0;
 }
-
 .divider-gold{
-  border:0;
-  border-top:1px solid #d4af37;
-  width:60%;
-  margin:2em auto;
+  border:0; border-top:1px solid #d4af37;
+  width:60%; margin:2em auto;
 }
 
 /* =======================
-   COLUNAS DUPLAS (somente na web)
+   COLUNAS DUPLAS (somente web)
    ======================= */
 .two-columns{ column-count:2; column-gap:2em; }
 @media (max-width:900px){ .two-columns{ column-count:1; } }
@@ -104,44 +99,38 @@ img{
 }
 
 /* =======================
-   CAPA (ocupando página inteira)
+   CAPA (sem corte)
    ======================= */
 .cover-page{
-  width:210mm;
-  height:297mm;
-  margin:0 auto;
-  padding:0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  background:#000;
+  width:210mm; height:297mm;
+  margin:0 auto; padding:0;
+  display:flex; align-items:center; justify-content:center;
+  overflow:hidden; background:#000;
   page-break-after:always;
 }
 .cover-page img{
-  width:210mm;
-  height:297mm;
-  object-fit:cover;
+  width:100%; height:100%;
+  object-fit:contain;                /* não corta o título */
   display:block;
 }
 
 /* =======================
    SUMÁRIO
    ======================= */
-ol.sumario{
-  padding-left:1.1cm;
-  margin:0 0 1.2em;
-}
+ol.sumario{ padding-left:1.1cm; margin:0 0 1.2em; }
 ol.sumario li{ margin:0 0 .25em; }
 
 /* =======================
-   PÁGINAS E QUEBRAS
+   PÁGINAS / QUEBRAS
    ======================= */
 .page-break{ page-break-before:always; }
-@page :first{ size:A4; margin:0; }
+
+@page :first{                       /* capa full-bleed no PDF */
+  size:A4; margin:0;
+}
 @page{
   size:A4;
-  margin:25mm 20mm 25mm 30mm;
+  margin:25mm 20mm 25mm 30mm;       /* margens editoriais nas demais páginas */
   @top-center   { content:""; }
   @bottom-right { content:counter(page); font-size:10pt; color:#888; }
   @bottom-center{ content:"© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size:10pt; color:#888; }
@@ -160,36 +149,32 @@ ol.sumario li{ margin:0 0 .25em; }
     font-family:"Georgia","Times New Roman",serif !important;
     font-size:13pt !important;
     line-height:1.7 !important;
-    margin:0 !important;
+    margin:0 !important;             /* quem manda nas margens é @page */
   }
 
-  /* Remove cabeçalhos ou navegação */
+  /* Oculta qualquer UI */
   header,.site-header,.navbar,.nav,.site-title,.footer,.site-footer,
   .no-print,.print-btn{ display:none !important; visibility:hidden !important; }
 
   main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
 
-  /* Texto: sem hifenização, recuo padrão, justificado */
+  /* Texto do miolo */
   p{
     text-align:justify !important;
     text-indent:1.25cm !important;
-    hyphens:none !important;
+    hyphens:none !important;         /* Android tende a hifenizar demais */
     word-break:normal !important;
     overflow-wrap:normal !important;
   }
 
-  .two-columns{ column-count:1 !important; } /* Desativa colunas no PDF */
+  .two-columns{ column-count:1 !important; } /* evita quebras estranhas */
 
-  /* Capa 100% A4 */
-  .cover-page{
-    width:210mm !important;
-    height:297mm !important;
-    page-break-after:always;
-  }
+  /* Capa realmente A4 sem corte */
+  .cover-page{ width:210mm !important; height:297mm !important; }
   .cover-page img{
-    width:210mm !important;
-    height:297mm !important;
-    object-fit:cover !important;
+    width:210mm !important; height:297mm !important;
+    object-fit:contain !important;   /* preserva a arte */
+    background:#000;
   }
 
   blockquote, img, .author-card, .about-box{
@@ -201,29 +186,20 @@ ol.sumario li{ margin:0 0 .25em; }
    SOBRE O AUTOR
    ======================= */
 .author-card{
-  display:grid;
-  grid-template-columns:140px 1fr;
-  gap:1.2em;
-  align-items:start;
-  margin:2em 0;
+  display:grid; grid-template-columns:140px 1fr;
+  gap:1.2em; align-items:start; margin:2em 0;
   break-inside:avoid; page-break-inside:avoid;
 }
 .author-photo img{
-  width:140px;
-  height:140px;
-  object-fit:cover;
-  border-radius:4px;
-  border:1px solid #ddd;
+  width:140px; height:140px; object-fit:cover;
+  border-radius:4px; border:1px solid #ddd;
 }
 .author-bio h3{ margin:.2em 0 .6em; }
 .author-highlights{ margin:.8em 0 1.2em 1em; }
 .author-highlights li{ margin:.2em 0; }
 .about-box{
-  border:1px solid #eee;
-  border-radius:8px;
-  padding:1em;
-  margin:1em 0;
-  background:#fafafa;
+  border:1px solid #eee; border-radius:8px;
+  padding:1em; margin:1em 0; background:#fafafa;
   break-inside:avoid; page-break-inside:avoid;
 }
 .about-sign{ margin-top:.6em; color:#555; }
@@ -232,21 +208,11 @@ ol.sumario li{ margin:0 0 .25em; }
    BOTÃO FLUTUANTE (web)
    ======================= */
 .print-btn{
-  position:fixed;
-  right:18px;
-  bottom:18px;
-  z-index:9999;
-  background:#d4af37;
-  color:#111;
-  border:0;
-  cursor:pointer;
-  padding:12px 18px;
-  border-radius:9999px;
-  font-weight:600;
-  font-family:"Playfair Display",serif;
-  font-size:14px;
-  box-shadow:0 6px 18px rgba(0,0,0,.25);
-  transition:all .2s ease;
+  position:fixed; right:18px; bottom:18px; z-index:9999;
+  background:#d4af37; color:#111; border:0; cursor:pointer;
+  padding:12px 18px; border-radius:9999px; font-weight:600;
+  font-family:"Playfair Display",serif; font-size:14px;
+  box-shadow:0 6px 18px rgba(0,0,0,.25); transition:all .2s ease;
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
 @media print{ .print-btn{ display:none !important; } }
