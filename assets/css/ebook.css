@@ -328,3 +328,155 @@ ol.sumario li{ margin:0 0 .25em; }
     hyphens: auto !important;
   }
 }
+
+/* =========================================
+   BELLA PRIME · EBOOK (PRINT-FIRST)
+   Foco: PDF perfeito no Android/Chrome
+   ========================================= */
+
+html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+
+/* ===== Base (funciona em web também, mas pensado p/ print) ===== */
+body.ebook-body{
+  background:#fff; color:#222;
+  font-family:"Georgia","Times New Roman",serif;
+  line-height:1.7; font-size:13pt;
+  text-rendering:optimizeLegibility; font-variant-ligatures:common-ligatures;
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  margin:0;                      /* no print quem manda é @page */
+}
+
+/* Títulos */
+h1,h2,h3{
+  font-family:"Playfair Display",serif;
+  color:#111; text-align:center; letter-spacing:.2px; line-height:1.3;
+  page-break-after:avoid;
+}
+h1{ font-size:20pt; margin:2.5em 0 1em; }
+h2{ font-size:18pt; margin:2em 0 .8em; }
+h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
+
+/* Parágrafos (formato livro) */
+p{
+  text-align:justify; text-justify:inter-word;
+  margin:0 0 1em 0; line-height:1.65;
+  text-indent:1.25cm; hyphens:auto;
+}
+h1 + p, h2 + p, h3 + p, blockquote + p { text-indent:0; }
+
+/* Citações / divisores */
+blockquote{
+  font-family:"Lora",serif; font-style:italic; color:#444;
+  border-left:3px solid #d4af37; padding-left:1em;
+  margin:1.8em 0; font-size:12pt;
+  break-inside:avoid; page-break-inside:avoid;
+}
+.quote-center{
+  text-align:center; font-family:"Playfair Display",serif;
+  font-size:1.25em; font-style:italic; color:#111; margin:1.4em 0;
+}
+.divider-gold{ border:0; border-top:1px solid #d4af37; width:60%; margin:2em auto; }
+
+/* Imagens genéricas */
+img{ display:block; margin:0 auto 1em; max-width:100%; height:auto; break-inside:avoid; }
+
+/* Sumário */
+ol.sumario{ padding-left:1.1cm; margin:0 0 1.2em; }
+ol.sumario li{ margin:0 0 .25em; }
+
+/* Quebras */
+.page-break{ page-break-before:always; }
+
+/* =======================
+   REGRAS DE PÁGINA (PDF)
+   ======================= */
+
+/* Página 1 (Capa) — sem margens e sem rodapés */
+@page :first{
+  size:A4;
+  margin:0;
+  @top-left{ content:""; } @top-center{ content:""; } @top-right{ content:""; }
+  @bottom-left{ content:""; } @bottom-center{ content:""; } @bottom-right{ content:""; }
+}
+
+/* Demais páginas — margens editoriais + numeração + copyright */
+@page{
+  size:A4;
+  margin:25mm 20mm 25mm 30mm;  /* esquerda maior */
+  @top-center   { content: ""; }
+  @bottom-right { content: counter(page); font-size:10pt; color:#888; }
+  @bottom-center{ content:"© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size:10pt; color:#888; }
+}
+
+/* =======================
+   CAPA EM A4 (sem corte)
+   ======================= */
+.cover-page{
+  /* A capa vira "página inteira" */
+  position:relative;
+  width:210mm; height:297mm;
+  margin:0; padding:0; overflow:hidden;
+  display:block; page-break-after:always;
+  background:#000; /* bordas pretas se a arte não for exata A4 */
+}
+.cover-page img{
+  position:absolute; inset:0;
+  width:210mm; height:297mm;
+  object-fit:contain;         /* NÃO corta títulos */
+  object-position:center center;
+  display:block;
+}
+
+/* =======================
+   PRINT OVERRIDES (Android/Chrome)
+   ======================= */
+@media print{
+  *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+
+  html, body{
+    width:210mm !important; height:auto !important; margin:0 !important;
+    background:#fff !important; color:#111 !important;
+    font-family:"Georgia","Times New Roman",serif !important;
+    font-size:13pt !important; line-height:1.7 !important;
+  }
+
+  /* Remove qualquer header/footer/menus do tema */
+  header,.site-header,.page-header,.navbar,.nav,.site-title,
+  .footer,.site-footer,.no-print,.print-btn{ display:none !important; visibility:hidden !important; }
+
+  main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
+
+  /* Texto do miolo: sem hifenização agressiva e com recuo garantido */
+  p{
+    text-align:justify !important;
+    text-indent:1.25cm !important;
+    hyphens:none !important;
+    word-break:normal !important;
+    overflow-wrap:normal !important;
+  }
+
+  /* Capa 100% da 1ª página */
+  .cover-page{ width:210mm !important; height:297mm !important; page-break-after:always; }
+  .cover-page img{
+    width:210mm !important; height:297mm !important;
+    object-fit:contain !important; object-position:center center !important;
+    background:#000;
+  }
+
+  blockquote,img,.author-card,.about-box{ break-inside:avoid; page-break-inside:avoid; }
+}
+
+/* Cartão do autor (miolo) */
+.author-card{
+  display:grid; grid-template-columns:140px 1fr; gap:1.2em; align-items:start; margin:2em 0;
+  break-inside:avoid; page-break-inside:avoid;
+}
+.author-photo img{ width:140px; height:140px; object-fit:cover; border-radius:4px; border:1px solid #ddd; }
+.author-bio h3{ margin:.2em 0 .6em; }
+.author-highlights{ margin:.8em 0 1.2em 1em; }
+.author-highlights li{ margin:.2em 0; }
+.about-box{
+  border:1px solid #eee; border-radius:8px; padding:1em; margin:1em 0; background:#fafafa;
+  break-inside:avoid; page-break-inside:avoid;
+}
+.about-sign{ margin-top:.6em; color:#555; }
