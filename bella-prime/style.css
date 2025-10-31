@@ -1,9 +1,11 @@
+/* ----- Base geral ----- */
 body {
   background: #ffffff;
   color: #222;
   font-family: "Georgia", "Times New Roman", serif;
   margin: 1.2in;
   line-height: 1.7;
+  font-size: 13pt;
 }
 
 h1, h2, h3 {
@@ -12,41 +14,69 @@ h1, h2, h3 {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 0.5em;
+  letter-spacing: 0.5px;
 }
 
 p {
   text-align: justify;
-  margin-bottom: 1em;
+  margin-bottom: 1.1em;
 }
 
+/* ----- Citações ----- */
 blockquote {
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #444;
   border-left: 3px solid #d4af37;
   padding-left: 1em;
-  color: #555;
   margin: 1.5em 0;
 }
 
+/* ----- Frases de impacto isoladas ----- */
+.divider-gold {
+  border: 0;
+  border-top: 1px solid #d4af37;
+  width: 60%;
+  margin: 2em auto;
+}
+
+.quote-impact {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #111;
+  margin: 1em 0;
+}
+
+/* ----- Layout em duas colunas ----- */
 .two-columns {
   column-count: 2;
   column-gap: 2em;
 }
 
-.quote-center {
-  text-align: center;
-  margin: 3em 0;
-  font-size: 1.3em;
-  font-style: italic;
-  color: #444;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  width: 50%;
-  margin: 2em auto;
-}
-
+/* ----- Imagens ----- */
 img {
   display: block;
   margin: 0 auto 1em;
+}
+
+/* ----- Rodapé e numeração ----- */
+@page {
+  margin: 1.2in;
+  @bottom-center {
+    content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados.";
+    font-size: 10pt;
+    color: #888;
+  }
+  @top-center {
+    content: "Tratamento Bella Prime";
+    font-size: 10pt;
+    color: #888;
+  }
+  @bottom-right {
+    content: counter(page);
+    font-size: 10pt;
+    color: #888;
+  }
 }
