@@ -4,11 +4,25 @@
     <meta charset="utf-8">
     <title>{{ page.title | escape }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS principal do e-book -->
     <link href="{{ '/assets/css/ebook.css' | relative_url }}" rel="stylesheet">
+
+    <!-- Favicon opcional -->
+    <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   </head>
+
   <body class="ebook-body">
+
+    <!-- Conteúdo principal -->
     <main class="page-content">
       {{ content }}
     </main>
+
+    <!-- Botão flutuante de imprimir (somente na web) -->
+    <button class="print-btn" onclick="window.print()" aria-label="Imprimir / Baixar PDF">
+      Imprimir / PDF
+    </button>
+
   </body>
 </html>
