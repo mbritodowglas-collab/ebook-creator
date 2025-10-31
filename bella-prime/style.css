@@ -146,3 +146,188 @@ h1:first-of-type { page-break-before: avoid; }
   .author-card { grid-template-columns: 1fr; }
   .author-photo img { margin: 0 auto; }
 }
+
+/* =========================
+   BELLA PRIME · EBOOK PREMIUM
+   ========================= */
+
+/* ----- Base geral (tela) ----- */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  background: #ffffff;
+  color: #222;
+  font-family: "Georgia", "Times New Roman", serif;
+  margin: 1.2in;                  /* desktop */
+  line-height: 1.7;
+  font-size: 13pt;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Margens mais amigáveis no mobile/tablet */
+@media (max-width: 1024px) {
+  body { margin: 48px 28px; font-size: 16px; line-height: 1.75; }
+}
+@media (max-width: 600px) {
+  body { margin: 28px 18px; font-size: 15px; }
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #111;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.2px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 1.1em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+/* ----- Citações ----- */
+blockquote {
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #444;
+  border-left: 3px solid #d4af37;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Frases de impacto isoladas */
+.divider-gold {
+  border: 0;
+  border-top: 1px solid #d4af37;
+  width: 60%;
+  margin: 2em auto;
+}
+.quote-impact,
+.quote-center {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #111;
+  margin: 1.2em 0;
+}
+
+/* Layout em duas colunas (para trechos longos) */
+.two-columns {
+  column-count: 2;
+  column-gap: 2em;
+}
+@media (max-width: 900px) {
+  .two-columns { column-count: 1; }
+}
+
+/* Imagens */
+img {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+  height: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* --------- PDF (A4) + cabeçalho/rodapé --------- */
+@page {
+  size: A4;
+  margin: 20mm;
+  /* Alguns navegadores aplicam estes cabeçalhos/rodapés via CSS Paged Media */
+  @top-center   { content: "Tratamento Bella Prime"; font-size: 10pt; color: #888; }
+  @bottom-right { content: counter(page);           font-size: 10pt; color: #888; }
+  @bottom-center{
+    content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados.";
+    font-size: 10pt; color: #888;
+  }
+}
+
+/* --------- Quebras de página --------- */
+.cover-page { page-break-after: always; }     /* capa isolada */
+.page-break { page-break-before: always; }    /* utilitário */
+
+h1 { page-break-before: always; }
+h1:first-of-type { page-break-before: avoid; }
+
+/* ----- Ajustes específicos para impressão ----- */
+@media print {
+  /* Usa cores exatas (linhas douradas etc.) */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Esconde botões/elementos de UI */
+  button, .no-print { display: none !important; }
+
+  /* Mantém visual de livro */
+  body {
+    background: #ffffff !important;
+    color: #111 !important;
+    font-family: "Georgia", "Times New Roman", serif;
+    margin: 20mm !important;
+    line-height: 1.7;
+    font-size: 13pt;
+  }
+
+  h1, h2, h3 { color: #000 !important; text-align: center; }
+  .two-columns { column-count: 2; column-gap: 2em; }
+  .quote-impact, blockquote { background: none !important; box-shadow: none !important; }
+
+  /* Evita “viúvas/órfãs” nos blocos mais críticos */
+  blockquote, img, .author-card, .about-box {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* ---- Author Card ---- */
+.author-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.2em;
+  align-items: start;
+  margin: 2em 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.author-photo img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.author-bio h3 { margin-top: 0.2em; margin-bottom: 0.6em; }
+.author-highlights { margin: 0.8em 0 1.2em 1em; }
+.author-highlights li { margin: 0.2em 0; }
+.author-cta p { text-align: left; margin: 0.2em 0; }
+.about-box {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  background: #fafafa;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.about-sign { margin-top: .6em; color: #555; }
+
+/* Responsivo */
+@media (max-width: 780px) {
+  .author-card { grid-template-columns: 1fr; }
+  .author-photo img { margin: 0 auto; }
+}
