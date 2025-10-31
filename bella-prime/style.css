@@ -119,3 +119,9 @@ h1:first-of-type{ page-break-before:avoid; }
   .author-card{ grid-template-columns:1fr; }
   .author-photo img{ margin:0 auto; }
 }
+
+/* --- Exibir botão na web, ocultar no PDF --- */
+.no-print { display: block !important; text-align: center; }
+@media print {
+  .no-print, button { display: none !important; }
+}
