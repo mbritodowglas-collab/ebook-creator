@@ -256,3 +256,75 @@ ol.sumario li{ margin:0 0 .25em; }
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
 @media print{ .print-btn{ display:none !important; } }
+
+/* =======================
+   CAPA (regra única)
+   ======================= */
+.cover-page{
+  margin: 0;
+  padding: 0;
+  display: block;
+  page-break-after: always;
+  /* vincula à página nomeada "cover" no PDF */
+  page: cover;
+}
+.cover-page img{
+  display: block;
+  width: 100%;
+  height: auto;              /* tela: mantém proporção sem corte */
+}
+
+/* =======================
+   PÁGINAS / QUEBRAS
+   ======================= */
+/* Página nomeada para a capa: A4 sem margens */
+@page cover {
+  size: A4;
+  margin: 0;
+}
+
+/* Demais páginas com margens editoriais e rodapé */
+@page {
+  size: A4;
+  margin: 25mm 20mm 25mm 30mm;
+  @top-center   { content: ""; }
+  @bottom-right { content: counter(page); font-size: 10pt; color: #888; }
+  @bottom-center{ content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size: 10pt; color: #888; }
+}
+
+/* =======================
+   IMPRESSÃO / PDF
+   ======================= */
+@media print{
+  /* zera margens do HTML/body para não interferir na @page cover */
+  html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Capa: ocupar 100% da folha e COBRIR sem bordas pretas */
+  .cover-page{
+    width: 210mm !important;
+    height: 297mm !important;
+    overflow: hidden !important;
+    background: #000;
+  }
+  .cover-page img{
+    width: 210mm !important;
+    height: 297mm !important;
+    object-fit: cover !important;   /* cobre a página inteira */
+    object-position: center !important;
+  }
+
+  /* Miolo permanece igual */
+  .page-content{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  }
+  .page-content p{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    text-indent: 1.25cm !important;
+    hyphens: auto !important;
+  }
+}
