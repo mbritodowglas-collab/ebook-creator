@@ -6,7 +6,7 @@ date: "2025"
 ---
 
 <!-- define idioma para hifenização -->
-<div lang="pt-BR">
+<div lang="pt-BR" markdown="1">
 
 <!-- CAPA (página 1, A4 cheia) -->
 <div class="cover-page" align="center">
@@ -125,7 +125,6 @@ A mulher que passa pelo Bella Prime entende: o trono não é o destino. É o ref
 
 <div class="author-card">
   <div class="author-photo">
-    <!-- Suba sua foto como ./autor.jpg -->
     <img src="./autor.jpg" alt="Márcio Dowglas — Personal Trainer" loading="lazy" decoding="async">
   </div>
 
