@@ -1,16 +1,16 @@
 ---
+layout: ebook
 title: "Tratamento Bella Prime"
 subtitle: "Um novo conceito em transformação física e mental"
 author: "Márcio Dowglas – Personal Trainer"
 date: "2025"
 ---
 
-<!-- define idioma para hifenização -->
 <div lang="pt-BR" markdown="1">
 
-<!-- CAPA (página 1, A4 cheia) -->
+<!-- CAPA (página 1) -->
 <div class="cover-page" align="center">
-  <img src="./cover.jpg" alt="Capa Bella Prime"/>
+  <img src="./cover.jpg" alt="Capa Bella Prime">
 </div>
 
 <!-- SUMÁRIO (página 2) -->
@@ -25,8 +25,8 @@ date: "2025"
 6. O Treino como Ferramenta de Identidade  
 7. A Mente, o Corpo e o Propósito  
 
----
-
+<!-- CONTEÚDO (capítulos em páginas novas) -->
+<div class="page-break"></div>
 # 1. O Início de Tudo
 
 <div class="two-columns">
@@ -163,7 +163,7 @@ A mulher que passa pelo Bella Prime entende: o trono não é o destino. É o ref
   </div>
 </div>
 
-<!-- BOTÃO: imprimir / salvar PDF -->
+<!-- Botão imprimir (visível só na web) -->
 <div class="no-print" align="center" style="margin-top:3em; margin-bottom:4em;">
   <button onclick="window.print()" 
           style="background-color:#d4af37;color:#111;border:none;
@@ -172,9 +172,6 @@ A mulher que passa pelo Bella Prime entende: o trono não é o destino. É o ref
                  box-shadow:0 3px 8px rgba(0,0,0,0.2);">
     Imprimir / Baixar PDF
   </button>
-  <p style="color:#777;font-size:.9em;margin-top:.6em;">
-    Clique para gerar seu PDF formatado do e-book.
-  </p>
 </div>
 
 </div> <!-- /lang -->
