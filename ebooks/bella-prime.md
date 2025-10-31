@@ -27,7 +27,7 @@ date: "2025"
 
 <hr class="divider-gold">
 
-<!-- CONTEÚDO (cada seção abre página nova) -->
+<!-- CONTEÚDO (abre nova página) -->
 <div class="page-break"></div>
 
 # 1. O Início de Tudo
@@ -108,3 +108,24 @@ O Bella Prime é um convite ao equilíbrio: o corpo que você tem, a mulher que 
 É dominar pensamentos, regular emoções e permitir que o corpo reflita essa nova versão.
 
 A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é o reflexo de quem aprendeu a reinar sobre si.**
+
+<hr class="divider-gold">
+
+# Sobre o Autor
+
+**Márcio Dowglas — Personal Trainer**  
+Profissional de Educação Física (CREF 003918-G/AM), há mais de dez anos unindo treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento. Criador do **Tratamento Bella Prime™** e do **Sistema Evo360°**.
+
+**Missão**  
+- Unir treino e neurociência para resultados sustentáveis.  
+- Transformar conhecimento em prática diária com hábitos acionáveis.  
+- Oferecer guias e utilitários que facilitam a rotina de quem treina.
+
+**Como eu trabalho**  
+- Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).  
+- Treino de força para mulheres e recomposição corporal.  
+- Nutrição prática: consciência alimentar, consistência e prazer em comer.
+
+**Próximo passo**  
+Faça sua avaliação inicial gratuita e receba uma orientação personalizada.  
+Instagram: **@marciodowglasfitness** · WhatsApp: **92 98103-7222**
