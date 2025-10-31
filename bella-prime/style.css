@@ -127,3 +127,46 @@ h1:first-of-type { page-break-before: avoid; }
     box-shadow: none !important;
   }
 }
+
+/* ---- Author Card ---- */
+.author-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.2em;
+  align-items: start;
+  margin: 2em 0;
+}
+
+.author-photo img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.author-bio h3 {
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.author-highlights {
+  margin: 0.8em 0 1.2em 1em;
+}
+
+.author-highlights li {
+  margin: 0.2em 0;
+}
+
+.author-cta p {
+  text-align: left;
+  margin: 0.2em 0;
+}
+
+/* Impressão: garante layout limpo */
+@media print {
+  .author-card {
+    grid-template-columns: 140px 1fr;
+    page-break-inside: avoid;
+  }
+}
