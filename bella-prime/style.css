@@ -80,3 +80,45 @@ img {
     color: #888;
   }
 }
+
+/* ----- Ajustes específicos para PDF (modo impressão) ----- */
+@media print {
+  /* Esconde botões e elementos de interface */
+  button, .no-print {
+    display: none !important;
+  }
+
+  /* Garante margens e tipografia idênticas ao visual do e-book */
+  body {
+    background: #ffffff !important;
+    color: #111 !important;
+    font-family: "Georgia", "Times New Roman", serif;
+    margin: 1.2in;
+    line-height: 1.7;
+    font-size: 13pt;
+  }
+
+  /* Mantém cabeçalhos elegantes */
+  h1, h2, h3 {
+    color: #000 !important;
+    text-align: center;
+    page-break-before: always;
+  }
+
+  /* Mantém as colunas no formato página */
+  .two-columns {
+    column-count: 2;
+    column-gap: 2em;
+  }
+
+  /* Remove sombras ou cores de fundo */
+  .quote-impact, blockquote {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Controla quebras de página suaves */
+  h1, h2 {
+    page-break-before: always;
+  }
+}
