@@ -563,3 +563,52 @@ ol.sumario li{ margin:0 0 .25em; }
     hyphens: none !important;
   }
 }
+
+/* ===== CAPA A4 · full-bleed sem cortar o título (PDF/print) ===== */
+@media print {
+  @page :first { size: A4; margin: 0; }
+
+  /* Ajustes finos via variáveis (mm) */
+  :root{
+    --bleed-top: 8mm;        /* pequeno para preservar o título */
+    --bleed-bottom: 20mm;    /* maior para compensar a margem do driver */
+    --bleed-sides: 20mm;     /* laterais */
+  }
+
+  .cover-page{
+    position: relative !important;
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #000 !important;
+    page-break-after: always;
+  }
+
+  .cover-page img{
+    position: absolute !important;
+    /* desloca para fora do papel conforme os bleeds */
+    top:  calc(-1 * var(--bleed-top)) !important;
+    left: calc(-1 * var(--bleed-sides)) !important;
+
+    /* expande além do A4 somando os bleeds */
+    width:  calc(210mm + var(--bleed-sides) * 2) !important;
+    height: calc(297mm + var(--bleed-top) + var(--bleed-bottom)) !important;
+
+    object-fit: cover !important;           /* cobre a página inteira */
+    object-position: center top !important; /* âncora no topo → protege o título */
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+    display: block !important;
+    background: #000 !important;
+  }
+
+  /* Garantia do texto do miolo justificado */
+  p{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    text-indent: 1.25cm !important;
+    hyphens: none !important;
+  }
+}
