@@ -1,27 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page.title | escape }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
-</head>
-<body class="ebook-body">
-  <main class="ebook-content">
-    {{ content }}
-  </main>
-
-  <!-- Botão print opcional (esconde no PDF). Quer tirar? delete este bloco. -->
-  <button class="print-btn no-print" onclick="window.print()" aria-label="Imprimir">
-    Imprimir / PDF
-  </button>
-  <style>
-    .print-btn{
-      position: fixed; right: 16px; bottom: 16px; border: 0;
-      padding: 10px 14px; border-radius: 8px; cursor: pointer;
-      background:#d4af37; color:#111; font-weight:700;
-      box-shadow: 0 4px 12px rgba(0,0,0,.2);
-    }
-  </style>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | escape }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ '/assets/css/ebook.css' | relative_url }}" rel="stylesheet">
+  </head>
+  <body class="ebook-body">
+    <main class="page-content">
+      {{ content }}
+    </main>
+  </body>
 </html>
