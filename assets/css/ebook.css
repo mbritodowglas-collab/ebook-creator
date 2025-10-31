@@ -612,3 +612,47 @@ ol.sumario li{ margin:0 0 .25em; }
     hyphens: none !important;
   }
 }
+
+/* ===== CAPA PDF · modo "banner full-viewport" ===== */
+@media print {
+  @page :first { size: A4; margin: 0; }
+
+  /* zera tudo igual a um banner full no topo */
+  html, body{
+    margin:0 !important;
+    padding:0 !important;
+    width:210mm !important;
+    height:297mm !important;
+    overflow:hidden !important;
+  }
+
+  .cover-page{
+    position: relative !important;
+    inset: 0 !important;
+    width:100% !important;
+    height:100vh !important; /* ocupa a viewport inteira como banner */
+    overflow:hidden !important;
+    margin:0 !important;
+    padding:0 !important;
+    background:#000 !important;
+    page-break-after:always;
+  }
+
+  .cover-page img{
+    position:absolute !important;
+    top:0; left:0; right:0; bottom:0;
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;      /* igual banner */
+    object-position:center top !important; /* protege o título */
+    background:#000 !important;
+    -webkit-print-color-adjust:exact !important;
+            print-color-adjust:exact !important;
+  }
+
+  /* Justifica o resto normalmente */
+  p{
+    text-align:justify !important;
+    text-indent:1.25cm !important;
+  }
+}
