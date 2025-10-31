@@ -1,9 +1,0 @@
-title: "Tratamento Bella Prime"
-author: "Márcio Dowglas – Personal Trainer"
-lang: pt-BR
-pdf:
-  toc: true
-  toc-title: "Sumário"
-  font-family: "Georgia"
-  margins: 1.2in
-  pdf-engine: weasyprint
