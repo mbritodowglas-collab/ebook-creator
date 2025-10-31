@@ -163,4 +163,18 @@ A mulher que passa pelo Bella Prime entende: o trono não é o destino. É o ref
   </div>
 </div>
 
+<!-- BOTÃO: imprimir / salvar PDF -->
+<div class="no-print" align="center" style="margin-top:3em; margin-bottom:4em;">
+  <button onclick="window.print()" 
+          style="background-color:#d4af37;color:#111;border:none;
+                 padding:12px 32px;font-family:'Playfair Display',serif;
+                 font-size:1.05em;cursor:pointer;border-radius:6px;
+                 box-shadow:0 3px 8px rgba(0,0,0,0.2);">
+    Imprimir / Baixar PDF
+  </button>
+  <p style="color:#777;font-size:.9em;margin-top:.6em;">
+    Clique para gerar seu PDF formatado do e-book.
+  </p>
+</div>
+
 </div> <!-- /lang -->
