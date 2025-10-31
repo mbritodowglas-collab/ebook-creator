@@ -216,3 +216,11 @@ ol.sumario li{ margin:0 0 .25em; }
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
 @media print{ .print-btn{ display:none !important; } }gg
+
+.cover-page img{
+  width:210mm !important;
+  height:297mm !important;
+  object-fit:cover !important;     /* ocupa a página inteira no PDF */
+  object-position:center !important;
+  background:#000;
+}
