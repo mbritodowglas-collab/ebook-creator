@@ -224,3 +224,16 @@ ol.sumario li{ margin:0 0 .25em; }
   object-position:center !important;
   background:#000;
 }
+
+/* ====== AJUSTE GLOBAL DE JUSTIFICAÇÃO ====== */
+.ebook-body .page-content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ebook-body .page-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 1.25cm;
+  line-height: 1.65;
+}
