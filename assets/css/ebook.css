@@ -4,16 +4,15 @@
 
 /* ----- Base geral (tela) ----- */
 html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
-body{
+body.ebook-body{
   background:#fff; color:#222;
   font-family:"Georgia","Times New Roman",serif;
   margin:1.2in; line-height:1.7; font-size:13pt;
   text-rendering:optimizeLegibility; font-variant-ligatures:common-ligatures;
   -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
 }
-
-@media (max-width:1024px){ body{ margin:48px 28px; font-size:16px; line-height:1.75; } }
-@media (max-width:600px){  body{ margin:28px 18px; font-size:15px; } }
+@media (max-width:1024px){ body.ebook-body{ margin:48px 28px; font-size:16px; line-height:1.75; } }
+@media (max-width:600px){  body.ebook-body{ margin:28px 18px; font-size:15px; } }
 
 h1,h2,h3{
   font-family:"Playfair Display",serif;
@@ -21,14 +20,12 @@ h1,h2,h3{
   margin-top:2em; margin-bottom:.5em; letter-spacing:.2px;
 }
 
-/* Texto no padrão editorial brasileiro */
 p{
   text-align:justify;
   hyphens:auto; -webkit-hyphens:auto; -ms-hyphens:auto;
   margin:.9em 0 1.1em;
   text-indent:1.25em;                 /* recuo de 1ª linha */
 }
-/* não indentar o 1º parágrafo após título e em colunas */
 h1 + p, h2 + p, h3 + p, .two-columns p, blockquote + p { text-indent:0; }
 
 /* Citações */
@@ -37,7 +34,6 @@ blockquote{
   border-left:3px solid #d4af37; padding-left:1em; margin:1.5em 0;
   break-inside:avoid; page-break-inside:avoid;
 }
-
 .divider-gold{ border:0; border-top:1px solid #d4af37; width:60%; margin:2em auto; }
 .quote-center{
   text-align:center; font-family:"Playfair Display",serif;
@@ -66,25 +62,22 @@ img{ display:block; margin:0 auto 1em; max-width:100%; height:auto;
 h1{ page-break-before:always; }
 h1:first-of-type{ page-break-before:avoid; }
 
-/* ----- Esconder qualquer header do tema também na visualização ----- */
-.site-title, .site-title a, header .site-title,
-.site-header, .page-header, .navbar, .nav, .Header, .AppHeader {
-  display:none !important; visibility:hidden !important; height:0 !important; overflow:hidden !important;
-}
-
 /* ----- Ajustes de impressão ----- */
 @media print{
   *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+
+  /* SUMIÇO de qualquer header/footer do tema ou UI */
   header,.site-header,.page-header,.navbar,.nav,.site-title,.footer,.site-footer,
-  button,.no-print{ display:none !important; visibility:hidden !important; height:0 !important; }
+  .no-print{ display:none !important; visibility:hidden !important; height:0 !important; }
+
   main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
 
-  body{ background:#fff !important; color:#111 !important; margin:20mm !important; font-size:13pt; line-height:1.7; }
+  body.ebook-body{ background:#fff !important; color:#111 !important; margin:20mm !important; font-size:13pt; line-height:1.7; }
   h1,h2,h3{ color:#000 !important; text-align:center; }
   .two-columns{ column-count:2; column-gap:2em; }
   blockquote,img,.author-card,.about-box{ break-inside:avoid; page-break-inside:avoid; }
 
-  /* CAPA: ocupar A4 útil (altura total menos margens) */
+  /* CAPA: ocupar A4 útil */
   .cover-page{
     display:flex; align-items:center; justify-content:center;
     min-height: calc(297mm - 40mm);
@@ -110,11 +103,6 @@ h1:first-of-type{ page-break-before:avoid; }
   break-inside:avoid; page-break-inside:avoid;
 }
 .about-sign{ margin-top:.6em; color:#555; }
-
-/* Botão Imprimir só na web */
-.no-print { display:block !important; text-align:center; }
-@media print { .no-print, button { display:none !important; } }
-
 @media (max-width:780px){
   .author-card{ grid-template-columns:1fr; }
   .author-photo img{ margin:0 auto; }
