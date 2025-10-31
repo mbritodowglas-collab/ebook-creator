@@ -11,7 +11,7 @@ body.ebook-body{
   background:#fff; 
   color:#222;
   font-family:"Georgia","Times New Roman",serif;
-  margin:25mm 20mm 25mm 30mm;       /* margens editoriais ABNT (visualização web) */
+  margin:25mm 20mm 25mm 30mm;       /* margens editoriais (web) */
   line-height:1.7;
   font-size:13pt;
   text-rendering:optimizeLegibility;
@@ -42,17 +42,33 @@ h2{ font-size:18pt; margin:2em 0 .8em; }
 h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
 
 /* =======================
-   PARÁGRAFOS (formato livro)
+   JUSTIFICAÇÃO GLOBAL
    ======================= */
-p{
+/* 1) Força justificação no miolo inteiro (markdown às vezes não gera <p>) */
+.ebook-body .page-content{
+  text-align:justify;
+  text-justify:inter-word;
+}
+/* 2) Parágrafos com recuo de 1ª linha e hifenização adequada */
+.ebook-body .page-content p{
   text-align:justify;
   text-justify:inter-word;
   margin:0 0 1em 0;
   line-height:1.65;
-  text-indent:1.25cm;               /* recuo de primeira linha */
+  text-indent:1.25cm;
   hyphens:auto;
 }
-h1 + p, h2 + p, h3 + p, blockquote + p { text-indent:0; }
+/* 3) Não indentar após títulos, citações ou em colunas */
+h1 + p, h2 + p, h3 + p, blockquote + p, .two-columns p{
+  text-indent:0;
+}
+/* 4) Listas: sem justificação e sem recuo de parágrafo */
+.ebook-body .page-content li,
+.ebook-body .page-content ol,
+.ebook-body .page-content ul{
+  text-align:left;
+  text-indent:0;
+}
 
 /* =======================
    CITAÇÕES / DESTAQUES
@@ -99,18 +115,25 @@ img{
 }
 
 /* =======================
-   CAPA (sem corte)
+   CAPA (A4 inteiro, sem cortes no PDF)
    ======================= */
 .cover-page{
-  width:210mm; height:297mm;
-  margin:0 auto; padding:0;
-  display:flex; align-items:center; justify-content:center;
-  overflow:hidden; background:#000;
+  width:210mm;
+  height:297mm;
+  margin:0 auto;
+  padding:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#000;
   page-break-after:always;
 }
 .cover-page img{
-  width:100%; height:100%;
-  object-fit:contain;                /* não corta o título */
+  width:100%;
+  height:100%;
+  object-fit:contain;            /* WEB: não corta o título */
+  object-position:center;
   display:block;
 }
 
@@ -125,12 +148,16 @@ ol.sumario li{ margin:0 0 .25em; }
    ======================= */
 .page-break{ page-break-before:always; }
 
-@page :first{                       /* capa full-bleed no PDF */
-  size:A4; margin:0;
+/* Primeira página sem margens (full-bleed de capa no PDF) */
+@page :first{
+  size:A4;
+  margin:0;
 }
+
+/* Demais páginas com margens editoriais e rodapé/página */
 @page{
   size:A4;
-  margin:25mm 20mm 25mm 30mm;       /* margens editoriais nas demais páginas */
+  margin:25mm 20mm 25mm 30mm;
   @top-center   { content:""; }
   @bottom-right { content:counter(page); font-size:10pt; color:#888; }
   @bottom-center{ content:"© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size:10pt; color:#888; }
@@ -149,31 +176,44 @@ ol.sumario li{ margin:0 0 .25em; }
     font-family:"Georgia","Times New Roman",serif !important;
     font-size:13pt !important;
     line-height:1.7 !important;
-    margin:0 !important;             /* quem manda nas margens é @page */
+    margin:0 !important;             /* @page controla as margens */
   }
 
-  /* Oculta qualquer UI */
+  /* Oculta qualquer UI do tema */
   header,.site-header,.navbar,.nav,.site-title,.footer,.site-footer,
   .no-print,.print-btn{ display:none !important; visibility:hidden !important; }
 
   main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
 
-  /* Texto do miolo */
-  p{
+  /* Texto do miolo (reforço) */
+  .page-content{
     text-align:justify !important;
+    text-justify:inter-word !important;
+  }
+  .page-content p{
+    text-align:justify !important;
+    text-justify:inter-word !important;
     text-indent:1.25cm !important;
-    hyphens:none !important;         /* Android tende a hifenizar demais */
+    hyphens:auto !important;
     word-break:normal !important;
     overflow-wrap:normal !important;
+  }
+  .page-content li,
+  .page-content ol,
+  .page-content ul{
+    text-align:left !important;
+    text-indent:0 !important;
   }
 
   .two-columns{ column-count:1 !important; } /* evita quebras estranhas */
 
-  /* Capa realmente A4 sem corte */
+  /* PDF: capa “expande” no tamanho da página */
   .cover-page{ width:210mm !important; height:297mm !important; }
   .cover-page img{
-    width:210mm !important; height:297mm !important;
-    object-fit:contain !important;   /* preserva a arte */
+    width:210mm !important;
+    height:297mm !important;
+    object-fit:cover !important;     /* PDF: ocupa toda a página */
+    object-position:center !important;
     background:#000;
   }
 
@@ -215,25 +255,4 @@ ol.sumario li{ margin:0 0 .25em; }
   box-shadow:0 6px 18px rgba(0,0,0,.25); transition:all .2s ease;
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
-@media print{ .print-btn{ display:none !important; } }gg
-
-.cover-page img{
-  width:210mm !important;
-  height:297mm !important;
-  object-fit:cover !important;     /* ocupa a página inteira no PDF */
-  object-position:center !important;
-  background:#000;
-}
-
-/* ====== AJUSTE GLOBAL DE JUSTIFICAÇÃO ====== */
-.ebook-body .page-content {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.ebook-body .page-content p {
-  text-align: justify;
-  text-justify: inter-word;
-  text-indent: 1.25cm;
-  line-height: 1.65;
-}
+@media print{ .print-btn{ display:none !important; } }
