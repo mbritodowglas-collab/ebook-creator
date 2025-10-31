@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+
+  <!-- CSS base do eBook -->
+  <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
+
+  <!-- Blindar contra estilos do tema -->
+  <style>
+    body { margin: 0; }
+    header, footer, nav, .site-header, .page-header, .site-footer,
+    .site-title, .navbar, .nav, .Header, .AppHeader {
+      display:none !important; visibility:hidden !important; height:0 !important; overflow:hidden !important;
+    }
+    main, .page-content, .wrapper { margin:0; padding:0; }
+  </style>
+</head>
+<body class="ebook">
+  <main class="page-content" aria-label="Content">
+    <article class="ebook-article">
+      {{ content }}
+    </article>
+  </main>
+</body>
+</html>
