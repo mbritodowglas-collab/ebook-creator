@@ -66,6 +66,15 @@ img{ display:block; margin:0 auto 1em; max-width:100%; height:auto;
 h1{ page-break-before:always; }
 h1:first-of-type{ page-break-before:avoid; }
 
+/* ----- Esconde header/título do tema também na visualização ----- */
+.site-title, .site-title a, header .site-title,
+.site-header, .page-header, .navbar, .nav, .Header, .AppHeader {
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  overflow:hidden !important;
+}
+
 /* ----- Ajustes de impressão ----- */
 @media print{
   *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
