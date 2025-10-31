@@ -17,7 +17,6 @@ date: "2025"
 <div class="page-break"></div>
 
 # Sumário
-
 <ol class="sumario">
   <li>O Início de Tudo</li>
   <li>O Que é o Tratamento Bella Prime</li>
@@ -34,9 +33,7 @@ date: "2025"
 <div class="page-break"></div>
 
 # 1. O Início de Tudo
-
 <div class="two-columns">
-
 Sabe quando você olha no espelho e percebe que o corpo até quer mudar, mas a mente não acompanha?  
 Foi observando isso, por anos, que nasceu o **Bella Prime**.
 
@@ -47,7 +44,6 @@ Ficou claro: não adianta tratar só o corpo. Comportamento vem primeiro.
 
 O Bella Prime é a resposta para isso.  
 Não é um treino a mais. É um **tratamento** — um método que muda sua relação com o corpo, com a comida e com a disciplina.
-
 </div>
 
 <div class="quote-center">
@@ -57,9 +53,7 @@ Não é um treino a mais. É um **tratamento** — um método que muda sua rela�
 <hr class="divider-gold">
 
 # 2. O Que é o Tratamento Bella Prime
-
 <div class="two-columns">
-
 O Bella Prime é um processo de **evolução física e mental** dividido em níveis.  
 Cada fase prepara você para a seguinte, sem pressa, sem culpa e sem cobrança vazia.
 
@@ -68,7 +62,6 @@ Não é sobre perder peso rápido. É sobre construir constância.
 
 Não adianta ir com tudo por uma semana e desistir no mês seguinte.  
 Aqui você aprende a fazer o corpo **seguir a mente**, e não o contrário.
-
 </div>
 
 <div class="quote-center">
@@ -78,7 +71,6 @@ Aqui você aprende a fazer o corpo **seguir a mente**, e não o contrário.
 <hr class="divider-gold">
 
 # 3. Os Níveis da Jornada
-
 **Fundação** — o início.  
 Base, disciplina e reaprendizado do movimento. Você reconstrói rotina e recupera confiança.
 
@@ -94,7 +86,6 @@ E existe o nível oculto: **OverPrime**.
 <hr class="divider-gold">
 
 # 4. O Poder da Neurociência
-
 Toda mudança começa no cérebro.  
 Antes do corpo agir, o cérebro decide se vale a pena.
 
@@ -107,7 +98,6 @@ Não é força de vontade. É **automatização do progresso.**
 <hr class="divider-gold">
 
 # 5. A Nutrição que Sustenta Resultados
-
 Dieta não é castigo.  
 A nutrição do Bella Prime é **equilíbrio, praticidade e bem-estar.**
 
@@ -120,7 +110,6 @@ Com estratégia, a alimentação vira energia e prazer — e sustenta seus trein
 <hr class="divider-gold">
 
 # 6. O Treino como Ferramenta de Identidade
-
 Treinar não é só queimar calorias.  
 É **construir identidade.**
 
@@ -134,7 +123,6 @@ Você treina para **ser**, não para caber.
 <hr class="divider-gold">
 
 # 7. A Mente, o Corpo e o Propósito
-
 O Bella Prime é um convite ao equilíbrio:  
 o corpo que você tem, a mulher que deseja ser e a ponte entre as duas.
 
@@ -146,9 +134,7 @@ A mulher que passa pelo Bella Prime entende:
 <hr class="divider-gold">
 
 # Sobre o Autor
-
 <div class="author-card">
-
   <div class="author-photo">
     <img src="{{ '/assets/img/autor.jpg' | relative_url }}" 
          alt="Márcio Dowglas — Personal Trainer" 
@@ -188,7 +174,6 @@ A mulher que passa pelo Bella Prime entende:
 
     <p class="about-sign">— Márcio Dowglas, Personal Trainer</p>
   </div>
-
 </div>
 
 <!-- Botão imprimir (somente na visualização web) -->
