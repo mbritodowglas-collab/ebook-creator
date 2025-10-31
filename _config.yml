@@ -1,1 +1,9 @@
+title: ""
+description: ""
+theme:
+plugins: []
 
+# não publicar esses arquivos no site
+exclude:
+  - README.md
+  - git.md
