@@ -33,9 +33,9 @@ date: "2025"
 <div class="page-break"></div>
 
 # 1. O Início de Tudo
-<div class="two-columns">
+<div class="two-columns" markdown="1">
 Sabe quando você olha no espelho e percebe que o corpo até quer mudar, mas a mente não acompanha?  
-Foi observando isso, por anos, que nasceu o **Bella Prime**.
+Foi observando isso, por anos, que nasceu o <strong>Bella Prime</strong>.
 
 Eu vim da natação. Ali entendi algo que virou chave: o corpo fala o que a mente sente.
 
@@ -43,7 +43,7 @@ Quando migrei para a musculação, vi que o treino transformava mais a cabeça d
 Ficou claro: não adianta tratar só o corpo. Comportamento vem primeiro.
 
 O Bella Prime é a resposta para isso.  
-Não é um treino a mais. É um **tratamento** — um método que muda sua relação com o corpo, com a comida e com a disciplina.
+Não é um treino a mais. É um <strong>tratamento</strong> — um método que muda sua relação com o corpo, com a comida e com a disciplina.
 </div>
 
 <div class="quote-center">
@@ -53,15 +53,15 @@ Não é um treino a mais. É um **tratamento** — um método que muda sua rela�
 <hr class="divider-gold">
 
 # 2. O Que é o Tratamento Bella Prime
-<div class="two-columns">
-O Bella Prime é um processo de **evolução física e mental** dividido em níveis.  
+<div class="two-columns" markdown="1">
+O Bella Prime é um processo de <strong>evolução física e mental</strong> dividido em níveis.  
 Cada fase prepara você para a seguinte, sem pressa, sem culpa e sem cobrança vazia.
 
-O método une **treino, nutrição e neurociência aplicada** para transformar comportamento.  
+O método une <strong>treino, nutrição e neurociência aplicada</strong> para transformar comportamento.  
 Não é sobre perder peso rápido. É sobre construir constância.
 
 Não adianta ir com tudo por uma semana e desistir no mês seguinte.  
-Aqui você aprende a fazer o corpo **seguir a mente**, e não o contrário.
+Aqui você aprende a fazer o corpo <strong>seguir a mente</strong>, e não o contrário.
 </div>
 
 <div class="quote-center">
@@ -71,16 +71,16 @@ Aqui você aprende a fazer o corpo **seguir a mente**, e não o contrário.
 <hr class="divider-gold">
 
 # 3. Os Níveis da Jornada
-**Fundação** — o início.  
+<strong>Fundação</strong> — o início.  
 Base, disciplina e reaprendizado do movimento. Você reconstrói rotina e recupera confiança.
 
-**Ascensão** — aceleração.  
+<strong>Ascensão</strong> — aceleração.  
 Mais força, mais foco, mais energia. O treino ganha intensidade e a mente acompanha com clareza.
 
-**Domínio** — equilíbrio.  
+<strong>Domínio</strong> — equilíbrio.  
 Corpo, alimentação e mente falando a mesma língua. Você treina por prazer, não por obrigação.
 
-E existe o nível oculto: **OverPrime**.  
+E existe o nível oculto: <strong>OverPrime</strong>.  
 É quando você domina a si mesma: corpo, mente e comportamento em harmonia.
 
 <hr class="divider-gold">
@@ -93,13 +93,13 @@ Muita gente desiste porque tenta mudar o corpo antes de mudar a mente.
 Aqui, a ordem é inversa: primeiro ensinamos o cérebro a gostar do processo.
 
 Você transforma esforço em prazer, treino em hábito e resultado em consequência.  
-Não é força de vontade. É **automatização do progresso.**
+Não é força de vontade. É <strong>automatização do progresso</strong>.
 
 <hr class="divider-gold">
 
 # 5. A Nutrição que Sustenta Resultados
 Dieta não é castigo.  
-A nutrição do Bella Prime é **equilíbrio, praticidade e bem-estar.**
+A nutrição do Bella Prime é <strong>equilíbrio, praticidade e bem-estar</strong>.
 
 Não cortamos o que você ama.  
 Ensinamos você a comer com consciência, sem culpa e sem exageros.
@@ -111,14 +111,14 @@ Com estratégia, a alimentação vira energia e prazer — e sustenta seus trein
 
 # 6. O Treino como Ferramenta de Identidade
 Treinar não é só queimar calorias.  
-É **construir identidade.**
+É <strong>construir identidade</strong>.
 
 Toda vez que você vai, mesmo sem vontade, prova algo para si.  
 Essa repetição cria confiança.
 
 O treino, no Bella Prime, é um ritual.  
 É o momento de silenciar o mundo e se conectar com a mulher que você está se tornando.  
-Você treina para **ser**, não para caber.
+Você treina para <strong>ser</strong>, não para caber.
 
 <hr class="divider-gold">
 
@@ -129,12 +129,12 @@ o corpo que você tem, a mulher que deseja ser e a ponte entre as duas.
 É dominar pensamentos, regular emoções e permitir que o corpo reflita essa nova versão.
 
 A mulher que passa pelo Bella Prime entende:  
-**o trono não é o destino. É o reflexo de quem aprendeu a reinar sobre si.**
+<strong>o trono não é o destino. É o reflexo de quem aprendeu a reinar sobre si.</strong>
 
 <hr class="divider-gold">
 
 # Sobre o Autor
-<div class="author-card">
+<div class="author-card" markdown="1">
   <div class="author-photo">
     <img src="{{ '/assets/img/autor.jpg' | relative_url }}" 
          alt="Márcio Dowglas — Personal Trainer" 
@@ -149,7 +149,7 @@ A mulher que passa pelo Bella Prime entende:
       Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>.
     </p>
 
-    <div class="about-box">
+    <div class="about-box" markdown="1">
       <h3>Missão</h3>
       <ul class="author-highlights">
         <li>Unir treino e neurociência para resultados sustentáveis.</li>
@@ -158,7 +158,7 @@ A mulher que passa pelo Bella Prime entende:
       </ul>
     </div>
 
-    <div class="about-box">
+    <div class="about-box" markdown="1">
       <h3>Como eu trabalho</h3>
       <ul class="author-highlights">
         <li>Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).</li>
@@ -167,7 +167,7 @@ A mulher que passa pelo Bella Prime entende:
       </ul>
     </div>
 
-    <div class="author-cta">
+    <div class="author-cta" markdown="1">
       <p><strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
       <p>Instagram: <a href="https://instagram.com/marciodowglasfitness" target="_blank">@marciodowglasfitness</a> · WhatsApp: 92 98103-7222</p>
     </div>
