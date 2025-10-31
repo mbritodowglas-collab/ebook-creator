@@ -163,3 +163,22 @@ A mulher que passa pelo Bella Prime entende que **o trono não é o destino —
   <p><strong>Márcio Dowglas – Personal Trainer</strong></p>
   <p>Criador do Sistema Evo360° e do Tratamento Bella Prime™</p>
 </div>
+
+<hr>
+
+<div align="center" style="margin-top: 3em;">
+  <button onclick="window.print()" 
+          style="background-color: #d4af37; 
+                 color: #111; 
+                 border: none; 
+                 padding: 12px 28px; 
+                 font-family: 'Playfair Display', serif; 
+                 font-size: 1em; 
+                 cursor: pointer; 
+                 border-radius: 4px;">
+    📘 Imprimir / Baixar PDF
+  </button>
+  <p style="color:#888; font-size: 0.9em; margin-top: 0.5em;">
+    Clique para gerar seu PDF formatado do e-book.
+  </p>
+</div>
