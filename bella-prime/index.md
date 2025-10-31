@@ -155,10 +155,50 @@ A mulher que passa pelo Bella Prime entende que **o trono não é o destino —
 
 ---
 
-<div align="center">
-  <hr style="border: 1px solid #ccc; width: 50%;">
-  <p><strong>Márcio Dowglas – Personal Trainer</strong></p>
-  <p>Criador do Sistema Evo360° e do Tratamento Bella Prime™</p>
+# Sobre o Autor
+
+<div class="author-card">
+  <div class="author-photo">
+    <!-- Suba sua foto como ./autor.jpg -->
+    <img src="./autor.jpg" alt="Márcio Dowglas — Personal Trainer" loading="lazy" decoding="async">
+  </div>
+
+  <div class="author-bio">
+    <h3><strong>Márcio Dowglas — Personal Trainer</strong></h3>
+    <p>
+      Profissional de Educação Física (<strong>CREF 003918-G/AM</strong>), com mais de <strong>10 anos</strong> unindo
+      treinamento de força, nutrição prática e <strong>neurociência aplicada</strong> à mudança de comportamento.
+      Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>.
+    </p>
+
+    <div class="about-box">
+      <h3>Missão</h3>
+      <ul class="author-highlights">
+        <li>Unir <strong>treino</strong> e <strong>neurociência</strong> para resultados sustentáveis.</li>
+        <li>Transformar conhecimento em <strong>prática diária</strong> com hábitos acionáveis.</li>
+        <li>Oferecer guias e utilitários que <strong>facilitam a rotina</strong> de quem treina.</li>
+      </ul>
+    </div>
+
+    <div class="about-box">
+      <h3>Como eu trabalho</h3>
+      <ul class="author-highlights">
+        <li>Periodização por níveis: <em>Fundação → Ascensão → Domínio</em> (e o nível oculto <strong>OverPrime</strong>).</li>
+        <li>Treino de força para mulheres e <strong>recomposição corporal</strong>.</li>
+        <li>Nutrição prática: consciência alimentar, consistência e prazer em comer.</li>
+      </ul>
+    </div>
+
+    <div class="author-cta">
+      <p><strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
+      <p>
+        Instagram: <strong>@marciodowglasfitness</strong><br>
+        WhatsApp: <strong>(insira aqui)</strong>
+      </p>
+    </div>
+
+    <p class="about-sign">— Márcio Dowglas, Personal Trainer</p>
+  </div>
 </div>
 
 <hr>
