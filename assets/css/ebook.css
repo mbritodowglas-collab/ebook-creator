@@ -215,4 +215,4 @@ ol.sumario li{ margin:0 0 .25em; }
   box-shadow:0 6px 18px rgba(0,0,0,.25); transition:all .2s ease;
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
-@media print{ .print-btn{ display:none !important; } }
+@media print{ .print-btn{ display:none !important; } }gg
