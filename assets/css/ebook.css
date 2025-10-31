@@ -137,3 +137,14 @@ ol.sumario li{ margin:0 0 .25em; }
 .about-box{ border:1px solid #eee; border-radius:8px; padding:1em; margin:1em 0; background:#fafafa;
   break-inside:avoid; page-break-inside:avoid; }
 .about-sign{ margin-top:.6em; color:#555; }
+
+/* Botão flutuante de imprimir (só na web) */
+.print-btn{
+  position:fixed; right:18px; bottom:18px; z-index:9999;
+  background:#d4af37; color:#111; border:0; cursor:pointer;
+  padding:12px 18px; border-radius:9999px; font-weight:600;
+  font-family:"Playfair Display",serif; font-size:14px;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+}
+.print-btn:active{ transform:translateY(1px); }
+@media print{ .print-btn{ display:none !important; } }  /* esconde no PDF */
