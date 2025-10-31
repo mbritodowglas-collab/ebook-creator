@@ -6,14 +6,12 @@ author: "Márcio Dowglas – Personal Trainer"
 date: "2025"
 ---
 
-<div lang="pt-BR" markdown="1">
-
-<!-- CAPA -->
-<div class="cover-page" align="center">
+<!-- CAPA (página 1 inteira) -->
+<div class="cover-page">
   <img src="{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}" alt="Capa Bella Prime">
 </div>
 
-<!-- SUMÁRIO -->
+<!-- SUMÁRIO (página 2) -->
 <div class="page-break"></div>
 
 # Sumário
@@ -29,162 +27,105 @@ date: "2025"
 
 <hr class="divider-gold">
 
-<!-- CONTEÚDO -->
+<!-- CONTEÚDO (cada seção abre página nova) -->
 <div class="page-break"></div>
 
 # 1. O Início de Tudo
-<div class="two-columns" markdown="1">
-Sabe quando você olha no espelho e percebe que o corpo até quer mudar, mas a mente não acompanha?  
-Foi observando isso, por anos, que nasceu o <strong>Bella Prime</strong>.
+
+Sabe quando você olha no espelho e percebe que o corpo até quer mudar, mas a mente não acompanha? Foi observando isso, por anos, que nasceu o Bella Prime.
 
 Eu vim da natação. Ali entendi algo que virou chave: o corpo fala o que a mente sente.
 
-Quando migrei para a musculação, vi que o treino transformava mais a cabeça do que o físico.  
-Ficou claro: não adianta tratar só o corpo. Comportamento vem primeiro.
+Quando migrei para a musculação, vi que o treino transformava mais a cabeça do que o físico. Ficou claro: não adianta tratar só o corpo. Comportamento vem primeiro.
 
-O Bella Prime é a resposta para isso.  
-Não é um treino a mais. É um <strong>tratamento</strong> — um método que muda sua relação com o corpo, com a comida e com a disciplina.
-</div>
+O Bella Prime é a resposta para isso. Não é um treino a mais. É um **tratamento** — um método que muda sua relação com o corpo, com a comida e com a disciplina.
 
-<div class="quote-center">
-  <h3>“O corpo muda quando a mente entende o propósito.”</h3>
-</div>
+<div class="quote-center">“O corpo muda quando a mente entende o propósito.”</div>
 
 <hr class="divider-gold">
 
 # 2. O Que é o Tratamento Bella Prime
-<div class="two-columns" markdown="1">
-O Bella Prime é um processo de <strong>evolução física e mental</strong> dividido em níveis.  
-Cada fase prepara você para a seguinte, sem pressa, sem culpa e sem cobrança vazia.
 
-O método une <strong>treino, nutrição e neurociência aplicada</strong> para transformar comportamento.  
-Não é sobre perder peso rápido. É sobre construir constância.
+O Bella Prime é um processo de **evolução física e mental** dividido em níveis. Cada fase prepara você para a seguinte, sem pressa, sem culpa e sem cobrança vazia.
 
-Não adianta ir com tudo por uma semana e desistir no mês seguinte.  
-Aqui você aprende a fazer o corpo <strong>seguir a mente</strong>, e não o contrário.
-</div>
+O método une **treino, nutrição e neurociência aplicada** para transformar comportamento. Não é sobre perder peso rápido. É sobre construir constância.
 
-<div class="quote-center">
-  <h3>“Não é sobre estética. É sobre consciência.”</h3>
-</div>
+Não adianta ir com tudo por uma semana e desistir no mês seguinte. Aqui, você aprende a fazer o corpo **seguir a mente**, e não o contrário.
+
+<div class="quote-center">“Não é sobre estética. É sobre consciência.”</div>
 
 <hr class="divider-gold">
 
 # 3. Os Níveis da Jornada
-<strong>Fundação</strong> — o início.  
+
+**Fundação** — o início.  
 Base, disciplina e reaprendizado do movimento. Você reconstrói rotina e recupera confiança.
 
-<strong>Ascensão</strong> — aceleração.  
+**Ascensão** — aceleração.  
 Mais força, mais foco, mais energia. O treino ganha intensidade e a mente acompanha com clareza.
 
-<strong>Domínio</strong> — equilíbrio.  
+**Domínio** — equilíbrio.  
 Corpo, alimentação e mente falando a mesma língua. Você treina por prazer, não por obrigação.
 
-E existe o nível oculto: <strong>OverPrime</strong>.  
-É quando você domina a si mesma: corpo, mente e comportamento em harmonia.
+Existe ainda um nível oculto: **OverPrime** — quando você domina a si mesma: corpo, mente e comportamento em harmonia.
 
 <hr class="divider-gold">
 
 # 4. O Poder da Neurociência
-Toda mudança começa no cérebro.  
-Antes do corpo agir, o cérebro decide se vale a pena.
 
-Muita gente desiste porque tenta mudar o corpo antes de mudar a mente.  
-Aqui, a ordem é inversa: primeiro ensinamos o cérebro a gostar do processo.
+Toda mudança começa no cérebro. Antes do corpo agir, o cérebro decide se vale a pena.
 
-Você transforma esforço em prazer, treino em hábito e resultado em consequência.  
-Não é força de vontade. É <strong>automatização do progresso</strong>.
+Muita gente desiste porque tenta mudar o corpo antes de mudar a mente. Aqui, a ordem é inversa: primeiro ensinamos o cérebro a gostar do processo.
+
+Você transforma esforço em prazer, treino em hábito e resultado em consequência. Não é força de vontade. É **automatização do progresso**.
 
 <hr class="divider-gold">
 
 # 5. A Nutrição que Sustenta Resultados
-Dieta não é castigo.  
-A nutrição do Bella Prime é <strong>equilíbrio, praticidade e bem-estar</strong>.
 
-Não cortamos o que você ama.  
-Ensinamos você a comer com consciência, sem culpa e sem exageros.
+Dieta não é castigo. A nutrição do Bella Prime é **equilíbrio, praticidade e bem-estar**.
 
-O problema não é comer o que gosta, e sim comer sem propósito.  
-Com estratégia, a alimentação vira energia e prazer — e sustenta seus treinos.
+Não cortamos o que você ama. Ensinamos você a comer com consciência, sem culpa e sem exageros.
+
+O problema não é comer o que gosta, e sim **comer sem propósito**. Com estratégia, a alimentação vira energia e prazer — e sustenta seus treinos.
 
 <hr class="divider-gold">
 
 # 6. O Treino como Ferramenta de Identidade
-Treinar não é só queimar calorias.  
-É <strong>construir identidade</strong>.
 
-Toda vez que você vai, mesmo sem vontade, prova algo para si.  
-Essa repetição cria confiança.
+Treinar não é só queimar calorias. É **construir identidade**.
 
-O treino, no Bella Prime, é um ritual.  
-É o momento de silenciar o mundo e se conectar com a mulher que você está se tornando.  
-Você treina para <strong>ser</strong>, não para caber.
+Toda vez que você vai, mesmo sem vontade, prova algo para si. Essa repetição cria confiança.
+
+O treino, no Bella Prime, é um ritual. É o momento de silenciar o mundo e se conectar com a mulher que você está se tornando. Você treina para **ser**, não para caber.
 
 <hr class="divider-gold">
 
 # 7. A Mente, o Corpo e o Propósito
-O Bella Prime é um convite ao equilíbrio:  
-o corpo que você tem, a mulher que deseja ser e a ponte entre as duas.
+
+O Bella Prime é um convite ao equilíbrio: o corpo que você tem, a mulher que deseja ser e a ponte entre as duas.
 
 É dominar pensamentos, regular emoções e permitir que o corpo reflita essa nova versão.
 
-A mulher que passa pelo Bella Prime entende:  
-<strong>o trono não é o destino. É o reflexo de quem aprendeu a reinar sobre si.</strong>
+A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é o reflexo de quem aprendeu a reinar sobre si.**
 
 <hr class="divider-gold">
 
 # Sobre o Autor
-<div class="author-card" markdown="1">
-  <div class="author-photo">
-    <img src="{{ '/assets/img/autor.jpg' | relative_url }}" 
-         alt="Márcio Dowglas — Personal Trainer" 
-         loading="lazy" decoding="async">
-  </div>
 
-  <div class="author-bio">
-    <h3><strong>Márcio Dowglas — Personal Trainer</strong></h3>
-    <p>
-      Profissional de Educação Física (<strong>CREF 003918-G/AM</strong>), há mais de dez anos unindo
-      treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento.
-      Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>.
-    </p>
+**Márcio Dowglas — Personal Trainer**  
+Profissional de Educação Física (CREF 003918-G/AM), há mais de dez anos unindo treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento. Criador do **Tratamento Bella Prime™** e do **Sistema Evo360°**.
 
-    <div class="about-box" markdown="1">
-      <h3>Missão</h3>
-      <ul class="author-highlights">
-        <li>Unir treino e neurociência para resultados sustentáveis.</li>
-        <li>Transformar conhecimento em prática diária com hábitos acionáveis.</li>
-        <li>Oferecer guias e utilitários que facilitam a rotina de quem treina.</li>
-      </ul>
-    </div>
+**Missão**
+- Unir treino e neurociência para resultados sustentáveis.  
+- Transformar conhecimento em prática diária com hábitos acionáveis.  
+- Oferecer guias e utilitários que facilitam a rotina de quem treina.
 
-    <div class="about-box" markdown="1">
-      <h3>Como eu trabalho</h3>
-      <ul class="author-highlights">
-        <li>Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).</li>
-        <li>Treino de força para mulheres e recomposição corporal.</li>
-        <li>Nutrição prática: consciência alimentar, consistência e prazer em comer.</li>
-      </ul>
-    </div>
+**Como eu trabalho**
+- Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).  
+- Treino de força para mulheres e recomposição corporal.  
+- Nutrição prática: consciência alimentar, consistência e prazer em comer.
 
-    <div class="author-cta" markdown="1">
-      <p><strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
-      <p>Instagram: <a href="https://instagram.com/marciodowglasfitness" target="_blank">@marciodowglasfitness</a> · WhatsApp: 92 98103-7222</p>
-    </div>
-
-    <p class="about-sign">— Márcio Dowglas, Personal Trainer</p>
-  </div>
-</div>
-
-<!-- Botão imprimir (somente na visualização web) -->
-<div class="no-print" align="center" style="margin-top:3em; margin-bottom:4em;">
-  <button onclick="window.print()" 
-          style="background-color:#d4af37;color:#111;border:none;
-                 padding:12px 32px;font-family:'Playfair Display',serif;
-                 font-size:1.05em;cursor:pointer;border-radius:6px;
-                 box-shadow:0 3px 8px rgba(0,0,0,0.2);">
-    Imprimir / Baixar PDF
-  </button>
-</div>
-
-</div> <!-- /lang -->
+**Próximo passo**  
+Faça sua avaliação inicial gratuita e receba uma orientação personalizada.  
+Instagram: **@marciodowglasfitness** · WhatsApp: **92 98103-7222**
