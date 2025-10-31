@@ -1,28 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ page.title | escape }}</title>
-
-  <!-- CSS base do eBook -->
   <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
-
-  <!-- Blindar contra estilos do tema -->
-  <style>
-    body { margin: 0; }
-    header, footer, nav, .site-header, .page-header, .site-footer,
-    .site-title, .navbar, .nav, .Header, .AppHeader {
-      display:none !important; visibility:hidden !important; height:0 !important; overflow:hidden !important;
-    }
-    main, .page-content, .wrapper { margin:0; padding:0; }
-  </style>
 </head>
-<body class="ebook">
-  <main class="page-content" aria-label="Content">
-    <article class="ebook-article">
-      {{ content }}
-    </article>
+<body class="ebook-body">
+  <main class="ebook-content">
+    {{ content }}
   </main>
+
+  <!-- Botão print opcional (esconde no PDF). Quer tirar? delete este bloco. -->
+  <button class="print-btn no-print" onclick="window.print()" aria-label="Imprimir">
+    Imprimir / PDF
+  </button>
+  <style>
+    .print-btn{
+      position: fixed; right: 16px; bottom: 16px; border: 0;
+      padding: 10px 14px; border-radius: 8px; cursor: pointer;
+      background:#d4af37; color:#111; font-weight:700;
+      box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    }
+  </style>
 </body>
 </html>
