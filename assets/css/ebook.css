@@ -181,3 +181,28 @@ h1:first-of-type{ page-break-before:avoid; }
   .author-card{ grid-template-columns:1fr; }
   .author-photo img{ margin:0 auto; }
 }
+
+/* onde está hoje */
+h1 + p, h2 + p, h3 + p, .two-columns p, blockquote + p { text-indent:0; }
+
+/* substitua por */
+h1 + p, h2 + p, h3 + p, blockquote + p { text-indent:0; }
+
+/* e garanta recuo nas colunas */
+.two-columns p{ text-indent:1.25cm; }
+
+ol.sumario{ padding-left:1.1cm; margin:0 0 1.2em; }
+ol.sumario li{ margin:0 0 .25em; }
+
+@media print{
+  .cover-page{
+    display:flex; align-items:center; justify-content:center;
+    min-height: calc(297mm - 50mm);   /* respeita as margens */
+    page-break-after: always;
+  }
+  .cover-page img{
+    max-height: calc(297mm - 50mm);
+    width:auto; height:auto; object-fit:contain;
+  }
+}
+
