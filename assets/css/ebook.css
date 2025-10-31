@@ -480,3 +480,44 @@ ol.sumario li{ margin:0 0 .25em; }
   break-inside:avoid; page-break-inside:avoid;
 }
 .about-sign{ margin-top:.6em; color:#555; }
+
+/* ======== CAPA: força full-bleed no PDF (Android/Chrome) ======== */
+@media print {
+  /* 1) Zera qualquer influência de margem e usa uma área "maior" com bleed */
+  @page :first { size: A4; margin: 0; }
+
+  .cover-page{
+    /* mantém no fluxo para garantir a quebra após a capa */
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    page-break-after: always;
+    overflow: hidden !important;
+    background: #000;
+  }
+
+  .cover-page img{
+    /* HACK do bleed: cresce um pouco além do A4 e “entra” 5mm para cada lado.
+       Isso compensa margens mínimas que alguns drivers impõem. */
+    position: relative;
+    width: calc(210mm + 10mm) !important;   /* +5mm em cada lado */
+    height: calc(297mm + 10mm) !important;  /* +5mm em cada lado */
+    margin: -5mm 0 0 -5mm !important;       /* desloca para “sangrar” */
+    object-fit: cover !important;
+    object-position: center center !important;
+    display: block !important;
+    background: #000;
+  }
+
+  /* miolo do texto garantidamente justificado */
+  h1 + p, h2 + p, h3 + p { text-indent: 0 !important; }
+  p{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    text-indent: 1.25cm !important;
+    hyphens: none !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
