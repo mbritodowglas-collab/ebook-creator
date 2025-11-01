@@ -6,23 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS principal do e-book -->
-    <link href="{{ '/assets/css/ebook.css' | relative_url }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
 
     <!-- Favicon opcional -->
     <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+
+    <!-- Hardening: zera margens/paddings do container e fixa capa em A4 -->
+    <style>
+      html, body { margin:0; padding:0; background:#fff; }
+      main.page-content { margin:0; padding:0; }
+
+      /* Garante que o “slot” da capa tenha A4 exato na web e no PDF */
+      .cover-page,
+      .cover-svg {
+        display:block;
+        width:210mm;
+        height:297mm;
+        margin:0 auto;
+        padding:0;
+      }
+
+      @media print {
+        html, body, main.page-content {
+          margin:0 !important;
+          padding:0 !important;
+          width:210mm !important;
+          background:#fff !important;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        /* Segurança extra: garante que o botão não entre no PDF */
+        .print-btn { display:none !important; visibility:hidden !important; }
+      }
+    </style>
   </head>
 
   <body class="ebook-body">
-
-    <!-- Conteúdo principal -->
     <main class="page-content">
       {{ content }}
     </main>
 
-    <!-- Botão flutuante de imprimir (somente na web) -->
+    <!-- Botão flutuante (tela apenas). Já está oculto no @media print -->
     <button class="print-btn" onclick="window.print()" aria-label="Imprimir / Baixar PDF">
       Imprimir / PDF
     </button>
-
   </body>
 </html>
