@@ -1047,3 +1047,30 @@ ol.sumario li{ margin:0 0 .25em; }
     margin: 0 !important;
   }
 }
+
+/* --- Capa SVG mais robusta em impressão --- */
+.cover-page { width:210mm; height:297mm; margin:0 auto; page-break-after:always; }
+.cover-svg { display:block; width:210mm; height:297mm; }
+
+/* página do autor sempre começa sozinha */
+.author-page{
+  text-align:center;
+  page-break-before:always;
+  break-before:page;
+}
+.author-avatar{
+  width:160px; height:160px; border-radius:50%;
+  object-fit:cover; margin:0 auto 1.5em; border:3px solid #d4af37;
+}
+.author-intro{
+  max-width:600px; margin:1em auto;
+  text-align:justify; text-indent:1.25cm; line-height:1.65;
+}
+.about-narrow{ max-width:600px; margin:2em auto; text-align:left; }
+.author-cta{ margin-top:2em; }
+
+/* garantir que o restante do conteúdo imprima após a capa */
+@media print{
+  html, body { width:210mm !important; margin:0 !important; }
+  .page-break{ page-break-before:always; break-before:page; }
+}
