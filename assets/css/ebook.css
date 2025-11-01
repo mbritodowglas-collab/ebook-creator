@@ -729,3 +729,39 @@ ol.sumario li{ margin:0 0 .25em; }
     page-break-after: always;
   }
 }
+
+/* ===== CAPA A4 ESTÁVEL (Android/Chrome Print) ===== */
+@media print {
+  @page:first { size: A4; margin: 0; } /* o sistema ainda põe a margem mínima dele */
+
+  .cover-page{
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    /* Imagem como fundo — sem cortar o título */
+    background-color: #000 !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 12% !important; /* ajuste fino vertical do enquadramento */
+    background-size: contain !important;      /* mostra a arte inteira, sem crop */
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+  }
+
+  /* Reserva a página e quebra para o miolo */
+  .cover-page::after{
+    content: "";
+    display: block;
+    height: 0;
+    page-break-after: always;
+  }
+}
+
+/* Versão web (mantém proporção A4 e centraliza) */
+.cover-page{
+  aspect-ratio: 210 / 297;
+  width: min(100%, 210mm);
+  margin: 0 auto;
+  background: #000 center / contain no-repeat;
+}
