@@ -806,3 +806,47 @@ ol.sumario li{ margin:0 0 .25em; }
   margin: 0 auto;
   background: #000 center / contain no-repeat;
 }
+
+/* ===== CAPA A4 AJUSTADA (centrada e segura) ===== */
+:root{
+  --cover-padding: 6mm;     /* protege bordas */
+  --cover-shift-x: 52%;     /* centralização horizontal */
+  --cover-shift-y: 10%;     /* posição vertical (mais alto = menor valor) */
+  --cover-scale: contain;   /* 'contain' evita cortes, 'cover' preenche total */
+}
+
+@media print {
+  @page:first { size: A4; margin: 0; }
+
+  .cover-page{
+    width:210mm !important;
+    height:297mm !important;
+    margin:0 auto !important;
+    background-color:#000 !important;
+
+    /* área útil (protege contra corte) */
+    padding:var(--cover-padding) !important;
+    background-origin:content-box !important;
+    background-clip:content-box !important;
+
+    /* posicionamento e escala da arte */
+    background-repeat:no-repeat !important;
+    background-size:var(--cover-scale) !important;
+    background-position:var(--cover-shift-x) var(--cover-shift-y) !important;
+
+    /* garante impressão colorida precisa */
+    -webkit-print-color-adjust:exact !important;
+            print-color-adjust:exact !important;
+
+    /* força quebra de página após a capa */
+    page-break-after:always;
+  }
+}
+
+/* modo web (visualização proporcional A4) */
+.cover-page{
+  aspect-ratio:210 / 297;
+  width:min(100%,210mm);
+  margin:0 auto;
+  background:#000 no-repeat center/contain;
+}
