@@ -1123,3 +1123,94 @@ ol.sumario li{ margin:0 0 .25em; }
   .divider-gold + .author-page { break-before: page; }
   .divider-gold { page-break-after: avoid; }
 }
+
+/* =======================
+   PÁGINA DO AUTOR (ABOUT)
+   ======================= */
+.author-page{
+  break-before: page;               /* força nova página no PDF */
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: .5cm;
+}
+
+.author-page *{
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Corrige o problema do h1 abrindo página em branco */
+.author-page h1,
+.author-page h3{
+  page-break-before: auto !important;
+  margin: .2em 0 .4em;
+  text-align: center;
+}
+
+/* Foto circular dourada */
+.author-avatar{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 14px;
+  border:3px solid #d4af37;
+}
+
+/* Parágrafo inicial justificado com recuo */
+.author-intro{
+  max-width:620px;
+  margin: 0 auto 1.2em;
+  text-align: justify;
+  text-indent: 1.25cm;
+  line-height: 1.65;
+}
+
+/* Caixas de missão e metodologia */
+.about-narrow{
+  max-width:620px;
+  margin:1.4em auto;
+  text-align:left;
+  background:#fafafa;
+  border:1px solid #eee;
+  border-radius:8px;
+  padding:1em 1.2em;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+
+.about-narrow h3{
+  text-align:left;
+  color:#111;
+  font-family:"Playfair Display",serif;
+  margin-bottom:.4em;
+}
+
+.about-narrow ul{
+  margin:.6em 0 .6em 1.2em;
+  padding:0;
+  list-style:disc;
+}
+
+.about-narrow li{
+  margin:.25em 0;
+  line-height:1.6;
+}
+
+/* Frase final de chamada */
+.author-cta{
+  margin-top:2em;
+  font-size:12.5pt;
+  line-height:1.5;
+  text-align:center;
+}
+
+/* Ajustes de impressão para manter formatação no PDF */
+@media print{
+  .author-page{ break-before: page; }
+  .author-page h1,
+  .author-page h3{ page-break-before: auto !important; }
+  .author-intro{ text-align: justify !important; text-indent:1.25cm !important; }
+  .about-narrow{ break-inside: avoid; page-break-inside: avoid; }
+}
