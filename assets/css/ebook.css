@@ -869,3 +869,103 @@ ol.sumario li{ margin:0 0 .25em; }
     height:297mm !important;
   }
 }
+
+/* --- utilitários de quebra (além do legacy page-break) --- */
+.cover-page { page-break-after: always; break-after: page; }
+.page-break { page-break-before: always; break-before: page; }
+
+/* --- CAPA: se usar SVG, garanta tamanho A4 e centralização --- */
+.cover-svg {
+  width: 210mm;
+  height: 297mm;
+  display: block;
+  margin: 0 auto;
+}
+
+/* =======================
+   IMPRESSÃO / PDF  (SUBSTITUA ESTE BLOCO)
+   ======================= */
+@media print{
+  *{
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Deixe o motor de impressão controlar o tamanho via @page */
+  html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    color: #111 !important;
+    font-family: "Georgia","Times New Roman",serif !important;
+    font-size: 13pt !important;
+    line-height: 1.7 !important;
+    overflow: visible !important; /* evita truncar páginas após a primeira */
+  }
+
+  /* Oculta qualquer UI do tema */
+  header, .site-header, .navbar, .nav, .site-title,
+  .footer, .site-footer, .no-print, .print-btn{
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  main, .page-content, .wrapper{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Texto do miolo: justificado + recuo */
+  p{
+    text-align: justify !important;
+    text-indent: 1.25cm !important;
+    hyphens: none !important;        /* Chrome tende a exagerar */
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  /* Desativa colunas no PDF (evita quebras feias) */
+  .two-columns{ column-count: 1 !important; }
+
+  /* CAPA A4 cheia, sem cortar o título */
+  .cover-page{
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    display: block !important;
+    overflow: hidden !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    background: #000; /* bleed elegante */
+  }
+
+  /* Se for IMG direta (não SVG), use contain p/ não cortar topo/rodapé */
+  .cover-page > img{
+    width: 210mm !important;
+    height: 297mm !important;
+    display: block !important;
+    object-fit: contain !important;  /* troque para 'cover' se quiser sangrar */
+    object-position: center center !important;
+    background: #000;
+  }
+
+  /* Evita que blocos sejam quebrados no meio */
+  blockquote, img, .author-card, .about-box{
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* PÁGINA: A4 e margens (deixe o @page como já estava no seu CSS) */
+@page {
+  size: A4;
+  margin: 25mm 20mm 25mm 30mm;
+  @top-center   { content: ""; }
+  @bottom-right { content: counter(page); font-size: 10pt; color: #888; }
+  @bottom-center{ content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size: 10pt; color: #888; }
+}
+@page :first {
+  size: A4;
+  margin: 0; /* capa em página cheia */
+}
