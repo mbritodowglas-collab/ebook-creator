@@ -14,6 +14,22 @@ date: "2025"
 <!-- SUMÁRIO (página 2) -->
 <div class="page-break"></div>
 
+<!-- CAPA (página 1 inteira, centrada e estável no PDF) -->
+<div class="cover-page">
+  <svg class="cover-svg" width="210mm" height="297mm"
+       viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+    <!-- fundo preto pra “bleed” elegante -->
+    <rect width="210" height="297" fill="#000"/>
+    <!-- Opção A: mostrar a arte inteira (sem cortar, pode sobrar bordas) -->
+    <image href="{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}"
+           x="0" y="0" width="210" height="297"
+           preserveAspectRatio="xMidYMid meet"/>
+    <!-- Dica: se quiser preencher a folha toda aceitando corte nas bordas,
+         troque 'meet' por 'slice' -->
+    <!-- preserveAspectRatio="xMidYMid slice" -->
+  </svg>
+</div>
+
 # Sumário
 <ol class="sumario">
   <li>O Início de Tudo</li>
