@@ -9,11 +9,12 @@ date: "2025"
 <!-- CAPA (página 1 inteira, SVG para PDF perfeito) -->
 <div class="cover-page">
   <svg class="cover-svg" width="210mm" height="297mm"
-       viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+       viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capa Bella Prime">
     <rect width="210" height="297" fill="#000"/>
     <image href="{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}"
            x="0" y="0" width="210" height="297"
            preserveAspectRatio="xMidYMid meet"/>
+    <!-- se quiser preencher 100% mesmo cortando bordas, troque 'meet' por 'slice' -->
   </svg>
 </div>
 
@@ -131,18 +132,17 @@ A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é 
 <div class="page-break"></div>
 
 <!-- SOBRE O AUTOR (página exclusiva) -->
-<div class="author-page" style="text-align:center;">
-  <img src="{{ '/assets/img/autor.jpg' | relative_url }}" 
-       alt="Márcio Dowglas" 
-       style="width:160px;height:160px;object-fit:cover;border-radius:50%;margin:0 auto 1.5em;border:3px solid #d4af37;">
+<div class="author-page">
+  <img class="author-avatar" src="{{ '/assets/img/autor.jpg' | relative_url }}" alt="Márcio Dowglas">
   <h1>Márcio Dowglas</h1>
   <h3>Personal Trainer · CREF 003918-G/AM</h3>
-  <p style="max-width:600px;margin:1em auto;text-align:justify;text-indent:1.25cm;">
+
+  <p class="author-intro">
     Profissional de Educação Física há mais de dez anos unindo treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento.
     Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>, Márcio desenvolve programas que conectam corpo, mente e propósito.
   </p>
 
-  <div class="about-box" style="max-width:600px;margin:2em auto;text-align:left;">
+  <div class="about-box about-narrow">
     <h3>Missão</h3>
     <ul class="author-highlights">
       <li>Unir treino e neurociência para resultados sustentáveis.</li>
@@ -151,7 +151,7 @@ A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é 
     </ul>
   </div>
 
-  <div class="about-box" style="max-width:600px;margin:2em auto;text-align:left;">
+  <div class="about-box about-narrow">
     <h3>Como eu trabalho</h3>
     <ul class="author-highlights">
       <li>Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).</li>
@@ -160,6 +160,6 @@ A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é 
     </ul>
   </div>
 
-  <p style="margin-top:2em;">📩 <strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
+  <p class="author-cta">📩 <strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
   <p><strong>Instagram:</strong> @marciodowglasfitness · <strong>WhatsApp:</strong> 92 98103-7222</p>
 </div>
