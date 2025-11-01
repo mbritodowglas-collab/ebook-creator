@@ -1,139 +1,79 @@
 ---
 layout: ebook
-title: "{{ Título do E-book }}"
-subtitle: "{{ Subtítulo ou slogan opcional }}"
-author: "{{ Nome do autor ou marca }}"
+title: "Título do E-book"
+subtitle: "Subtítulo opcional"
+author: "Seu Nome"
 date: "2025"
+description: "Descrição curta (opcional)"
+cover_image: "/assets/img/sua-capa-a4.jpg"   # só informativo; a capa é inserida no HTML abaixo
 ---
 
-<!-- =======================================================
-     TEMPLATE UNIVERSAL DE E-BOOK · MD PERSONAL SYSTEM
-     ======================================================= -->
-<!-- Este arquivo serve como molde. Copie-o para /ebooks/ e edite as seções. -->
-
-<div lang="pt-BR">
-
-<!-- =========================
-     CAPA (página 1)
-     ========================= -->
-<div class="cover-page" align="center">
-  <img src="{{ '/assets/img/capa-exemplo.jpg' | relative_url }}" alt="Capa do E-book" />
+<!-- CAPA (A4, pode ser IMG ou SVG) -->
+<div class="cover-page">
+  <!-- IMG direto (mais simples) -->
+  <img src="{{ '/assets/img/sua-capa-a4.jpg' | relative_url }}" alt="Capa do e-book">
+  <!-- Ou SVG em tamanho A4:
+  <svg class="cover-svg" width="210mm" height="297mm" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capa">
+    <image href="{{ '/assets/img/sua-capa-a4.jpg' | relative_url }}" x="0" y="0" width="210" height="297" preserveAspectRatio="xMidYMid meet"/>
+  </svg>
+  -->
 </div>
 
 <div class="page-break"></div>
 
-<!-- =========================
-     SUMÁRIO
-     ========================= -->
 # Sumário
-1. Introdução  
-2. Capítulo 1 – Nome do capítulo  
-3. Capítulo 2 – Nome do capítulo  
-4. Capítulo 3 – Nome do capítulo  
-5. Conclusão  
-6. Sobre o Autor  
+<ol class="sumario">
+  <li>Capítulo 1</li>
+  <li>Capítulo 2</li>
+  <li>Capítulo 3</li>
+  <li>Capítulo 4</li>
+  <li>Capítulo 5</li>
+  <li>Capítulo 6</li>
+  <li>Capítulo 7</li>
+  <li>Sobre o Autor</li>
+</ol>
 
----
+<hr class="divider-gold">
 
-<!-- =========================
-     INTRODUÇÃO
-     ========================= -->
-# 1. Introdução
+<div class="page-break"></div>
 
-<div class="two-columns">
+# Capítulo 1 — Título do capítulo
+Parágrafos do capítulo…
 
-Aqui você inicia o diálogo com o leitor.  
-Use uma linguagem natural e humana — como se estivesse conversando com uma amiga ou aluno.  
-A introdução deve conectar emoção e propósito.
+<hr class="divider-gold">
+<div class="page-break"></div>
 
-</div>
+# Capítulo 2 — Título do capítulo
+Parágrafos…
 
-<div class="quote-center">
-  <h3>“Frase de impacto ou citação para abrir o livro.”</h3>
-</div>
+<!-- …repita estrutura para os demais capítulos... -->
 
----
+<hr class="divider-gold">
+<div class="page-break"></div>
 
-# 2. Capítulo 1 – Nome do capítulo
-
-<div class="two-columns">
-
-Conte aqui a primeira parte da história, método ou reflexão.  
-Recomenda-se misturar **conceito + exemplo + orientação prática**.
-
-Use blocos `blockquote` para depoimentos, trechos reflexivos ou falas marcantes.
-
-</div>
-
-<blockquote>
-“Texto exemplo de citação formatada no padrão editorial.”
-</blockquote>
-
----
-
-# 3. Capítulo 2 – Nome do capítulo
-
-<div class="two-columns">
-
-Continue o conteúdo mantendo ritmo e leveza.  
-Destaque frases importantes com `<strong>` para reforçar ideias.  
-Separe seções com `---` para melhorar a leitura.
-
-</div>
-
----
-
-# 4. Capítulo 3 – Nome do capítulo
-
-<div class="two-columns">
-
-Feche a parte principal com clareza.  
-Resuma aprendizados e direcione o leitor para ação.
-
-</div>
-
-<div class="quote-center">
-  <h3>“A transformação começa no pensamento.”</h3>
-</div>
-
----
-
-# 5. Conclusão
-
-Encerre o e-book reforçando o propósito principal e incentivando a reflexão ou prática.
-
----
-
-# 6. Sobre o Autor
-
-<div class="author-card">
-  <div class="author-photo">
-    <img src="{{ '/assets/img/autor-exemplo.jpg' | relative_url }}" alt="Autor" loading="lazy" decoding="async">
+<!-- SOBRE O AUTOR -->
+<div class="author-page">
+  <img class="author-avatar" src="{{ '/assets/img/autor.jpg' | relative_url }}" alt="Autor(a)">
+  <h1>Seu Nome</h1>
+  <h3>Sua credencial</h3>
+  <p class="author-intro">
+    Mini-bio justificada com recuo da primeira linha, etc.
+  </p>
+  <div class="about-box about-narrow">
+    <h3>Missão</h3>
+    <ul class="author-highlights">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
   </div>
-
-  <div class="author-bio">
-    <h3><strong>{{ Nome do Autor }}</strong></h3>
-    <p>
-      Profissional de Educação Física e criador de métodos que unem treino, neurociência e comportamento.  
-      Apaixonado por transformar conhecimento científico em ferramentas práticas de vida.
-    </p>
-
-    <div class="about-box">
-      <h3>Missão</h3>
-      <ul class="author-highlights">
-        <li>Inspirar mudanças reais através da prática diária.</li>
-        <li>Unir ciência, propósito e disciplina.</li>
-        <li>Oferecer guias e programas transformadores.</li>
-      </ul>
-    </div>
-
-    <div class="author-cta">
-      <p><strong>Conecte-se:</strong></p>
-      <p>Instagram: @seudominio · WhatsApp: (insira aqui)</p>
-    </div>
-
-    <p class="about-sign">— {{ Nome do Autor }}</p>
+  <div class="about-box about-narrow">
+    <h3>Como eu trabalho</h3>
+    <ul class="author-highlights">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
   </div>
+  <p class="author-cta">
+    <strong>Próximo passo:</strong> CTA/Link principal.
+  </p>
 </div>
-
-</div> <!-- /lang -->
