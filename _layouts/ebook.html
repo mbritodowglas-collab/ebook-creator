@@ -1,54 +1,28 @@
+---
+layout: null
+---
+
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title | escape }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | escape }}{% if page.subtitle %} — {{ page.subtitle | escape }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Use as famílias já nativas do sistema; caso queira Google Fonts, inclua aqui -->
+  <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
+  <style>
+    /* opcional: esconde o header/rodapé do tema se houver */
+    .site-header,.site-footer{display:none !important;}
+  </style>
+</head>
+<body class="ebook-body">
+  <main class="page-content">
+    {{ content }}
+  </main>
 
-    <!-- CSS principal do e-book -->
-    <link rel="stylesheet" href="{{ '/assets/css/ebook.css' | relative_url }}">
-
-    <!-- Favicon opcional -->
-    <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
-
-    <!-- Hardening: zera margens/paddings do container e fixa capa em A4 -->
-    <style>
-      html, body { margin:0; padding:0; background:#fff; }
-      main.page-content { margin:0; padding:0; }
-
-      /* Garante que o “slot” da capa tenha A4 exato na web e no PDF */
-      .cover-page,
-      .cover-svg {
-        display:block;
-        width:210mm;
-        height:297mm;
-        margin:0 auto;
-        padding:0;
-      }
-
-      @media print {
-        html, body, main.page-content {
-          margin:0 !important;
-          padding:0 !important;
-          width:210mm !important;
-          background:#fff !important;
-          -webkit-print-color-adjust: exact;
-          print-color-adjust: exact;
-        }
-        /* Segurança extra: garante que o botão não entre no PDF */
-        .print-btn { display:none !important; visibility:hidden !important; }
-      }
-    </style>
-  </head>
-
-  <body class="ebook-body">
-    <main class="page-content">
-      {{ content }}
-    </main>
-
-    <!-- Botão flutuante (tela apenas). Já está oculto no @media print -->
-    <button class="print-btn" onclick="window.print()" aria-label="Imprimir / Baixar PDF">
-      Imprimir / PDF
-    </button>
-  </body>
+  <!-- Botão de imprimir (apenas web) -->
+  <button class="print-btn no-print" onclick="window.print()">Salvar PDF</button>
+</body>
 </html>
