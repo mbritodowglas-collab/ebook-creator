@@ -765,3 +765,44 @@ ol.sumario li{ margin:0 0 .25em; }
   margin: 0 auto;
   background: #000 center / contain no-repeat;
 }
+
+/* ===== CAPA A4 · MODO SEGURO (Android/Chrome Print) ===== */
+:root{
+  /* knobs que você pode ajustar sem mexer no resto */
+  --cover-padding: 6mm;   /* margem interna pra evitar corte do título/rodapé */
+  --v-shift: 8%;          /* deslocamento vertical da arte (0% topo … 100% base) */
+  --cover-mode: contain;  /* 'contain' = não corta | 'cover' = preenche com crop */
+}
+
+@media print {
+  @page:first { size:A4; margin:0; }
+
+  .cover-page{
+    width:210mm !important;
+    height:297mm !important;
+
+    /* protege a arte da área não-imprimível */
+    padding: var(--cover-padding) !important;
+    background-origin: content-box !important;
+    background-clip: content-box !important;
+
+    /* imagem de fundo */
+    background-repeat: no-repeat !important;
+    background-size: var(--cover-mode) !important;
+    background-position: 50% var(--v-shift) !important; /* ajuste fino vertical */
+    background-color:#000 !important;
+
+    /* garante página exclusiva */
+    page-break-after: always;
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+  }
+}
+
+/* visão web (mantém proporção A4 e centraliza) */
+.cover-page{
+  aspect-ratio: 210 / 297;
+  width: min(100%, 210mm);
+  margin: 0 auto;
+  background: #000 center / contain no-repeat;
+}
