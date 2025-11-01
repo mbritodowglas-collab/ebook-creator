@@ -14,7 +14,6 @@ date: "2025"
     <image href="{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}"
            x="0" y="0" width="210" height="297"
            preserveAspectRatio="xMidYMid meet"/>
-    <!-- se quiser preencher 100% mesmo cortando bordas, troque 'meet' por 'slice' -->
   </svg>
 </div>
 
@@ -129,11 +128,10 @@ A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é 
 
 <hr class="divider-gold">
 
-<div class="page-break"></div>
-
 <!-- SOBRE O AUTOR (página exclusiva) -->
 <div class="author-page">
   <img class="author-avatar" src="{{ '/assets/img/autor.jpg' | relative_url }}" alt="Márcio Dowglas">
+
   <h1>Márcio Dowglas</h1>
   <h3>Personal Trainer · CREF 003918-G/AM</h3>
 
@@ -160,6 +158,8 @@ A mulher que passa pelo Bella Prime entende: **o trono não é o destino — é 
     </ul>
   </div>
 
-  <p class="author-cta">📩 <strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.</p>
+  <p class="author-cta">
+    📩 <strong>Próximo passo:</strong> faça sua avaliação inicial gratuita e receba uma orientação personalizada.
+  </p>
   <p><strong>Instagram:</strong> @marciodowglasfitness · <strong>WhatsApp:</strong> 92 98103-7222</p>
 </div>
