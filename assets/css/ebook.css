@@ -1008,3 +1008,42 @@ ol.sumario li{ margin:0 0 .25em; }
     margin: 0 !important;
   }
 }
+
+/* =========================================
+   CAPA: compat Samsung/Android · PDF full-bleed
+   ========================================= */
+@media print {
+  @page :first { margin: 0 !important; }   /* sem margens na 1ª página */
+}
+
+.cover-page{
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background: #000;              /* bleed elegante se sobrar algo */
+  page-break-after: always;
+  break-after: page;
+}
+
+.cover-page .cover-fill{
+  position: absolute;
+  inset: 0;                      /* top/right/bottom/left: 0 */
+  background: url("{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}") center center no-repeat;
+  background-size: cover;        /* ocupa a folha inteira sem distorcer */
+  /* hacks que ajudam o Samsung Browser na impressão */
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  transform: translateZ(0);      /* evita “encolher” misterioso */
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Quando for imprimir, garanta o tamanho exato A4 e zere margens do body */
+@media print{
+  html, body{
+    width: 210mm !important;
+    margin: 0 !important;
+  }
+}
