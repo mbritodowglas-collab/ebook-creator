@@ -692,3 +692,40 @@ ol.sumario li{ margin:0 0 .25em; }
     page-break-after: always;
   }
 }
+
+/* ===== CAPA A4 FULL, SEM CORTAR O RESTO ===== */
+@media print {
+  /* 1) Primeira página sem margens */
+  @page:first { size: A4; margin: 0; }
+
+  /* 2) Container da capa ocupa exatamente 1 página A4 */
+  .cover-page{
+    position: relative !important;
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #000 !important;
+  }
+
+  /* 3) A imagem cobre a área da página (sem depender de viewport) */
+  .cover-page img{
+    position: absolute !important;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 210mm !important;
+    height: 297mm !important;
+    object-fit: cover !important;       /* preenche a folha */
+    object-position: 50% 10% !important;/* ajuste fino do enquadramento */
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+  }
+
+  /* 4) Reserva a primeira página no fluxo e quebra para o miolo */
+  .cover-page::after{
+    content: "";
+    display: block;
+    height: 297mm;                /* reserva 1 página exata */
+    page-break-after: always;
+  }
+}
