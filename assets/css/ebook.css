@@ -850,3 +850,22 @@ ol.sumario li{ margin:0 0 .25em; }
   margin:0 auto;
   background:#000 no-repeat center/contain;
 }
+
+/* ===== CAPA A4 100% ESTÁVEL (via SVG) ===== */
+@media print {
+  @page:first { size: A4; margin: 0; }               /* capa sem margem */
+  html, body {
+    margin:0 !important; padding:0 !important;
+    width:210mm !important; /* garante escala 1:1 */
+  }
+  .cover-page{
+    margin:0 !important; padding:0 !important;
+    page-break-after:always;
+    border:none !important;
+  }
+  .cover-svg{
+    display:block;
+    width:210mm !important;
+    height:297mm !important;
+  }
+}
