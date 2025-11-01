@@ -656,3 +656,39 @@ ol.sumario li{ margin:0 0 .25em; }
     text-indent:1.25cm !important;
   }
 }
+
+/* ===== CAPA FULL A4 NO PDF (fix + reserva de página) ===== */
+@media print {
+  @page:first { size: A4; margin: 0; }
+
+  /* a capa vira um canvas de página inteira */
+  .cover-page{
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;   /* 1 viewport = 1 página */
+    overflow: hidden !important;
+    background: #000 !important;
+  }
+
+  /* a imagem fica FIXA cobrindo toda a página (como banner) */
+  .cover-page img{
+    position: fixed !important;
+    top: 0; left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover !important;          /* preenche sem bordas */
+    object-position: center top !important;/* centralização vertical: ajuste aqui */
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+  }
+
+  /* este pseudo-elemento “consome” a 1ª página no fluxo */
+  .cover-page::after{
+    content: "";
+    display: block;
+    height: 100vh;              /* reserva uma página inteira */
+    page-break-after: always;
+  }
+}
