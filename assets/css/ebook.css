@@ -1074,3 +1074,52 @@ ol.sumario li{ margin:0 0 .25em; }
   html, body { width:210mm !important; margin:0 !important; }
   .page-break{ page-break-before:always; break-before:page; }
 }
+
+/* =======================
+   AJUSTES "SOBRE O AUTOR"
+   ======================= */
+.author-page {
+  max-width: 160mm;          /* deixa a página do autor mais elegante */
+  margin: 0 auto 0;          /* zera topo para não empurrar uma página a mais */
+  text-align: center;
+}
+
+/* Tipografia do autor */
+.author-page h1 { margin: .2em 0 .2em; }
+.author-page h3 { margin: 0 0 1em; font-style: italic; color: #444; }
+
+/* Justificar os parágrafos dessa página */
+.author-page p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.65;
+  text-indent: 1.25cm;
+  margin: 0 0 1em;
+}
+
+/* Caixas internas não quebram no meio */
+.author-page .about-box {
+  max-width: 150mm;
+  margin: 1.2em auto;
+  text-align: left;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Bullets bem alinhados */
+.author-page .author-highlights {
+  margin: .4em 0 .2em 1.1em;
+  padding: 0;
+}
+
+/* Imprimir/PDF: força início de página, zera topo, evita página em branco */
+@media print {
+  .author-page {
+    break-before: page;      /* começa nesta página */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  /* Se houver um <hr> logo antes do autor, não deixe ele empurrar quebra */
+  .divider-gold + .author-page { break-before: page; }
+  .divider-gold { page-break-after: avoid; }
+}
