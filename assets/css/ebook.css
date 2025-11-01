@@ -1,23 +1,24 @@
 /* =========================================
    BELLA PRIME · EBOOK PREMIUM (pt-BR)
+   Consolidado · Print-first (A4) · Web-safe
    ========================================= */
 
 html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
 
 /* =======================
-   ESTRUTURA PRINCIPAL
+   BASE / TIPOGRAFIA
    ======================= */
 body.ebook-body{
   background:#fff; 
   color:#222;
   font-family:"Georgia","Times New Roman",serif;
-  margin:25mm 20mm 25mm 30mm;       /* margens editoriais (web) */
   line-height:1.7;
   font-size:13pt;
   text-rendering:optimizeLegibility;
   font-variant-ligatures:common-ligatures;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+  margin:0; /* @page controla no PDF; no web ajustamos abaixo */
 }
 @media (max-width:1024px){
   body.ebook-body{ margin:48px 28px; font-size:16px; line-height:1.75; }
@@ -26,9 +27,7 @@ body.ebook-body{
   body.ebook-body{ margin:28px 18px; font-size:15px; }
 }
 
-/* =======================
-   TÍTULOS
-   ======================= */
+/* Títulos */
 h1,h2,h3{
   font-family:"Playfair Display",serif;
   color:#111;
@@ -36,21 +35,15 @@ h1,h2,h3{
   letter-spacing:.2px;
   line-height:1.3;
   page-break-after:avoid;
+  break-after:avoid-page;
 }
 h1{ font-size:20pt; margin:2.5em 0 1em; }
 h2{ font-size:18pt; margin:2em 0 .8em; }
 h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
 
-/* =======================
-   JUSTIFICAÇÃO GLOBAL
-   ======================= */
-/* 1) Força justificação no miolo inteiro (markdown às vezes não gera <p>) */
-.ebook-body .page-content{
-  text-align:justify;
-  text-justify:inter-word;
-}
-/* 2) Parágrafos com recuo de 1ª linha e hifenização adequada */
-.ebook-body .page-content p{
+/* Miolo justificado (markdown) */
+.page-content{ text-align:justify; text-justify:inter-word; }
+.page-content p{
   text-align:justify;
   text-justify:inter-word;
   margin:0 0 1em 0;
@@ -58,21 +51,17 @@ h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
   text-indent:1.25cm;
   hyphens:auto;
 }
-/* 3) Não indentar após títulos, citações ou em colunas */
-h1 + p, h2 + p, h3 + p, blockquote + p, .two-columns p{
-  text-indent:0;
-}
-/* 4) Listas: sem justificação e sem recuo de parágrafo */
-.ebook-body .page-content li,
-.ebook-body .page-content ol,
-.ebook-body .page-content ul{
+h1 + p, h2 + p, h3 + p, blockquote + p, .two-columns p{ text-indent:0; }
+
+/* Listas: sem justificação dura */
+.page-content ol,
+.page-content ul,
+.page-content li{
   text-align:left;
   text-indent:0;
 }
 
-/* =======================
-   CITAÇÕES / DESTAQUES
-   ======================= */
+/* Citações / divisores */
 blockquote{
   font-family:"Lora",serif;
   font-style:italic;
@@ -94,17 +83,14 @@ blockquote{
 .divider-gold{
   border:0; border-top:1px solid #d4af37;
   width:60%; margin:2em auto;
+  break-after:avoid-page;
 }
 
-/* =======================
-   COLUNAS DUPLAS (somente web)
-   ======================= */
+/* Colunas (web apenas) */
 .two-columns{ column-count:2; column-gap:2em; }
 @media (max-width:900px){ .two-columns{ column-count:1; } }
 
-/* =======================
-   IMAGENS
-   ======================= */
+/* Imagens genéricas */
 img{
   display:block;
   margin:0 auto 1em;
@@ -114,138 +100,83 @@ img{
   page-break-inside:avoid;
 }
 
-/* =======================
-   CAPA (A4 inteiro, sem cortes no PDF)
-   ======================= */
-.cover-page{
-  width:210mm;
-  height:297mm;
-  margin:0 auto;
-  padding:0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  background:#000;
-  page-break-after:always;
-}
-.cover-page img{
-  width:100%;
-  height:100%;
-  object-fit:contain;            /* WEB: não corta o título */
-  object-position:center;
-  display:block;
-}
-
-/* =======================
-   SUMÁRIO
-   ======================= */
+/* Sumário */
 ol.sumario{ padding-left:1.1cm; margin:0 0 1.2em; }
 ol.sumario li{ margin:0 0 .25em; }
 
-/* =======================
-   PÁGINAS / QUEBRAS
-   ======================= */
-.page-break{ page-break-before:always; }
-
-/* Primeira página sem margens (full-bleed de capa no PDF) */
-@page :first{
-  size:A4;
-  margin:0;
-}
-
-/* Demais páginas com margens editoriais e rodapé/página */
-@page{
-  size:A4;
-  margin:25mm 20mm 25mm 30mm;
-  @top-center   { content:""; }
-  @bottom-right { content:counter(page); font-size:10pt; color:#888; }
-  @bottom-center{ content:"© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size:10pt; color:#888; }
-}
+/* Quebras utilitárias */
+.page-break{ page-break-before:always; break-before:page; }
 
 /* =======================
-   IMPRESSÃO / PDF
+   CAPA (SVG ou IMG)
    ======================= */
-@media print{
-  *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
-
-  html, body{
-    width:210mm !important;
-    background:#fff !important;
-    color:#111 !important;
-    font-family:"Georgia","Times New Roman",serif !important;
-    font-size:13pt !important;
-    line-height:1.7 !important;
-    margin:0 !important;             /* @page controla as margens */
-  }
-
-  /* Oculta qualquer UI do tema */
-  header,.site-header,.navbar,.nav,.site-title,.footer,.site-footer,
-  .no-print,.print-btn{ display:none !important; visibility:hidden !important; }
-
-  main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
-
-  /* Texto do miolo (reforço) */
-  .page-content{
-    text-align:justify !important;
-    text-justify:inter-word !important;
-  }
-  .page-content p{
-    text-align:justify !important;
-    text-justify:inter-word !important;
-    text-indent:1.25cm !important;
-    hyphens:auto !important;
-    word-break:normal !important;
-    overflow-wrap:normal !important;
-  }
-  .page-content li,
-  .page-content ol,
-  .page-content ul{
-    text-align:left !important;
-    text-indent:0 !important;
-  }
-
-  .two-columns{ column-count:1 !important; } /* evita quebras estranhas */
-
-  /* PDF: capa “expande” no tamanho da página */
-  .cover-page{ width:210mm !important; height:297mm !important; }
-  .cover-page img{
-    width:210mm !important;
-    height:297mm !important;
-    object-fit:cover !important;     /* PDF: ocupa toda a página */
-    object-position:center !important;
-    background:#000;
-  }
-
-  blockquote, img, .author-card, .about-box{
-    break-inside:avoid; page-break-inside:avoid;
-  }
+.cover-page{
+  /* Web preview em proporção A4 */
+  aspect-ratio:210/297;
+  width:min(100%,210mm);
+  margin:0 auto;
+  padding:0;
+  background:#000 center/contain no-repeat;
+  overflow:hidden;
+  page-break-after:always;
+  break-after:page;
 }
+.cover-page img{ width:100%; height:auto; display:block; }
+.cover-svg{ display:block; width:210mm; height:297mm; margin:0 auto; }
 
 /* =======================
    SOBRE O AUTOR
    ======================= */
-.author-card{
-  display:grid; grid-template-columns:140px 1fr;
-  gap:1.2em; align-items:start; margin:2em 0;
-  break-inside:avoid; page-break-inside:avoid;
+.author-page{
+  break-before:page;
+  max-width:160mm;
+  margin:0 auto;
+  text-align:center;
+  padding-top:.5cm;
 }
-.author-photo img{
-  width:140px; height:140px; object-fit:cover;
-  border-radius:4px; border:1px solid #ddd;
+.author-page *{ break-inside:avoid; page-break-inside:avoid; }
+
+.author-page h1{ margin:.2em 0 .2em; }
+.author-page h3{ margin:0 0 1em; font-style:italic; color:#444; }
+
+.author-avatar{
+  width:160px; height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 14px;
+  border:3px solid #d4af37;
 }
-.author-bio h3{ margin:.2em 0 .6em; }
-.author-highlights{ margin:.8em 0 1.2em 1em; }
-.author-highlights li{ margin:.2em 0; }
-.about-box{
-  border:1px solid #eee; border-radius:8px;
-  padding:1em; margin:1em 0; background:#fafafa;
-  break-inside:avoid; page-break-inside:avoid;
+.author-intro{
+  max-width:160mm;
+  margin:0 auto 1.2em;
+  text-align:justify;
+  text-justify:inter-word;
+  line-height:1.65;
+  text-indent:1.25cm;
 }
-.about-sign{ margin-top:.6em; color:#555; }
+.about-narrow{
+  max-width:150mm;
+  margin:1.2em auto;
+  text-align:left;
+  background:#fafafa;
+  border:1px solid #eee;
+  border-radius:8px;
+  padding:1em 1.2em;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+.about-narrow h3{
+  text-align:left;
+  color:#111;
+  font-family:"Playfair Display",serif;
+  margin-bottom:.4em;
+}
+.about-narrow ul{ margin:.6em 0 .6em 1.2em; padding:0; list-style:disc; }
+.about-narrow li{ margin:.25em 0; line-height:1.6; }
+.author-cta{ margin-top:2em; font-size:12.5pt; line-height:1.5; text-align:center; }
 
 /* =======================
-   BOTÃO FLUTUANTE (web)
+   BOTÃO PRINT (web)
    ======================= */
 .print-btn{
   position:fixed; right:18px; bottom:18px; z-index:9999;
@@ -255,143 +186,11 @@ ol.sumario li{ margin:0 0 .25em; }
   box-shadow:0 6px 18px rgba(0,0,0,.25); transition:all .2s ease;
 }
 .print-btn:hover{ filter:brightness(1.15); transform:translateY(-1px); }
-@media print{ .print-btn{ display:none !important; } }
 
 /* =======================
-   CAPA (regra única)
+   @PAGE (PDF)
    ======================= */
-.cover-page{
-  margin: 0;
-  padding: 0;
-  display: block;
-  page-break-after: always;
-  /* vincula à página nomeada "cover" no PDF */
-  page: cover;
-}
-.cover-page img{
-  display: block;
-  width: 100%;
-  height: auto;              /* tela: mantém proporção sem corte */
-}
-
-/* =======================
-   PÁGINAS / QUEBRAS
-   ======================= */
-/* Página nomeada para a capa: A4 sem margens */
-@page cover {
-  size: A4;
-  margin: 0;
-}
-
-/* Demais páginas com margens editoriais e rodapé */
-@page {
-  size: A4;
-  margin: 25mm 20mm 25mm 30mm;
-  @top-center   { content: ""; }
-  @bottom-right { content: counter(page); font-size: 10pt; color: #888; }
-  @bottom-center{ content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size: 10pt; color: #888; }
-}
-
-/* =======================
-   IMPRESSÃO / PDF
-   ======================= */
-@media print{
-  /* zera margens do HTML/body para não interferir na @page cover */
-  html, body{
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* Capa: ocupar 100% da folha e COBRIR sem bordas pretas */
-  .cover-page{
-    width: 210mm !important;
-    height: 297mm !important;
-    overflow: hidden !important;
-    background: #000;
-  }
-  .cover-page img{
-    width: 210mm !important;
-    height: 297mm !important;
-    object-fit: cover !important;   /* cobre a página inteira */
-    object-position: center !important;
-  }
-
-  /* Miolo permanece igual */
-  .page-content{
-    text-align: justify !important;
-    text-justify: inter-word !important;
-  }
-  .page-content p{
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    text-indent: 1.25cm !important;
-    hyphens: auto !important;
-  }
-}
-
-/* =========================================
-   BELLA PRIME · EBOOK (PRINT-FIRST)
-   Foco: PDF perfeito no Android/Chrome
-   ========================================= */
-
-html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
-
-/* ===== Base (funciona em web também, mas pensado p/ print) ===== */
-body.ebook-body{
-  background:#fff; color:#222;
-  font-family:"Georgia","Times New Roman",serif;
-  line-height:1.7; font-size:13pt;
-  text-rendering:optimizeLegibility; font-variant-ligatures:common-ligatures;
-  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-  margin:0;                      /* no print quem manda é @page */
-}
-
-/* Títulos */
-h1,h2,h3{
-  font-family:"Playfair Display",serif;
-  color:#111; text-align:center; letter-spacing:.2px; line-height:1.3;
-  page-break-after:avoid;
-}
-h1{ font-size:20pt; margin:2.5em 0 1em; }
-h2{ font-size:18pt; margin:2em 0 .8em; }
-h3{ font-size:15pt; font-style:italic; margin:1.6em 0 .6em; }
-
-/* Parágrafos (formato livro) */
-p{
-  text-align:justify; text-justify:inter-word;
-  margin:0 0 1em 0; line-height:1.65;
-  text-indent:1.25cm; hyphens:auto;
-}
-h1 + p, h2 + p, h3 + p, blockquote + p { text-indent:0; }
-
-/* Citações / divisores */
-blockquote{
-  font-family:"Lora",serif; font-style:italic; color:#444;
-  border-left:3px solid #d4af37; padding-left:1em;
-  margin:1.8em 0; font-size:12pt;
-  break-inside:avoid; page-break-inside:avoid;
-}
-.quote-center{
-  text-align:center; font-family:"Playfair Display",serif;
-  font-size:1.25em; font-style:italic; color:#111; margin:1.4em 0;
-}
-.divider-gold{ border:0; border-top:1px solid #d4af37; width:60%; margin:2em auto; }
-
-/* Imagens genéricas */
-img{ display:block; margin:0 auto 1em; max-width:100%; height:auto; break-inside:avoid; }
-
-/* Sumário */
-ol.sumario{ padding-left:1.1cm; margin:0 0 1.2em; }
-ol.sumario li{ margin:0 0 .25em; }
-
-/* Quebras */
-.page-break{ page-break-before:always; }
-
-/* =======================
-   REGRAS DE PÁGINA (PDF)
-   ======================= */
-
-/* Página 1 (Capa) — sem margens e sem rodapés */
+/* Primeira página: capa A4 sem margens e sem header/footer */
 @page :first{
   size:A4;
   margin:0;
@@ -399,818 +198,78 @@ ol.sumario li{ margin:0 0 .25em; }
   @bottom-left{ content:""; } @bottom-center{ content:""; } @bottom-right{ content:""; }
 }
 
-/* Demais páginas — margens editoriais + numeração + copyright */
+/* Demais páginas com margens editoriais + nº página + copyright */
 @page{
   size:A4;
   margin:25mm 20mm 25mm 30mm;  /* esquerda maior */
-  @top-center   { content: ""; }
-  @bottom-right { content: counter(page); font-size:10pt; color:#888; }
+  @top-center   { content:""; }
+  @bottom-right { content:counter(page); font-size:10pt; color:#888; }
   @bottom-center{ content:"© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size:10pt; color:#888; }
 }
 
 /* =======================
-   CAPA EM A4 (sem corte)
-   ======================= */
-.cover-page{
-  /* A capa vira "página inteira" */
-  position:relative;
-  width:210mm; height:297mm;
-  margin:0; padding:0; overflow:hidden;
-  display:block; page-break-after:always;
-  background:#000; /* bordas pretas se a arte não for exata A4 */
-}
-.cover-page img{
-  position:absolute; inset:0;
-  width:210mm; height:297mm;
-  object-fit:contain;         /* NÃO corta títulos */
-  object-position:center center;
-  display:block;
-}
-
-/* =======================
-   PRINT OVERRIDES (Android/Chrome)
+   PRINT OVERRIDES (Chrome/Android)
    ======================= */
 @media print{
   *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
 
   html, body{
-    width:210mm !important; height:auto !important; margin:0 !important;
+    width:210mm !important; height:auto !important;
+    margin:0 !important; padding:0 !important;
     background:#fff !important; color:#111 !important;
     font-family:"Georgia","Times New Roman",serif !important;
     font-size:13pt !important; line-height:1.7 !important;
+    overflow:visible !important;
   }
 
-  /* Remove qualquer header/footer/menus do tema */
+  /* Oculta UI do tema */
   header,.site-header,.page-header,.navbar,.nav,.site-title,
   .footer,.site-footer,.no-print,.print-btn{ display:none !important; visibility:hidden !important; }
-
   main,.page-content,.wrapper{ margin:0 !important; padding:0 !important; }
 
-  /* Texto do miolo: sem hifenização agressiva e com recuo garantido */
+  /* Texto do miolo: justificado + recuo */
+  .page-content,
   p{
     text-align:justify !important;
+    text-justify:inter-word !important;
+  }
+  p{
     text-indent:1.25cm !important;
-    hyphens:none !important;
+    hyphens:none !important;        /* Chrome tende a exagerar */
     word-break:normal !important;
     overflow-wrap:normal !important;
   }
-
-  /* Capa 100% da 1ª página */
-  .cover-page{ width:210mm !important; height:297mm !important; page-break-after:always; }
-  .cover-page img{
-    width:210mm !important; height:297mm !important;
-    object-fit:contain !important; object-position:center center !important;
-    background:#000;
-  }
-
-  blockquote,img,.author-card,.about-box{ break-inside:avoid; page-break-inside:avoid; }
-}
-
-/* Cartão do autor (miolo) */
-.author-card{
-  display:grid; grid-template-columns:140px 1fr; gap:1.2em; align-items:start; margin:2em 0;
-  break-inside:avoid; page-break-inside:avoid;
-}
-.author-photo img{ width:140px; height:140px; object-fit:cover; border-radius:4px; border:1px solid #ddd; }
-.author-bio h3{ margin:.2em 0 .6em; }
-.author-highlights{ margin:.8em 0 1.2em 1em; }
-.author-highlights li{ margin:.2em 0; }
-.about-box{
-  border:1px solid #eee; border-radius:8px; padding:1em; margin:1em 0; background:#fafafa;
-  break-inside:avoid; page-break-inside:avoid;
-}
-.about-sign{ margin-top:.6em; color:#555; }
-
-/* ======== CAPA: força full-bleed no PDF (Android/Chrome) ======== */
-@media print {
-  /* 1) Zera qualquer influência de margem e usa uma área "maior" com bleed */
-  @page :first { size: A4; margin: 0; }
-
-  .cover-page{
-    /* mantém no fluxo para garantir a quebra após a capa */
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    page-break-after: always;
-    overflow: hidden !important;
-    background: #000;
-  }
-
-  .cover-page img{
-    /* HACK do bleed: cresce um pouco além do A4 e “entra” 5mm para cada lado.
-       Isso compensa margens mínimas que alguns drivers impõem. */
-    position: relative;
-    width: calc(210mm + 10mm) !important;   /* +5mm em cada lado */
-    height: calc(297mm + 10mm) !important;  /* +5mm em cada lado */
-    margin: -5mm 0 0 -5mm !important;       /* desloca para “sangrar” */
-    object-fit: cover !important;
-    object-position: center center !important;
-    display: block !important;
-    background: #000;
-  }
-
-  /* miolo do texto garantidamente justificado */
-  h1 + p, h2 + p, h3 + p { text-indent: 0 !important; }
-  p{
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    text-indent: 1.25cm !important;
-    hyphens: none !important;
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-  }
-}
-
-/* ===== CAPA · forçar full-bleed mesmo com margem do driver ===== */
-@media print {
-  @page :first { size: A4; margin: 0; }
-
-  .cover-page{
-    /* ocupa exatamente 1 página e quebra depois */
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    page-break-after: always;
-    overflow: hidden !important;
-    background: #000;
-    position: relative;
-  }
-
-  .cover-page img{
-    /* Sangria agressiva: +20 mm em cada dimensão e desloca -10 mm
-       (se ainda sobrar borda, troque 10mm por 12–15mm) */
-    position: absolute !important;
-    top:  -10mm !important;
-    left: -10mm !important;
-    width:  calc(210mm + 20mm) !important;
-    height: calc(297mm + 20mm) !important;
-    object-fit: cover !important;
-    object-position: center center !important;
-    background: #000 !important;
-    display: block !important;
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-    image-rendering: -webkit-optimize-contrast;
-  }
-
-  /* miolo garantido justificado */
-  p{
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    text-indent: 1.25cm !important;
-    hyphens: none !important;
-  }
-}
-
-/* ===== CAPA A4 · full-bleed sem cortar o título (PDF/print) ===== */
-@media print {
-  @page :first { size: A4; margin: 0; }
-
-  /* Ajustes finos via variáveis (mm) */
-  :root{
-    --bleed-top: 8mm;        /* pequeno para preservar o título */
-    --bleed-bottom: 20mm;    /* maior para compensar a margem do driver */
-    --bleed-sides: 20mm;     /* laterais */
-  }
-
-  .cover-page{
-    position: relative !important;
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    background: #000 !important;
-    page-break-after: always;
-  }
-
-  .cover-page img{
-    position: absolute !important;
-    /* desloca para fora do papel conforme os bleeds */
-    top:  calc(-1 * var(--bleed-top)) !important;
-    left: calc(-1 * var(--bleed-sides)) !important;
-
-    /* expande além do A4 somando os bleeds */
-    width:  calc(210mm + var(--bleed-sides) * 2) !important;
-    height: calc(297mm + var(--bleed-top) + var(--bleed-bottom)) !important;
-
-    object-fit: cover !important;           /* cobre a página inteira */
-    object-position: center top !important; /* âncora no topo → protege o título */
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-    display: block !important;
-    background: #000 !important;
-  }
-
-  /* Garantia do texto do miolo justificado */
-  p{
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    text-indent: 1.25cm !important;
-    hyphens: none !important;
-  }
-}
-
-/* ===== CAPA PDF · modo "banner full-viewport" ===== */
-@media print {
-  @page :first { size: A4; margin: 0; }
-
-  /* zera tudo igual a um banner full no topo */
-  html, body{
-    margin:0 !important;
-    padding:0 !important;
-    width:210mm !important;
-    height:297mm !important;
-    overflow:hidden !important;
-  }
-
-  .cover-page{
-    position: relative !important;
-    inset: 0 !important;
-    width:100% !important;
-    height:100vh !important; /* ocupa a viewport inteira como banner */
-    overflow:hidden !important;
-    margin:0 !important;
-    padding:0 !important;
-    background:#000 !important;
-    page-break-after:always;
-  }
-
-  .cover-page img{
-    position:absolute !important;
-    top:0; left:0; right:0; bottom:0;
-    width:100% !important;
-    height:100% !important;
-    object-fit:cover !important;      /* igual banner */
-    object-position:center top !important; /* protege o título */
-    background:#000 !important;
-    -webkit-print-color-adjust:exact !important;
-            print-color-adjust:exact !important;
-  }
-
-  /* Justifica o resto normalmente */
-  p{
-    text-align:justify !important;
-    text-indent:1.25cm !important;
-  }
-}
-
-/* ===== CAPA FULL A4 NO PDF (fix + reserva de página) ===== */
-@media print {
-  @page:first { size: A4; margin: 0; }
-
-  /* a capa vira um canvas de página inteira */
-  .cover-page{
-    position: relative !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100vw !important;
-    height: 100vh !important;   /* 1 viewport = 1 página */
-    overflow: hidden !important;
-    background: #000 !important;
-  }
-
-  /* a imagem fica FIXA cobrindo toda a página (como banner) */
-  .cover-page img{
-    position: fixed !important;
-    top: 0; left: 0;
-    width: 100vw !important;
-    height: 100vh !important;
-    object-fit: cover !important;          /* preenche sem bordas */
-    object-position: center top !important;/* centralização vertical: ajuste aqui */
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-  }
-
-  /* este pseudo-elemento “consome” a 1ª página no fluxo */
-  .cover-page::after{
-    content: "";
-    display: block;
-    height: 100vh;              /* reserva uma página inteira */
-    page-break-after: always;
-  }
-}
-
-/* ===== CAPA A4 FULL, SEM CORTAR O RESTO ===== */
-@media print {
-  /* 1) Primeira página sem margens */
-  @page:first { size: A4; margin: 0; }
-
-  /* 2) Container da capa ocupa exatamente 1 página A4 */
-  .cover-page{
-    position: relative !important;
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    background: #000 !important;
-  }
-
-  /* 3) A imagem cobre a área da página (sem depender de viewport) */
-  .cover-page img{
-    position: absolute !important;
-    top: 0; left: 0; right: 0; bottom: 0;
-    width: 210mm !important;
-    height: 297mm !important;
-    object-fit: cover !important;       /* preenche a folha */
-    object-position: 50% 10% !important;/* ajuste fino do enquadramento */
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-  }
-
-  /* 4) Reserva a primeira página no fluxo e quebra para o miolo */
-  .cover-page::after{
-    content: "";
-    display: block;
-    height: 297mm;                /* reserva 1 página exata */
-    page-break-after: always;
-  }
-}
-
-/* ===== CAPA A4 ESTÁVEL (Android/Chrome Print) ===== */
-@media print {
-  @page:first { size: A4; margin: 0; } /* o sistema ainda põe a margem mínima dele */
-
-  .cover-page{
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-
-    /* Imagem como fundo — sem cortar o título */
-    background-color: #000 !important;
-    background-repeat: no-repeat !important;
-    background-position: 50% 12% !important; /* ajuste fino vertical do enquadramento */
-    background-size: contain !important;      /* mostra a arte inteira, sem crop */
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-  }
-
-  /* Reserva a página e quebra para o miolo */
-  .cover-page::after{
-    content: "";
-    display: block;
-    height: 0;
-    page-break-after: always;
-  }
-}
-
-/* Versão web (mantém proporção A4 e centraliza) */
-.cover-page{
-  aspect-ratio: 210 / 297;
-  width: min(100%, 210mm);
-  margin: 0 auto;
-  background: #000 center / contain no-repeat;
-}
-
-/* ===== CAPA A4 · MODO SEGURO (Android/Chrome Print) ===== */
-:root{
-  /* knobs que você pode ajustar sem mexer no resto */
-  --cover-padding: 6mm;   /* margem interna pra evitar corte do título/rodapé */
-  --v-shift: 8%;          /* deslocamento vertical da arte (0% topo … 100% base) */
-  --cover-mode: contain;  /* 'contain' = não corta | 'cover' = preenche com crop */
-}
-
-@media print {
-  @page:first { size:A4; margin:0; }
-
-  .cover-page{
-    width:210mm !important;
-    height:297mm !important;
-
-    /* protege a arte da área não-imprimível */
-    padding: var(--cover-padding) !important;
-    background-origin: content-box !important;
-    background-clip: content-box !important;
-
-    /* imagem de fundo */
-    background-repeat: no-repeat !important;
-    background-size: var(--cover-mode) !important;
-    background-position: 50% var(--v-shift) !important; /* ajuste fino vertical */
-    background-color:#000 !important;
-
-    /* garante página exclusiva */
-    page-break-after: always;
-    -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-  }
-}
-
-/* visão web (mantém proporção A4 e centraliza) */
-.cover-page{
-  aspect-ratio: 210 / 297;
-  width: min(100%, 210mm);
-  margin: 0 auto;
-  background: #000 center / contain no-repeat;
-}
-
-/* ===== CAPA A4 AJUSTADA (centrada e segura) ===== */
-:root{
-  --cover-padding: 6mm;     /* protege bordas */
-  --cover-shift-x: 52%;     /* centralização horizontal */
-  --cover-shift-y: 10%;     /* posição vertical (mais alto = menor valor) */
-  --cover-scale: contain;   /* 'contain' evita cortes, 'cover' preenche total */
-}
-
-@media print {
-  @page:first { size: A4; margin: 0; }
-
-  .cover-page{
-    width:210mm !important;
-    height:297mm !important;
-    margin:0 auto !important;
-    background-color:#000 !important;
-
-    /* área útil (protege contra corte) */
-    padding:var(--cover-padding) !important;
-    background-origin:content-box !important;
-    background-clip:content-box !important;
-
-    /* posicionamento e escala da arte */
-    background-repeat:no-repeat !important;
-    background-size:var(--cover-scale) !important;
-    background-position:var(--cover-shift-x) var(--cover-shift-y) !important;
-
-    /* garante impressão colorida precisa */
-    -webkit-print-color-adjust:exact !important;
-            print-color-adjust:exact !important;
-
-    /* força quebra de página após a capa */
-    page-break-after:always;
-  }
-}
-
-/* modo web (visualização proporcional A4) */
-.cover-page{
-  aspect-ratio:210 / 297;
-  width:min(100%,210mm);
-  margin:0 auto;
-  background:#000 no-repeat center/contain;
-}
-
-/* ===== CAPA A4 100% ESTÁVEL (via SVG) ===== */
-@media print {
-  @page:first { size: A4; margin: 0; }               /* capa sem margem */
-  html, body {
-    margin:0 !important; padding:0 !important;
-    width:210mm !important; /* garante escala 1:1 */
-  }
-  .cover-page{
-    margin:0 !important; padding:0 !important;
-    page-break-after:always;
-    border:none !important;
-  }
-  .cover-svg{
-    display:block;
-    width:210mm !important;
-    height:297mm !important;
-  }
-}
-
-/* --- utilitários de quebra (além do legacy page-break) --- */
-.cover-page { page-break-after: always; break-after: page; }
-.page-break { page-break-before: always; break-before: page; }
-
-/* --- CAPA: se usar SVG, garanta tamanho A4 e centralização --- */
-.cover-svg {
-  width: 210mm;
-  height: 297mm;
-  display: block;
-  margin: 0 auto;
-}
-
-/* =======================
-   IMPRESSÃO / PDF  (SUBSTITUA ESTE BLOCO)
-   ======================= */
-@media print{
-  *{
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-
-  /* Deixe o motor de impressão controlar o tamanho via @page */
-  html, body{
-    margin: 0 !important;
-    padding: 0 !important;
-    background: #fff !important;
-    color: #111 !important;
-    font-family: "Georgia","Times New Roman",serif !important;
-    font-size: 13pt !important;
-    line-height: 1.7 !important;
-    overflow: visible !important; /* evita truncar páginas após a primeira */
-  }
-
-  /* Oculta qualquer UI do tema */
-  header, .site-header, .navbar, .nav, .site-title,
-  .footer, .site-footer, .no-print, .print-btn{
-    display: none !important;
-    visibility: hidden !important;
-  }
-
-  main, .page-content, .wrapper{
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* Texto do miolo: justificado + recuo */
-  p{
-    text-align: justify !important;
-    text-indent: 1.25cm !important;
-    hyphens: none !important;        /* Chrome tende a exagerar */
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-  }
+  h1 + p, h2 + p, h3 + p, blockquote + p{ text-indent:0 !important; }
 
   /* Desativa colunas no PDF (evita quebras feias) */
-  .two-columns{ column-count: 1 !important; }
+  .two-columns{ column-count:1 !important; }
 
-  /* CAPA A4 cheia, sem cortar o título */
+  /* Capa: ocupa 100% da 1ª página (arte como IMG dentro do .cover-page ou SVG) */
   .cover-page{
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    display: block !important;
-    overflow: hidden !important;
-    page-break-after: always !important;
-    break-after: page !important;
-    background: #000; /* bleed elegante */
+    width:210mm !important;
+    height:297mm !important;
+    margin:0 !important;
+    padding:0 !important;
+    overflow:hidden !important;
+    background:#000 !important;
+    page-break-after:always !important;
+    break-after:page !important;
   }
-
-  /* Se for IMG direta (não SVG), use contain p/ não cortar topo/rodapé */
   .cover-page > img{
-    width: 210mm !important;
-    height: 297mm !important;
-    display: block !important;
-    object-fit: contain !important;  /* troque para 'cover' se quiser sangrar */
-    object-position: center center !important;
-    background: #000;
+    position:absolute !important;
+    inset:0 !important;
+    width:210mm !important;
+    height:297mm !important;
+    object-fit:contain !important;   /* troque para 'cover' se quiser sangrar */
+    object-position:center top !important; /* protege o título da capa */
+    background:#000 !important;
+  }
+  .cover-svg{
+    display:block !important;
+    width:210mm !important;
+    height:297mm !important;
   }
 
-  /* Evita que blocos sejam quebrados no meio */
-  blockquote, img, .author-card, .about-box{
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-}
-
-/* PÁGINA: A4 e margens (deixe o @page como já estava no seu CSS) */
-@page {
-  size: A4;
-  margin: 25mm 20mm 25mm 30mm;
-  @top-center   { content: ""; }
-  @bottom-right { content: counter(page); font-size: 10pt; color: #888; }
-  @bottom-center{ content: "© 2025 Márcio Dowglas Personal Trainer – Todos os direitos reservados."; font-size: 10pt; color: #888; }
-}
-@page :first {
-  size: A4;
-  margin: 0; /* capa em página cheia */
-}
-
-/* =======================
-   AJUSTE FINAL · CAPA PDF 100%
-   ======================= */
-@media print {
-  .cover-page {
-    position: relative !important;
-    display: block !important;
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    page-break-after: always !important;
-    break-after: page !important;
-  }
-
-  /* força a imagem a ocupar toda a área útil sem cortes */
-  .cover-page img {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important; /* troque pra 'contain' se quiser evitar corte */
-    object-position: center center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-    background: #000 !important;
-  }
-
-  /* capa deve ignorar margens definidas por @page */
-  @page :first {
-    margin: 0 !important;
-  }
-}
-
-/* =========================================
-   CAPA: compat Samsung/Android · PDF full-bleed
-   ========================================= */
-@media print {
-  @page :first { margin: 0 !important; }   /* sem margens na 1ª página */
-}
-
-.cover-page{
-  position: relative;
-  width: 210mm;
-  height: 297mm;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  background: #000;              /* bleed elegante se sobrar algo */
-  page-break-after: always;
-  break-after: page;
-}
-
-.cover-page .cover-fill{
-  position: absolute;
-  inset: 0;                      /* top/right/bottom/left: 0 */
-  background: url("{{ '/assets/img/cover-bella-prime.jpg' | relative_url }}") center center no-repeat;
-  background-size: cover;        /* ocupa a folha inteira sem distorcer */
-  /* hacks que ajudam o Samsung Browser na impressão */
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
-  transform: translateZ(0);      /* evita “encolher” misterioso */
-  image-rendering: -webkit-optimize-contrast;
-}
-
-/* Quando for imprimir, garanta o tamanho exato A4 e zere margens do body */
-@media print{
-  html, body{
-    width: 210mm !important;
-    margin: 0 !important;
-  }
-}
-
-/* --- Capa SVG mais robusta em impressão --- */
-.cover-page { width:210mm; height:297mm; margin:0 auto; page-break-after:always; }
-.cover-svg { display:block; width:210mm; height:297mm; }
-
-/* página do autor sempre começa sozinha */
-.author-page{
-  text-align:center;
-  page-break-before:always;
-  break-before:page;
-}
-.author-avatar{
-  width:160px; height:160px; border-radius:50%;
-  object-fit:cover; margin:0 auto 1.5em; border:3px solid #d4af37;
-}
-.author-intro{
-  max-width:600px; margin:1em auto;
-  text-align:justify; text-indent:1.25cm; line-height:1.65;
-}
-.about-narrow{ max-width:600px; margin:2em auto; text-align:left; }
-.author-cta{ margin-top:2em; }
-
-/* garantir que o restante do conteúdo imprima após a capa */
-@media print{
-  html, body { width:210mm !important; margin:0 !important; }
-  .page-break{ page-break-before:always; break-before:page; }
-}
-
-/* =======================
-   AJUSTES "SOBRE O AUTOR"
-   ======================= */
-.author-page {
-  max-width: 160mm;          /* deixa a página do autor mais elegante */
-  margin: 0 auto 0;          /* zera topo para não empurrar uma página a mais */
-  text-align: center;
-}
-
-/* Tipografia do autor */
-.author-page h1 { margin: .2em 0 .2em; }
-.author-page h3 { margin: 0 0 1em; font-style: italic; color: #444; }
-
-/* Justificar os parágrafos dessa página */
-.author-page p {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.65;
-  text-indent: 1.25cm;
-  margin: 0 0 1em;
-}
-
-/* Caixas internas não quebram no meio */
-.author-page .about-box {
-  max-width: 150mm;
-  margin: 1.2em auto;
-  text-align: left;
-  break-inside: avoid;
-  page-break-inside: avoid;
-}
-
-/* Bullets bem alinhados */
-.author-page .author-highlights {
-  margin: .4em 0 .2em 1.1em;
-  padding: 0;
-}
-
-/* Imprimir/PDF: força início de página, zera topo, evita página em branco */
-@media print {
-  .author-page {
-    break-before: page;      /* começa nesta página */
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-  /* Se houver um <hr> logo antes do autor, não deixe ele empurrar quebra */
-  .divider-gold + .author-page { break-before: page; }
-  .divider-gold { page-break-after: avoid; }
-}
-
-/* =======================
-   PÁGINA DO AUTOR (ABOUT)
-   ======================= */
-.author-page{
-  break-before: page;               /* força nova página no PDF */
-  max-width: 620px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: .5cm;
-}
-
-.author-page *{
-  break-inside: avoid;
-  page-break-inside: avoid;
-}
-
-/* Corrige o problema do h1 abrindo página em branco */
-.author-page h1,
-.author-page h3{
-  page-break-before: auto !important;
-  margin: .2em 0 .4em;
-  text-align: center;
-}
-
-/* Foto circular dourada */
-.author-avatar{
-  width:160px;
-  height:160px;
-  border-radius:50%;
-  object-fit:cover;
-  display:block;
-  margin:0 auto 14px;
-  border:3px solid #d4af37;
-}
-
-/* Parágrafo inicial justificado com recuo */
-.author-intro{
-  max-width:620px;
-  margin: 0 auto 1.2em;
-  text-align: justify;
-  text-indent: 1.25cm;
-  line-height: 1.65;
-}
-
-/* Caixas de missão e metodologia */
-.about-narrow{
-  max-width:620px;
-  margin:1.4em auto;
-  text-align:left;
-  background:#fafafa;
-  border:1px solid #eee;
-  border-radius:8px;
-  padding:1em 1.2em;
-  box-shadow:0 2px 6px rgba(0,0,0,.05);
-}
-
-.about-narrow h3{
-  text-align:left;
-  color:#111;
-  font-family:"Playfair Display",serif;
-  margin-bottom:.4em;
-}
-
-.about-narrow ul{
-  margin:.6em 0 .6em 1.2em;
-  padding:0;
-  list-style:disc;
-}
-
-.about-narrow li{
-  margin:.25em 0;
-  line-height:1.6;
-}
-
-/* Frase final de chamada */
-.author-cta{
-  margin-top:2em;
-  font-size:12.5pt;
-  line-height:1.5;
-  text-align:center;
-}
-
-/* Ajustes de impressão para manter formatação no PDF */
-@media print{
-  .author-page{ break-before: page; }
-  .author-page h1,
-  .author-page h3{ page-break-before: auto !important; }
-  .author-intro{ text-align: justify !important; text-indent:1.25cm !important; }
-  .about-narrow{ break-inside: avoid; page-break-inside: avoid; }
+  /* Blocos que não devem quebrar no meio */
+  blockquote, img, .author-page, .about-box{ break-inside:avoid; page-break-inside:avoid; }
 }
