@@ -19,7 +19,27 @@ date: "2025"
 
 <div class="page-break"></div>
 
-# Apresentação
+# <span id="sumario">Sumário</span>
+
+<ol class="sumario">
+  <li><a href="#apresentacao">Apresentação</a></li>
+  <li><a href="#cap1">Capítulo 1 — O Início de Tudo</a></li>
+  <li><a href="#cap2">Capítulo 2 — O que é o Tratamento Bella Prime</a></li>
+  <li><a href="#cap3">Capítulo 3 — Os Níveis da Jornada</a></li>
+  <li><a href="#cap4">Capítulo 4 — O Poder da Neurociência</a></li>
+  <li><a href="#cap5">Capítulo 5 — A Nutrição que Sustenta Resultados</a></li>
+  <li><a href="#cap6">Capítulo 6 — O Treino como Ferramenta de Identidade</a></li>
+  <li><a href="#cap7">Capítulo 7 — A Mente, o Corpo e o Propósito</a></li>
+  <li><a href="#encerramento">Encerramento — Um recado pessoal</a></li>
+  <li><a href="#autor">Sobre o Autor</a></li>
+  <li><a href="#avaliacao">Avaliação Inicial (CTA)</a></li>
+</ol>
+
+<hr class="divider-gold">
+
+<div class="page-break"></div>
+
+# <span id="apresentacao">Apresentação</span>
 
 Talvez você tenha chegado até aqui cansada.  
 Cansada de tentar sozinha, de seguir dietas que não cabem na sua rotina, de começar e parar sempre no mesmo ponto.  
@@ -51,7 +71,7 @@ Personal Trainer e criador do Sistema Evo360°
 
 <div class="page-break"></div>
 
-# Capítulo 1 — O Início de Tudo
+# <span id="cap1">Capítulo 1 — O Início de Tudo</span>
 
 Sabe quando a gente para pra pensar em como tudo começou?  
 O Bella Prime nasceu bem antes de ter nome.  
@@ -100,7 +120,7 @@ ela acontece naturalmente quando você aprende a caminhar junto com ela.
 
 <div class="page-break"></div>
 
-# Capítulo 2 — O que é o Tratamento Bella Prime
+# <span id="cap2">Capítulo 2 — O que é o Tratamento Bella Prime</span>
 
 Antes de te contar o que é o Bella Prime, deixa eu te contar o que ele **não é**.  
 Ele não é mais um programa de treino cheio de promessas rápidas.  
@@ -142,7 +162,7 @@ Porque no fim das contas, tudo se resume a isso:
 
 <div class="page-break"></div>
 
-# Capítulo 3 — Os Níveis da Jornada
+# <span id="cap3">Capítulo 3 — Os Níveis da Jornada</span>
 
 Quando eu criei o Bella Prime, eu não queria que fosse só um plano de treino.  
 Eu queria que fosse uma caminhada.  
@@ -188,7 +208,7 @@ Não é sobre chegar primeiro, é sobre chegar inteira.
 
 <div class="page-break"></div>
 
-# Capítulo 4 — O Poder da Neurociência
+# <span id="cap4">Capítulo 4 — O Poder da Neurociência</span>
 
 Durante muito tempo, eu achava que mudar dependia só de força de vontade.  
 Mas com o tempo, percebi que vontade sozinha não segura ninguém por muito tempo.  
@@ -226,7 +246,7 @@ E quando você aprende a trabalhar com o seu cérebro — e não contra ele —,
 
 <div class="page-break"></div>
 
-# Capítulo 5 — A Nutrição que Sustenta Resultados
+# <span id="cap5">Capítulo 5 — A Nutrição que Sustenta Resultados</span>
 
 Tem gente que ainda acha que o que atrapalha o emagrecimento é a comida.  
 Mas o problema quase nunca é o que você come — é o jeito como você lida com isso.  
@@ -268,7 +288,7 @@ foi **saber o momento certo de merecer o seu biscoito Scooby.**
 
 <div class="page-break"></div>
 
-# Capítulo 6 — O Treino como Ferramenta de Identidade
+# <span id="cap6">Capítulo 6 — O Treino como Ferramenta de Identidade</span>
 
 Muita gente ainda acha que o treino é só pra mudar o corpo.  
 Mas, na real, o treino é o que muda a cabeça.  
@@ -309,7 +329,7 @@ todo santo dia.
 
 <div class="page-break"></div>
 
-# Capítulo 7 — A Mente, o Corpo e o Propósito
+# <span id="cap7">Capítulo 7 — A Mente, o Corpo e o Propósito</span>
 
 Depois de tantos anos observando pessoas treinando, eu cheguei a uma conclusão:  
 ninguém muda o corpo sem antes mudar a mente.  
@@ -351,7 +371,7 @@ E viver com propósito é o que transforma isso num estilo de vida.**
 
 <div class="page-break"></div>
 
-# Encerramento — Um recado pessoal
+# <span id="encerramento">Encerramento — Um recado pessoal</span>
 
 Se você chegou até aqui, eu quero te agradecer.  
 De verdade.  
@@ -389,9 +409,11 @@ Personal Trainer | Criador do Tratamento Bella Prime™ e do Sistema Evo360°
 
 <hr class="divider-gold">
 
+<!-- SOBRE O AUTOR (página exclusiva) -->
 <div class="page-break"></div>
 
-<!-- SOBRE O AUTOR (página exclusiva) -->
+# <span id="autor">Sobre o Autor</span>
+
 <div class="author-page">
   <img class="author-avatar" src="{{ '/assets/img/autor.jpg' | relative_url }}" alt="Márcio Dowglas">
 
@@ -433,7 +455,8 @@ Personal Trainer | Criador do Tratamento Bella Prime™ e do Sistema Evo360°
 
 <div class="page-break"></div>
 
-<!-- CTA FINAL (link da avaliação, sem alterar conteúdo anterior) -->
+# <span id="avaliacao">Avaliação Inicial (CTA)</span>
+
 <p style="text-align:center; margin-top:1em;">
   <strong>Avaliação Inicial:</strong><br>
   <a href="https://mbritodowglas-collab.github.io/mdpersonal/avaliacao/">https://mbritodowglas-collab.github.io/mdpersonal/avaliacao/</a>
