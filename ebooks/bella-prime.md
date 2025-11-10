@@ -33,7 +33,6 @@ date: "2025"
     <li><a href="#cap7">Capítulo 7 — A Mente, o Corpo e o Propósito</a></li>
     <li><a href="#encerramento">Encerramento — Um recado pessoal</a></li>
     <li><a href="#autor">Sobre o Autor</a></li>
-    <li><a href="#avaliacao">Avaliação Inicial (CTA)</a></li>
   </ol>
 </section>
 
@@ -115,8 +114,6 @@ No Bella Prime, você vai respeitar seu ritmo, se reconectar com seu propósito 
 
 <hr class="divider-gold">
 
-<div class="page-break"></div>
-
 <div class="author-page" id="autor">
   <h1>Sobre o Autor</h1>
 
@@ -155,10 +152,3 @@ No Bella Prime, você vai respeitar seu ritmo, se reconectar com seu propósito 
 </div>
 
 <hr class="divider-gold">
-
-# <span id="avaliacao">Avaliação Inicial (CTA)</span>
-
-<p style="text-align:center; margin-top:1em;">
-  <strong>Avaliação Inicial:</strong><br>
-  <a href="https://mbritodowglas-collab.github.io/mdpersonal/avaliacao/">https://mbritodowglas-collab.github.io/mdpersonal/avaliacao/</a>
-</p>
