@@ -273,3 +273,58 @@ ol.sumario li{ margin:0 0 .25em; }
   /* Blocos que não devem quebrar no meio */
   blockquote, img, .author-page, .about-box{ break-inside:avoid; page-break-inside:avoid; }
 }
+
+/* ====== FLUXO DE LEITURA SUAVE (sem “degrau” visual) ====== */
+
+/* Parágrafo padrão: sem recuo na 1ª, recuo a partir do 2º do mesmo bloco */
+.ebook-body .page-content p{
+  margin: 0 0 0.85em 0;
+  line-height: 1.65;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  text-indent: 0;                 /* zera recuo no 1º parágrafo */
+  widows: 2; orphans: 2;          /* evita linha perdida no topo/rodapé */
+}
+
+/* Se quiser recuo, aplica só nos parágrafos que seguem outro parágrafo */
+.ebook-body .page-content p + p{
+  text-indent: 1.25cm;            /* recuo a partir do segundo parágrafo */
+}
+
+/* Parágrafo imediatamente após títulos/blockquote continua sem recuo */
+h1 + p, h2 + p, h3 + p, blockquote + p{ text-indent: 0; }
+
+/* HR não força “respiro” exagerado nem quebra desnecessária */
+hr.divider-gold{
+  border:0; border-top:1px solid #d4af37;
+  width:60%; margin: 1.2em auto;
+  break-inside: avoid; page-break-inside: avoid;
+  break-after: avoid; page-break-after: avoid;
+}
+
+/* Listas alinhadas, sem recuo “de livro” */
+.ebook-body .page-content ol,
+.ebook-body .page-content ul{
+  margin: 0 0 1em 1.2em;
+  text-indent: 0;
+  text-align: left;
+}
+
+/* Impressão: garante o mesmo comportamento no PDF (Android/Samsung) */
+@media print{
+  .page-content p{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    hyphens: auto !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    margin: 0 0 0.8em 0 !important;
+    text-indent: 0 !important;
+  }
+  .page-content p + p{ text-indent: 1.25cm !important; }
+  hr.divider-gold{
+    margin: 1.1em auto !important;
+    break-after: avoid !important;
+  }
+}
