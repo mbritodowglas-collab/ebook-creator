@@ -418,7 +418,7 @@ O objetivo é compreender padrões, não apenas medir números.
    - Usa escalas Likert (1–5) para autoconfiança, presença e motivação.
 
 2. **Avaliação Física e Postural**  
-   - Circunferências, RCQ, RCE e fotogrametria postural.  
+   - Circunferâncias, RCQ, RCE e fotogrametria postural.  
    - Observa compensações e restrições motoras.
 
 3. **Avaliação Metabólica e Nutricional**  
