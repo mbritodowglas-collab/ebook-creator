@@ -37,7 +37,15 @@ Sem pressa. Sem culpa. Com intenção.
 Se eu pudesse te pedir uma coisa, seria isso: fica aqui comigo.  
 A gente ajusta o corpo, acalma a mente e organiza a rotina.
 
-No app você tem calculadora de **frequência cardíaca de reserva (FCr)**, tarefas mentais semanais, microdicas diárias e práticas de respiração e relaxamento.  
+Agora, um ponto importante:  
+se você está no **Plano Essencial**, seu guia é o próprio e-book — com tarefas mentais semanais e desafios práticos.  
+Nada de complicar: é simples, direto e funciona.
+
+Mas, se você é do **Plano Life** ou **Premium**, tem acesso ao site com ferramentas de suporte:  
+calculadora de **frequência cardíaca de reserva (FCr)**, microdicas diárias, tarefas guiadas e práticas de respiração e visualização.  
+São recursos pra deixar a jornada mais leve e organizada.
+
+Não importa o plano: o que muda o jogo é a **presença**.  
 Eu te guio. Você caminha.
 
 > A base segura tudo quando o resto balança.
@@ -104,14 +112,14 @@ Deu pra falar uma frase curta? Tá no ponto.
 **Métodos do nível**  
 - **Pirâmide truncada**: 3–4 séries variando carga na faixa segura.  
 - **Circuito leve**: 3–4 exercícios seguidos, pausa curta.  
-- **Isometria curta**: 15–30s pra ensinar o corpo a estabilizar.
+- **Isometria curta**: 15–30 s pra ensinar o corpo a estabilizar.
 
 **Cardio inteligente**  
 Use a **FCr** no app.  
 Fique em **60–70% da FCr** (conversar dá, cantar não).  
 Caminhada, bike, transport — 15–25 min, constante.
 
-Descansos de **45–75s** entre séries.  
+Descansos de **45–75 s** entre séries.  
 Respira, organiza, volta. Ritmo vence intensidade solta.
 
 > Você não precisa ir ao limite. Precisa treinar no seu ponto certo.
@@ -123,11 +131,11 @@ Eu não cobro perfeição. Eu cobro presença.
 Se parar, volta. Sempre.
 
 **Critérios pra avançar**  
-- **Presença**: você aparece e executa com atenção.  
-- **Consistência**: ~80% dos treinos da semana.  
-- **Clareza**: entende por que está fazendo cada coisa.  
-- **Recuperação**: sono e descanso minimamente organizados.  
-- **Cabeça ativa**: tarefas mentais semanais feitas.
+- **Presença** — aparece e executa com atenção.  
+- **Consistência** — ~80% dos treinos da semana.  
+- **Clareza** — entende por que está fazendo cada coisa.  
+- **Recuperação** — sono e descanso minimamente organizados.  
+- **Cabeça ativa** — tarefas mentais semanais feitas.
 
 **Ganhos típicos do Fundação**  
 Postura melhor, mais energia, menos dor e inchaço, sono mais estável,  
@@ -140,8 +148,6 @@ Aí sim, a gente sobe a marcha no **Ascensão**.
 > No Fundação, você acabou de ensinar isso pra si mesma.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 <!-- SOBRE O AUTOR -->
 <div class="author-page">
