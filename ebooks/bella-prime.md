@@ -37,379 +37,102 @@ date: "2025"
 
 <hr class="divider-gold">
 
-<div class="page-break"></div>
-
 # <span id="apresentacao">Apresentação</span>
 
-Talvez você tenha chegado até aqui cansada.  
-Cansada de tentar sozinha, de seguir dietas que não cabem na sua rotina, de começar e parar sempre no mesmo ponto.  
-Ou talvez nem saiba explicar direito o que sente — só sabe que precisa mudar, mas já não tem paciência pra promessas vazias.  
+Talvez você tenha chegado até aqui cansada, cansada de tentar sozinha, de seguir dietas que não cabem na sua rotina, de começar e parar sempre no mesmo ponto. Ou talvez nem saiba explicar direito o que sente — só sabe que precisa mudar, mas já não tem paciência pra promessas vazias. Eu entendo. Durante anos, eu vi isso acontecer dentro das academias: mulheres incríveis, com vontade de mudar, mas presas em ciclos que se repetiam. E foi tentando entender por que isso acontecia que nasceu o Bella Prime.
 
-Eu entendo.  
-Durante anos, eu vi isso acontecer dentro das academias: mulheres incríveis, com vontade de mudar, mas presas em ciclos que se repetiam.  
-E foi tentando entender por que isso acontecia que nasceu o Bella Prime.  
+O Bella Prime não é um programa de treino, nem uma dieta da moda. É um tratamento — de dentro pra fora. É o resultado de anos observando, estudando e vivendo na prática o que realmente faz alguém transformar o corpo e a mente. Aqui, a mudança não é corrida; é processo. Não é sobre perfeição, é sobre constância. E o mais importante: não é sobre emagrecer — é sobre se reencontrar.
 
-O Bella Prime não é um programa de treino, nem uma dieta da moda.  
-É um tratamento — de dentro pra fora.  
-É o resultado de anos observando, estudando e vivendo na prática o que realmente faz alguém transformar o corpo e a mente.  
-
-Aqui, a mudança não é corrida. É processo.  
-Não é sobre perfeição, é sobre constância.  
-E o mais importante: não é sobre emagrecer — é sobre se reencontrar.  
-
-Este livro é um convite.  
-Um convite pra desacelerar, respirar e entender o que realmente importa na sua jornada.  
-Pra olhar pro espelho e ver mais do que um corpo — ver uma história em reconstrução.  
-
-Seja bem-vinda ao Tratamento Bella Prime.  
-A partir daqui, a mudança deixa de ser promessa e começa a ser escolha.  
+Este livro é um convite: desacelerar, respirar e entender o que realmente importa na sua jornada. É olhar pro espelho e ver mais do que um corpo — ver uma história em reconstrução. Seja bem-vinda ao Tratamento Bella Prime. A partir daqui, a mudança deixa de ser promessa e começa a ser escolha.
 
 Márcio Dowglas  
-Personal Trainer e criador do Sistema Evo360°  
+Personal Trainer e criador do Sistema Evo360°
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap1">Capítulo 1 — O Início de Tudo</span>
 
-Sabe quando a gente para pra pensar em como tudo começou?  
-O Bella Prime nasceu bem antes de ter nome.  
-Lá atrás, quando eu ainda trabalhava com natação, eu já acreditava que o esporte podia transformar muito mais do que o corpo — ele podia moldar a mente.  
+Sabe quando a gente para pra pensar em como tudo começou? O Bella Prime nasceu bem antes de ter nome. Lá atrás, quando eu ainda trabalhava com natação, eu já acreditava que o esporte podia transformar muito mais do que o corpo — ele podia moldar a mente. Eu treinava uma equipe infantil e o que mais me chamava atenção não era o desempenho na água, mas o jeito como o treino deixava as crianças mais seguras, mais disciplinadas, mais confiantes. Ali eu percebi que o esporte é uma escola de mentalidade: ensina paciência, ensina constância e, principalmente, a continuar mesmo quando o corpo quer parar.
 
-Eu treinava uma equipe infantil, e o que mais me chamava atenção não era o desempenho na água, mas o jeito como o treino deixava as crianças mais seguras, mais disciplinadas, mais confiantes.  
-Ali eu percebi que o esporte é uma escola de mentalidade.  
-Ele ensina paciência, ensina constância e, principalmente, ensina a continuar mesmo quando o corpo quer parar.  
+Quando migrei pra musculação, em 2014, entrei com toda a energia de um iniciante. Queria aprender tudo: técnicas, métodos, estratégias, intensidade — tudo pra ajudar as pessoas a terem resultado mais rápido. Com o tempo, percebi algo frustrante: pra ter resultado, o aluno precisava de uma coisa que nenhum treino ensina — constância. E a maioria desistia antes mesmo de ver o corpo mudar. Foi em 2018 que a ficha caiu. O problema não era o treino; era a cabeça. Um bom treino, uma boa orientação, até o melhor plano alimentar... nada disso adianta se a pessoa não estiver mentalmente pronta pra mudar.
 
-Quando migrei pra musculação, em 2014, entrei com toda a energia de um iniciante.  
-Queria aprender tudo.  
-Estudava técnicas, métodos, estratégias, intensidade... tudo pra ajudar as pessoas a terem resultado mais rápido.  
-Mas com o tempo percebi algo frustrante:  
-pra ter resultado, o aluno precisava de uma coisa que nenhum treino ensina — constância.  
-E a maioria desistia antes mesmo de ver o corpo mudar.  
+Comecei a buscar respostas. Estudei comportamento humano, neurociência, filosofia. Li *Hábitos Atômicos*, *O Poder do Hábito*, *Mindset*, mergulhei no estoicismo — e tudo começou a fazer sentido. O que realmente impede alguém de evoluir não é falta de força de vontade; é não entender como a própria mente funciona. A partir daí, minha forma de trabalhar mudou completamente: passei a enxergar o treino como uma ferramenta de transformação, não apenas física, mas emocional e mental. Observava não só o movimento do corpo, mas o comportamento por trás de cada escolha.
 
-Foi em 2018 que a ficha caiu.  
-Eu percebi que o problema não era o treino.  
-Era a cabeça.  
-Um bom treino, uma boa orientação, até o melhor plano alimentar... nada disso adianta se a pessoa não estiver mentalmente pronta pra mudar.  
-
-E foi aí que comecei a buscar respostas.  
-Passei a estudar comportamento humano, neurociência, filosofia.  
-Li *Hábitos Atômicos*, *O Poder do Hábito*, *Mindset*, mergulhei no estoicismo...  
-E tudo começou a fazer sentido.  
-Eu entendi que o que realmente impede alguém de evoluir não é falta de força de vontade — é não entender como a própria mente funciona.  
-
-A partir daí, minha forma de trabalhar mudou completamente.  
-Comecei a enxergar o treino como uma ferramenta de transformação, não apenas física, mas emocional e mental.  
-Passei a observar não só o movimento do corpo, mas o comportamento por trás de cada escolha.  
-
-De 2024 pra cá, fui conectando tudo: treino, nutrição e mentalidade.  
-Criei um sistema voltado especialmente pra mulheres, porque percebi que elas têm uma escuta diferente — se abrem mais, refletem mais, cuidam mais de si mesmas.  
-Não é sobre generalizar, mas sobre afinidade.  
-E essa afinidade virou propósito.  
-
-Em 2025, tudo se uniu: técnica, ciência e alma.  
-Nasceu o Tratamento Bella Prime — um método pra mudar de dentro pra fora.  
-Porque o corpo só muda quando a mente entende o propósito.  
-
-E é isso que eu quero te mostrar ao longo deste livro:  
-que você não precisa correr atrás da mudança —  
-ela acontece naturalmente quando você aprende a caminhar junto com ela.
+De 2024 pra cá, fui conectando tudo: treino, nutrição e mentalidade. Criei um sistema voltado especialmente pra mulheres, porque percebi que elas têm uma escuta diferente — se abrem mais, refletem mais, cuidam mais de si mesmas. Não é sobre generalizar, é sobre afinidade. E essa afinidade virou propósito. Em 2025, tudo se uniu: técnica, ciência e alma. Nasceu o Tratamento Bella Prime — um método pra mudar de dentro pra fora, porque o corpo só muda quando a mente entende o propósito. E é isso que eu quero te mostrar ao longo deste livro: você não precisa correr atrás da mudança; ela acontece naturalmente quando você aprende a caminhar junto com ela.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap2">Capítulo 2 — O que é o Tratamento Bella Prime</span>
 
-Antes de te contar o que é o Bella Prime, deixa eu te contar o que ele **não é**.  
-Ele não é mais um programa de treino cheio de promessas rápidas.  
-Não é uma dieta maluca que te faz sentir culpa por comer o que gosta.  
-E também não é um método milagroso que promete mudar tudo em poucas semanas.  
+Antes de te contar o que é o Bella Prime, deixa eu te contar o que ele **não é**: não é mais um programa de treino cheio de promessas rápidas, não é uma dieta maluca que te faz sentir culpa por comer o que gosta e não é um método milagroso que promete mudar tudo em poucas semanas. O Bella Prime é um **tratamento de evolução física e mental**. Ele nasceu pra reconstruir a forma como você se relaciona com o seu corpo, com o treino e com a sua cabeça — e, principalmente, pra que essa mudança dure de verdade.
 
-O Bella Prime é um **tratamento de evolução física e mental**.  
-Ele nasceu pra reconstruir a forma como você se relaciona com o seu corpo, com o treino e com a sua cabeça.  
-E o mais importante: pra que essa mudança dure de verdade.  
+Percebi, com o tempo, que a maioria das mulheres que desistia dos treinos não precisava de mais carga, nem de treino mais intenso; precisava de **clareza**. Precisava entender o porquê de cada movimento e o sentido de continuar mesmo nos dias em que a vontade não vem. Foi aí que o Bella Prime tomou forma: ele junta três pilares que caminham juntos — **neurociência, treino e comportamento** — e evolui com você, passo a passo, respeitando o tempo do seu corpo e o ritmo da sua mente. Cada fase prepara o terreno pra próxima, e isso faz toda a diferença.
 
-Eu percebi, com o tempo, que a maioria das mulheres que desistia dos treinos não precisava de mais carga, nem de treino mais intenso.  
-Precisava de **clareza**.  
-De entender o porquê de cada movimento, o sentido de continuar, mesmo nos dias em que a vontade não vem.  
-
-Foi aí que o Bella Prime começou a tomar forma.  
-Ele junta três pilares que sempre caminham juntos: **neurociência, treino e comportamento**.  
-É um sistema que evolui junto com você, passo a passo, respeitando o tempo do seu corpo e o ritmo da sua mente.  
-Cada fase prepara o terreno pra próxima — e isso faz toda a diferença.  
-
-Eu chamo de “tratamento” porque entendi que o que precisa ser curado não é o corpo.  
-É a relação que a gente tem com ele.  
-O Bella Prime trata a pressa, a culpa, a comparação, a autossabotagem.  
-Trata o comportamento que faz a gente desistir quando as coisas saem do controle.  
-
-A ideia é simples: em vez de tentar te encaixar num padrão, eu quero te ajudar a se reconectar com você mesma.  
-Quero que o treino volte a ser prazer, não obrigação.  
-Que cuidar do corpo seja leve, e não um castigo.  
-
-O Bella Prime é sobre reaprender — com calma, com propósito e com verdade.  
-É pra quem quer mudar, mas sem precisar se machucar no processo.  
-Pra quem quer voltar a se olhar no espelho e sentir orgulho do que vê, não só pelo corpo, mas pela história.  
-
-Porque no fim das contas, tudo se resume a isso:  
-**o corpo muda quando a mente entende o propósito.**  
-
-É aí que tudo começa a fazer sentido.
+Eu chamo de “tratamento” porque entendi que o que precisa ser curado não é o corpo; é a relação que a gente tem com ele. O Bella Prime trata a pressa, a culpa, a comparação, a autossabotagem. Trata o comportamento que faz a gente desistir quando as coisas saem do controle. Em vez de te encaixar num padrão, eu quero te ajudar a se reconectar com você mesma; que o treino volte a ser prazer, não obrigação; que cuidar do corpo seja leve, não castigo. O Bella Prime é sobre reaprender — com calma, propósito e verdade. É pra quem quer mudar sem se machucar no processo. Porque, no fim, tudo se resume a isso: **o corpo muda quando a mente entende o propósito**. É aí que tudo começa a fazer sentido.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap3">Capítulo 3 — Os Níveis da Jornada</span>
 
-Quando eu criei o Bella Prime, eu não queria que fosse só um plano de treino.  
-Eu queria que fosse uma caminhada.  
-Algo que te fizesse perceber que cada fase do processo tem um sentido — e que você não precisa acertar tudo de uma vez.  
+Quando eu criei o Bella Prime, não queria só um plano de treino: queria uma caminhada. Algo que te fizesse perceber que cada fase do processo tem um sentido — e que você não precisa acertar tudo de uma vez. Por isso, o tratamento é dividido em **níveis de evolução**. Cada nível tem um propósito e todos se completam, como partes da sua reconstrução: corpo, mente e comportamento.
 
-Por isso o tratamento é dividido em **níveis de evolução**.  
-Cada nível tem um propósito, e todos se completam.  
-É como se cada um deles fosse uma parte da sua reconstrução: corpo, mente e comportamento.  
+O **Fundação** é o ponto de partida. O foco é despertar o corpo e criar base. É a fase de reaprender: entender o movimento, respeitar o ritmo e, principalmente, construir disciplina. Não é sobre intensidade, é sobre constância; é onde você sai do “eu tento” e entra no “eu faço”. Depois vem o **Ascensão**, quando as coisas ganham força: o corpo responde, a mente acompanha e você começa a sentir prazer no processo. A palavra-chave é **crescimento** — o hábito passa a sustentar o progresso. Em seguida, o **Domínio**: corpo, mente e propósito se alinham; você conhece seu ritmo, entende o que te fortalece e o que te derruba; o treino vira parte da sua identidade. Por fim, o **OverPrime**: não é sobre técnica nem estética, é sobre **consciência** — quando treino, alimentação e mente entram em equilíbrio, e você inspira pelo exemplo. A mudança deixa de ser sobre mudar… e passa a ser sobre propósito.
 
-O primeiro nível é o **Fundação**.  
-É o ponto de partida.  
-Aqui, o foco é despertar o corpo e criar base.  
-É a fase de reaprender — entender o movimento, respeitar o ritmo, e principalmente, construir disciplina.  
-Não é sobre intensidade, é sobre constância.  
-É onde você começa a sair do “eu tento” e entra no “eu faço”.  
-
-Depois vem o **Ascensão**.  
-É quando as coisas começam a ganhar força.  
-O corpo responde, a mente acompanha, e você começa a sentir prazer no processo.  
-Aqui, a palavra-chave é **crescimento**.  
-Você entende que já não precisa de motivação o tempo todo — o hábito começa a sustentar o progresso.  
-
-Em seguida vem o **Domínio**.  
-Essa é a fase em que tudo começa a se alinhar: corpo, mente e propósito.  
-Você já conhece o seu ritmo, entende o que te fortalece e o que te derruba.  
-Aqui, o treino vira parte da sua identidade.  
-Você não treina mais pra se encaixar em um padrão — treina porque isso faz parte de quem você é.  
-
-E existe um nível que eu quase nunca falo logo de início: o **OverPrime**.  
-Ele é diferente, porque não tem a ver com técnica, nem com estética.  
-Tem a ver com consciência.  
-É quando você domina a si mesma — quando o treino, a alimentação e a mente estão em equilíbrio, e você passa a inspirar outras pessoas só pelo exemplo.  
-É o ponto em que o tratamento deixa de ser sobre mudança… e passa a ser sobre propósito.  
-
-Esses níveis não são degraus pra subir correndo.  
-Eles são estágios de amadurecimento.  
-Cada um te prepara pra próxima fase — e cada fase tem sua beleza.  
-
-O Bella Prime é sobre respeitar o tempo da sua evolução.  
-Não é sobre chegar primeiro, é sobre chegar inteira.
+Esses níveis não são degraus pra subir correndo; são estágios de amadurecimento. Cada um te prepara pra próxima fase — e cada fase tem sua beleza. O Bella Prime é respeitar o tempo da sua evolução. Não é chegar primeiro; é chegar inteira.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap4">Capítulo 4 — O Poder da Neurociência</span>
 
-Durante muito tempo, eu achava que mudar dependia só de força de vontade.  
-Mas com o tempo, percebi que vontade sozinha não segura ninguém por muito tempo.  
-É o cérebro que comanda tudo — e foi aí que eu comecei a estudar mais sobre **neurociência e comportamento humano**.  
+Durante muito tempo, eu achava que mudar dependia só de força de vontade. Com o tempo, percebi que vontade sozinha não segura ninguém por muito tempo: é o cérebro que comanda tudo — e foi aí que eu comecei a estudar mais sobre **neurociência e comportamento humano**. Entender como o cérebro funciona mudou completamente a forma como eu enxergo treino e emagrecimento. Não adianta tentar mudar o corpo se a cabeça ainda está presa nos mesmos padrões — é como correr com o freio de mão puxado.
 
-Entender como o cérebro funciona mudou completamente a forma como eu enxergo o treino e o emagrecimento.  
-Porque não adianta tentar mudar o corpo se a cabeça ainda está presa nos mesmos padrões.  
-É como tentar correr com o freio de mão puxado.  
+O cérebro odeia mudanças bruscas; quer te manter segura, mesmo que isso signifique ficar no mesmo lugar. Sempre que você tenta mudar um hábito, ele resiste — não por falta de disciplina, mas porque está programado pra economizar energia. Gosto de citar o **Drew Manning**, autor de *Ganhar para Perder*: ele engordou de propósito pra entender, na pele, o que os alunos sentiam — e descobriu que o desafio maior era mental. O corpo muda, sim, mas só depois da mente.
 
-A verdade é que o cérebro odeia mudanças bruscas.  
-Ele quer te manter segura, mesmo que isso signifique continuar no mesmo lugar.  
-Por isso, toda vez que você tenta mudar um hábito, ele resiste.  
-Não porque você não tem disciplina, mas porque ele está programado pra economizar energia.  
-
-Um exemplo que sempre gosto de citar é o do **Drew Manning**, autor do livro *Ganhar para Perder*.  
-Ele era personal trainer e decidiu engordar de propósito pra entender, na pele, o que os alunos sentiam.  
-E foi nesse processo que ele descobriu que o desafio não era físico — era mental.  
-O corpo muda, sim, mas só quando a mente muda primeiro.  
-
-O Bella Prime trabalha exatamente nesse ponto: **ensinar o cérebro a gostar do processo**.  
-Quando você começa a repetir pequenas ações com propósito — dormir melhor, se alimentar melhor, treinar mesmo sem vontade —, o cérebro entende que aquilo é importante pra você.  
-E aos poucos, ele transforma o esforço em prazer.  
-
-É isso que a neurociência chama de **neuroplasticidade** — a capacidade do cérebro de se adaptar, criar novas conexões e transformar comportamento em hábito.  
-É o que faz você deixar de lutar contra si mesma e começar a fluir com o processo.  
-
-No Bella Prime, cada treino, cada rotina e cada conversa tem um objetivo:  
-te ajudar a reprogramar a mente pra que o treino não seja uma obrigação, mas parte da sua identidade.  
-Porque quando o cérebro entende o propósito, o corpo segue naturalmente.  
-
-Não é mágica, é biologia.  
-E quando você aprende a trabalhar com o seu cérebro — e não contra ele —, a mudança acontece de forma leve, constante e verdadeira.
+O Bella Prime trabalha exatamente aí: **ensinar o cérebro a gostar do processo**. Quando você repete pequenas ações com propósito — dormir melhor, se alimentar melhor, treinar mesmo sem vontade —, o cérebro entende que aquilo é importante. Aos poucos, o esforço vira prazer. É a **neuroplasticidade** em ação: a capacidade do cérebro de se adaptar, criar novas conexões e transformar comportamento em hábito. No Bella Prime, cada treino, rotina e conversa tem um objetivo: reprogramar a mente pra que o treino não seja obrigação, mas parte da sua identidade. Não é mágica, é biologia. Quando você trabalha com o seu cérebro — e não contra —, a mudança acontece de forma leve, constante e verdadeira.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap5">Capítulo 5 — A Nutrição que Sustenta Resultados</span>
 
-Tem gente que ainda acha que o que atrapalha o emagrecimento é a comida.  
-Mas o problema quase nunca é o que você come — é o jeito como você lida com isso.  
+Muita gente acha que o que atrapalha o emagrecimento é a comida. Quase nunca é o que você come; é como você lida com isso. Já vi gente seguir dieta como castigo: passa fome, fica estressada e, quando come o que gosta, vem a culpa. Esse ciclo só te deixa mais longe do objetivo. No Bella Prime, a nutrição não é cortar tudo, é **consciência**: entender o que o corpo precisa, por que você está comendo e o que dá pra ajustar sem perder o prazer de viver. Comer não é o problema; comer sem pensar é.
 
-Eu já vi muita gente tentando seguir dieta como se fosse castigo.  
-Aí passa fome, fica estressada, e quando come o que gosta, vem aquele peso na consciência.  
-E o pior é que esse ciclo só faz a pessoa se sentir mais longe do objetivo.  
-
-No Bella Prime, a nutrição não é sobre cortar nada.  
-É sobre entender o que o seu corpo precisa, por que você tá comendo e o que dá pra ajustar sem perder o prazer de viver.  
-Comer não é o problema. O problema é comer sem pensar.  
-
-Esses dias, uma aluna me falou:  
-“Márcio, eu amo bolo, mas toda vez que como me sinto culpada.”  
-E eu respondi:  
-“Então o problema não é o bolo. É a forma como você se relaciona com ele.”  
-
-Aí eu contei pra ela a **estratégia biscoito Scooby**.  
-Quem assistia Scooby-Doo sabe — o Scooby só encarava o monstro quando alguém prometia o biscoito.  
-Mas ele só ganhava depois que fazia o que precisava ser feito.  
-Ou seja, a recompensa vinha *depois do esforço*.  
-
-E é assim que tem que ser na vida real.  
-Quer comer o bolo? Come, mas cria uma condição pra isso.  
-Treina, se alimenta bem, dorme direito, e o bolo vira parte da estratégia, não um inimigo da dieta.  
-Você transforma o prazer em reforço, não em sabotagem.  
-
-Quando a gente faz isso, o cérebro entende o prazer de outro jeito.  
-Ele começa a liberar dopamina pelo esforço, não só pela fuga.  
-E é aí que o jogo muda — porque o prazer vira consequência da constância.  
-
-Então, no Bella Prime, a ideia é simples:  
-sem terrorismo alimentar, sem culpa e sem drama.  
-O que a gente quer é consciência, não restrição.  
-Porque o segredo nunca foi comer menos —  
-foi **saber o momento certo de merecer o seu biscoito Scooby.**
+Esses dias, uma aluna disse: “eu amo bolo, mas toda vez que como me sinto culpada”. Respondi: “o problema não é o bolo; é a relação com ele”. Contei a **estratégia biscoito Scooby**: no desenho, o Scooby só encarava o “monstro” quando prometiam o biscoito — e ganhava depois do que precisava ser feito. Recompensa **depois** do esforço. Na vida real é igual: quer bolo? Come — mas cria condição pra isso. Treina, se alimenta bem, dorme direito — o bolo vira parte da estratégia, não sabotagem. O cérebro passa a liberar dopamina pelo esforço, não só pela fuga. O jogo muda: prazer vira consequência da constância. Simples: sem terrorismo alimentar, sem culpa, sem drama. O que a gente quer é consciência. O segredo nunca foi comer menos, e sim **saber a hora de merecer o seu biscoito Scooby**.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap6">Capítulo 6 — O Treino como Ferramenta de Identidade</span>
 
-Muita gente ainda acha que o treino é só pra mudar o corpo.  
-Mas, na real, o treino é o que muda a cabeça.  
+Muita gente ainda acha que treino é só pra mudar o corpo; na real, treino muda a cabeça. Quando eu orientava a equipe de natação, repetia: “treino é ensaio pra vida”. Quem aprende a lidar com desconforto ali leva essa força pra fora também. Quando migrei pra musculação, isso só se confirmou: o treino é o único momento do dia em que a gente tem controle total sobre o que faz. Não tem desculpa, nem atalho — tem presença, escolha e construção.
 
-Lá atrás, quando eu ainda treinava e orientava a equipe de natação, eu já falava isso pros meus alunos:  
-“o treino é um ensaio pra vida.”  
-Porque dentro da piscina eu via que quem aprendia a lidar com o desconforto ali, levava essa força pra fora também.  
-
-Quando migrei pra musculação, essa ideia só se confirmou.  
-Eu percebi que o treino é o único momento do dia em que a gente tem controle total sobre o que faz.  
-Ali, não tem desculpa, não tem atalho.  
-Tem presença, tem escolha e tem construção.  
-
-E é isso que eu tento passar pra cada aluna que entra no Bella Prime:  
-o treino é o seu ritual diário de identidade.  
-Não é sobre fazer por fazer.  
-É sobre lembrar, todo dia, quem você tá se tornando.  
-
-Tem dia que o treino flui, tem dia que o corpo pesa, e tem dia que a cabeça não ajuda.  
-Mas são justamente esses dias que mais contam.  
-Porque é neles que você prova pra si mesma que consegue, mesmo sem vontade.  
-
-O treino é o espelho.  
-Ele mostra quando você tá focada, quando tá distraída e quando tá decidida a continuar.  
-E quanto mais você se entrega a esse processo, mais percebe que o resultado físico é só consequência.  
-
-No Bella Prime, o treino não é castigo nem obrigação.  
-É o momento em que o corpo e a mente começam a falar a mesma língua.  
-É o teu ensaio diário pra vida real —  
-um treino de paciência, força, confiança e propósito.  
-
-Porque, no fim, não é sobre músculo.  
-É sobre mentalidade.  
-E o treino é o lugar onde essa mentalidade se forma, repete e ganha corpo —  
-todo santo dia.
+É isso que eu passo pra cada aluna que entra no Bella Prime: o treino é seu **ritual diário de identidade**. Não é fazer por fazer, é lembrar, todo dia, quem você está se tornando. Tem dia que flui; tem dia que pesa; tem dia que a cabeça não ajuda. Justamente nesses dias você prova pra si que consegue, mesmo sem vontade. O treino é espelho: mostra foco, distração e decisão. Quanto mais você se entrega ao processo, mais percebe que resultado físico é consequência. No Bella Prime, treino não é castigo nem obrigação. É o momento em que corpo e mente falam a mesma língua — um ensaio diário de paciência, força, confiança e propósito. No fim, não é sobre músculo; é sobre mentalidade. E ela se forma, se repete e ganha corpo — todo santo dia.
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="cap7">Capítulo 7 — A Mente, o Corpo e o Propósito</span>
 
-Depois de tantos anos observando pessoas treinando, eu cheguei a uma conclusão:  
-ninguém muda o corpo sem antes mudar a mente.  
+Depois de anos observando gente treinando, cheguei a uma conclusão: ninguém muda o corpo sem antes mudar a mente. Não é só motivação ou foco; é **crença**. O que limita a maioria não é o corpo — são as ideias que carregam sobre si mesmas. Tem mulher que acredita que não nasceu pra treinar, que não tem disciplina, que nunca vai conseguir. Essas crenças viram verdades porque o cérebro confirma o que a gente acredita.
 
-Mas não é só sobre motivação ou foco.  
-É sobre crença.  
-Porque, no fim, o que limita a maioria das pessoas não é o corpo — são as ideias que elas carregam sobre si mesmas.  
+No Bella Prime, a proposta é quebrar esse ciclo. Ajudar você a construir uma nova identidade: a de quem cuida do corpo porque entende o valor disso pra vida toda. Uma mulher que não busca perfeição, mas presença; que se olha no espelho e reconhece o próprio esforço antes de cobrar resultado. Quando a mente muda, o corpo segue. O treino deixa de ser tarefa e vira parte da rotina — parte de quem você é. A alimentação deixa de ser “dieta” e vira cuidado. O descanso deixa de ser preguiça e vira estratégia.
 
-Tem mulher que acredita que não nasceu pra treinar, que não tem disciplina, que nunca vai conseguir mudar.  
-E o pior é que essas crenças se tornam verdades, porque o cérebro só confirma aquilo em que a gente acredita.  
+É isso que chamo de **estilo de vida consciente**. Não é viver em função do treino, é fazer o treino funcionar pra vida. A constância não vem da obrigação; vem da identidade. Você age como alguém que já é saudável, mesmo antes de chegar no resultado. Aí tudo muda — porque o corpo acompanha a mente que já decidiu evoluir. O Bella Prime é um convite pra viver assim: com propósito, consciência e equilíbrio. O trono não é o destino; é o reflexo de quem aprendeu a reinar sobre si.
 
-No Bella Prime, a proposta é justamente quebrar esse ciclo.  
-Ajudar você a construir uma nova identidade — a de uma mulher que cuida do corpo porque entende o valor disso pra vida toda.  
-Uma mulher que não busca perfeição, mas presença.  
-Que se olha no espelho e reconhece o próprio esforço antes de cobrar um resultado.  
-
-Quando a mente muda, o corpo segue.  
-E é nesse ponto que o treino deixa de ser tarefa e vira parte da rotina — parte de quem você é.  
-A alimentação deixa de ser “dieta” e vira cuidado.  
-O descanso deixa de ser preguiça e vira estratégia.  
-
-Isso é o que eu chamo de estilo de vida consciente.  
-Não é viver em função do treino, é fazer o treino funcionar pra vida.  
-É entender que a constância não vem da obrigação, vem da identidade.  
-Você passa a agir como alguém que já é saudável, mesmo antes de atingir o resultado.  
-
-E é aí que tudo muda.  
-Porque o corpo só acompanha a mente que já decidiu evoluir.  
-
-O Bella Prime é um convite pra viver assim — com propósito, consciência e equilíbrio.  
-Porque o trono não é o destino.  
-O trono é o reflexo de quem aprendeu a reinar sobre si.  
-
-**Mudar o corpo é consequência.  
-Mudar a mente é libertação.  
-E viver com propósito é o que transforma isso num estilo de vida.**
+**Mudar o corpo é consequência. Mudar a mente é libertação. Viver com propósito transforma isso em estilo de vida.**
 
 <hr class="divider-gold">
 
-<div class="page-break"></div>
-
 # <span id="encerramento">Encerramento — Um recado pessoal</span>
 
-Se você chegou até aqui, eu quero te agradecer.  
-De verdade.  
+Se você chegou até aqui, obrigado — de verdade. Ler até o fim já mostra algo importante: você quer mudar, e o primeiro passo de qualquer transformação é querer de verdade. Quando criei o Bella Prime, eu não queria mais um programa bonito de treino e alimentação; eu queria construir uma ponte entre a mulher que você é hoje e a que você quer se tornar. Essa ponte não se faz com pressa, mas com presença.
 
-Porque ler até o fim de um material como esse já mostra uma coisa importante:  
-você quer mudar.  
-E o primeiro passo pra qualquer transformação é querer de verdade.  
+Talvez você tenha tentado vários caminhos. Alguns deram certo por um tempo, outros não. Tudo o que você viveu te trouxe até este momento — e isso já faz parte da sua evolução. A mudança em que eu acredito não nasce da restrição ou da culpa; nasce da **consciência**: olhar pra dentro e entender que o corpo é reflexo do que acontece na mente. No Bella Prime, você vai respeitar seu ritmo, se reconectar com seu propósito e transformar o treino em aliado, não castigo. Vai aprender que constância não é rigidez; é compromisso com quem você quer ser.
 
-Quando eu criei o Bella Prime, eu não queria só mais um programa bonito de treino e alimentação.  
-Eu queria construir uma ponte — entre a mulher que você é hoje e a mulher que você quer se tornar.  
-E essa ponte não se faz com pressa, mas com presença.  
-
-Talvez, até aqui, você tenha tentado vários caminhos.  
-Alguns deram certo por um tempo, outros não.  
-Mas o ponto é: tudo o que você viveu te trouxe até esse momento.  
-E isso já faz parte da sua evolução.  
-
-A mudança que eu acredito não é aquela que vem de restrição ou culpa.  
-É aquela que vem de consciência.  
-De você olhar pra dentro e entender que o corpo é só o reflexo do que acontece aí dentro da mente.  
-
-No Bella Prime, você vai aprender a respeitar o seu ritmo, a se reconectar com o seu propósito e a transformar o treino num aliado, não num castigo.  
-Vai aprender que constância não é rigidez — é compromisso com quem você quer ser.  
-
-E eu espero, de verdade, que esse material tenha plantado uma semente aí dentro:  
-a de que você pode mudar.  
-De que você pode ter um corpo forte, uma mente leve e uma vida equilibrada — sem abrir mão de quem você é.  
-
-O Bella Prime é só o começo.  
-Mas o caminho é seu.  
-E, se você decidir caminhar com propósito, eu vou estar aqui pra te guiar.  
+Espero que este material tenha plantado uma semente: você pode mudar. Pode ter um corpo forte, uma mente leve e uma vida equilibrada — sem abrir mão de quem você é. O Bella Prime é o começo. O caminho é seu. Se você decidir caminhar com propósito, eu vou estar aqui pra te guiar.
 
 — **Márcio Dowglas**  
 Personal Trainer | Criador do Tratamento Bella Prime™ e do Sistema Evo360°
 
 <hr class="divider-gold">
 
-<!-- SOBRE O AUTOR (página exclusiva) -->
 <div class="page-break"></div>
 
 # <span id="autor">Sobre o Autor</span>
@@ -421,8 +144,7 @@ Personal Trainer | Criador do Tratamento Bella Prime™ e do Sistema Evo360°
   <h3>Personal Trainer · CREF 003918-G/AM</h3>
 
   <p class="author-intro">
-    Profissional de Educação Física há mais de dez anos unindo treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento.
-    Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>, Márcio desenvolve programas que conectam corpo, mente e propósito.
+    Profissional de Educação Física há mais de dez anos unindo treinamento de força, nutrição prática e neurociência aplicada à mudança de comportamento. Criador do <strong>Tratamento Bella Prime™</strong> e do <strong>Sistema Evo360°</strong>, desenvolvo programas que conectam corpo, mente e propósito.
   </p>
 
   <div class="about-box about-narrow">
@@ -452,8 +174,6 @@ Personal Trainer | Criador do Tratamento Bella Prime™ e do Sistema Evo360°
 </div>
 
 <hr class="divider-gold">
-
-<div class="page-break"></div>
 
 # <span id="avaliacao">Avaliação Inicial (CTA)</span>
 
