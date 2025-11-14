@@ -66,9 +66,23 @@ Foi aí que o Bella Prime tomou forma: ele junta três pilares que caminham junt
 
 # <span id="cap3">Capítulo 3 — Os Níveis da Jornada</span>
 
-Quando eu criei o Bella Prime, não queria só um plano de treino: queria uma caminhada. Algo que te fizesse perceber que cada fase do processo tem um sentido — e que você não precisa acertar tudo de uma vez. Por isso, o tratamento é dividido em **níveis de evolução**. Cada nível tem um propósito e todos se completam, como partes da sua reconstrução: corpo, mente e comportamento. O **Fundação** é o ponto de partida: o foco é despertar o corpo e criar base. É a fase de reaprender — entender o movimento, respeitar o ritmo e, principalmente, construir disciplina. Não é sobre intensidade, é sobre constância; é onde você sai do “eu tento” e entra no “eu faço”.
+Quando eu criei o Bella Prime, eu não queria só um plano de treino: eu queria uma caminhada inteira estruturada. Algo que te fizesse entender, na prática, que cada fase do processo tem um papel específico — e que você não precisa “virar outra pessoa” do dia pra noite. Por isso, o tratamento é dividido em **fases e níveis de evolução**. Eles não existem pra te pressionar, e sim pra organizar a sua transformação: física, mental e comportamental.
 
-Depois vem o **Ascensão**, quando as coisas ganham força: o corpo responde, a mente acompanha e você começa a sentir prazer no processo. A palavra-chave é **crescimento** — o hábito passa a sustentar o progresso. Em seguida, o **Domínio**: corpo, mente e propósito se alinham; você conhece seu ritmo, entende o que te fortalece e o que te derruba; o treino vira parte da sua identidade. Por fim, o **OverPrime**: não é sobre técnica nem estética, é sobre **consciência** — quando treino, alimentação e mente entram em equilíbrio, e você inspira pelo exemplo. A mudança deixa de ser sobre mudar… e passa a ser sobre propósito. Esses níveis não são degraus pra subir correndo; são estágios de amadurecimento. Cada um te prepara pra próxima fase, e cada fase tem sua beleza. O Bella Prime é respeitar o tempo da sua evolução: não é chegar primeiro; é chegar inteira.
+A jornada é construída em **quatro fases**, cada uma com um **nível bem definido**:
+
+- **Fase de Fundação — Nível 1: Reconexão Física**  
+  Aqui é onde tudo recomeça. É o ponto de partida da sua jornada. O foco não é intensidade, é **reconstrução de base**: postura, movimento, respiração, regularidade. É a fase em que você reaprende a habitar o próprio corpo, respeita seu ritmo e começa a construir disciplina de verdade. Não é sobre “render muito”, é sobre **não desistir**. É nessa fase que nasce o hábito, a confiança e o senso de “eu sou capaz de fazer isso”.
+
+- **Fase de Ascensão — Nível 2: Refinamento Muscular**  
+  Quando a base está minimamente construída, o corpo começa a responder melhor — e é aqui que entra o refinamento. Na Ascensão, o treino ganha mais forma: você aumenta o estímulo, corrige falhas, melhora a execução e percebe o músculo respondendo de um jeito diferente. O foco é **qualidade de movimento e progresso consistente**. O espelho começa a contar outra história: mais força, mais firmeza, mais presença. É o nível em que o hábito passa a sustentar o crescimento.
+
+- **Fase de Domínio — Nível 3: Delineamento Corporal**  
+  Nesse ponto da jornada, corpo e mente começam a jogar no mesmo time. Você já conhece seu ritmo, entende onde costuma travar, sabe o que te fortalece — e o treino vira parte da sua identidade. A fase de Domínio é onde o foco estético ganha mais peso, mas sem perder a base técnica: você direciona o treino para **delinear curvas, reduzir pontos de incômodo e elevar o visual do shape** com consciência. Não é só “ficar bonita”, é se sentir dona do próprio corpo, com coordenação, controle e maturidade.
+
+- **Fase Final — Over Line — Nível 4: Shape Prime**  
+  Esse é o auge da jornada dentro do Bella Prime. A Fase Over Line é onde você encontra o seu **shape prime** — o melhor padrão corporal que já teve, somado à sua melhor cabeça. Aqui, força, definição, simetria e autoestima caminham juntas. Seu corpo responde rápido, você entende exatamente o que te ajuda e o que te derruba, e a disciplina já faz parte de quem você é. O foco não é mais “chegar lá”, e sim **saber permanecer bem lá**: manter o resultado sem adoecer a mente, sem entrar em extremos, sem transformar o cuidado em prisão. A palavra-chave dessa fase é **excelência**, não perfeccionismo.
+
+Essas fases não são um videogame em que você precisa correr para “zerar” o jogo. São estágios de amadurecimento. Cada fase te prepara emocionalmente, fisicamente e mentalmente para a próxima. Tem momento certo de construir base, momento de crescer, momento de refinar e momento de sustentar. O Bella Prime foi desenhado assim pra te lembrar de uma coisa simples: **não é sobre chegar primeiro; é sobre chegar inteira**.
 
 <hr class="divider-gold">
 
@@ -137,7 +151,7 @@ No Bella Prime, você vai respeitar seu ritmo, se reconectar com seu propósito 
   <div class="about-box about-narrow">
     <h3>Como eu trabalho</h3>
     <ul class="author-highlights">
-      <li>Periodização em níveis: Fundação → Ascensão → Domínio (e o nível oculto OverPrime).</li>
+      <li>Periodização em níveis: Fase de Fundação — Nível 1 (Reconexão Física) → Fase de Ascensão — Nível 2 (Refinamento Muscular) → Fase de Domínio — Nível 3 (Delineamento Corporal) → Fase Final Over Line — Nível 4 (Shape Prime).</li>
       <li>Treino de força para mulheres e recomposição corporal.</li>
       <li>Nutrição prática: consciência alimentar, consistência e prazer em comer.</li>
     </ul>
