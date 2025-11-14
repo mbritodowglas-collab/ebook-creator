@@ -1,7 +1,7 @@
 ---
 layout: ebook
 title: "Tratamento Bella Prime"
-subtitle: "Manual Técnico de Aplicação Profissional"
+subtitle: "Manual Técnico de Aplicação Profissional (sem tabelas)"
 author: "Márcio Dowglas"
 date: "2025"
 description: "Guia técnico e neurocientífico de aplicação do método Bella Prime — integração entre treino, nutrição e comportamento humano."
@@ -40,21 +40,41 @@ Essa integração se dá por meio do Sistema Evo360°, que estrutura cada nível
 
 ## 1.2 Pilares do Método
 
-1. **Treino (Corpo em Movimento)** — fortalecimento funcional e técnico, com progressão planejada de intensidade e volume.  
-2. **Nutrição (Energia e Consciência)** — reeducação alimentar e equilíbrio entre prazer e performance.  
-3. **Neurociência (Mente e Comportamento)** — base em neuroplasticidade, dopamina e formação de hábitos.
+- **Treino (Corpo em Movimento):** fortalecimento funcional e técnico, com progressão planejada de intensidade e volume.  
+- **Nutrição (Energia e Consciência):** reeducação alimentar e equilíbrio entre prazer e performance.  
+- **Neurociência (Mente e Comportamento):** base em neuroplasticidade, dopamina e formação de hábitos.
 
 Esses pilares se retroalimentam: progresso físico, mental e emocional acontecem em sinergia.
 
 ---
 
-## 1.3 Estrutura Evo360°
+## 1.3 Estrutura Evo360° (sem tabela)
 
-| Nível | Foco Central | Objetivo Neurofisiológico | Ênfase de Treino | Ênfase Nutricional |
-|-------|---------------|---------------------------|------------------|--------------------|
-| Fundação | Consciência e rotina | Neuroplasticidade inicial | Mobilidade e base técnica | Reeducação e percepção corporal |
-| Ascensão | Consistência e progresso | Automatização dos hábitos | Aumento de carga e ritmo | Equilíbrio calórico e performance |
-| Domínio | Identidade e autorregulação | Estabilidade dopaminérgica | Treino avançado e foco interno | Nutrição de precisão e autonomia |
+A jornada do Bella Prime é organizada em **fases** e **níveis**, onde cada combinação representa um padrão físico, mental e comportamental específico:
+
+- **Fase de Fundação — Nível 1: Reconexão Física**  
+  Foco central: consciência, rotina e reconstrução da base comportamental, física e mental.  
+  Objetivo neurofisiológico: neuroplasticidade inicial e retomada da conexão corpo–mente.  
+  Ênfase de treino: mobilidade, base técnica e reaprendizado do movimento.  
+  Ênfase nutricional: reeducação alimentar e percepção corporal.
+
+- **Fase de Ascensão — Nível 2: Refinamento Muscular**  
+  Foco central: consistência, refinamento técnico e aumento progressivo do estímulo.  
+  Objetivo neurofisiológico: automatização de hábitos e fortalecimento do sistema de recompensa.  
+  Ênfase de treino: aumento de carga, qualidade de execução e ritmo.  
+  Ênfase nutricional: equilíbrio calórico, suporte energético e performance.
+
+- **Fase de Domínio — Nível 3: Delineamento Corporal**  
+  Foco central: transformação do padrão corporal e consolidação da identidade treinante.  
+  Objetivo neurofisiológico: estabilidade dopaminérgica e autorregulação emocional.  
+  Ênfase de treino: avanços técnicos, foco interno e direcionamento estético.  
+  Ênfase nutricional: precisão, distribuição de nutrientes e autonomia alimentar.
+
+- **Fase Final — Over Line — Nível 4: Shape Prime**  
+  Foco central: excelência estética, técnica e mental — o ápice da linha corporal da aluna.  
+  Objetivo neurofisiológico: alto grau de eficiência neural, coordenação e maturidade de execução.  
+  Ênfase de treino: refinamento de shape, simetria, controle de intensidade e qualidade de contração.  
+  Ênfase nutricional: estratégias finas de ajuste de composição corporal, manutenção e longevidade dos resultados.
 
 ---
 
@@ -65,8 +85,6 @@ Esses pilares se retroalimentam: progresso físico, mental e emocional acontecem
 3. Ambiente molda disciplina.  
 4. Ritualização do treino.  
 5. Feedback como ferramenta de neuroplasticidade.
-
-Esses princípios tornam o Bella Prime um verdadeiro tratamento de comportamento sustentado por fisiologia.
 
 ---
 
@@ -109,13 +127,23 @@ O alimento ensina o cérebro sobre segurança, prazer e constância — o comer 
 
 ---
 
-## 2.4 Diretrizes Gerais por Fase
+## 2.4 Diretrizes Gerais por Fase (sem tabela)
 
-| Fase | Foco Neurocomportamental | Estratégia Educativa | Papel Profissional |
-|------|--------------------------|----------------------|-------------------|
-| Fundação | Reduzir impulsos automáticos | Organização e hidratação | Nutri ensina percepção de fome; personal observa energia |
-| Ascensão | Sustentar constância | Planejar refeições e descanso | Nutri ajusta energia; personal reforça ritual |
-| Domínio | Flexibilidade consciente | Comer por intenção | Nutri valida autonomia; personal regula estímulo |
+- **Fase de Fundação — Nível 1: Reconexão Física**  
+  Reduzir impulsos automáticos, organizar rotina alimentar e hidratação.  
+  A nutricionista orienta percepção de fome e saciedade; o personal observa energia nos treinos e adapta estímulos.
+
+- **Fase de Ascensão — Nível 2: Refinamento Muscular**  
+  Sustentar constância e planejar refeições ao redor dos horários de treino e descanso.  
+  A nutricionista ajusta o aporte energético; o personal reforça o ritual do treino e a progressão de carga com segurança.
+
+- **Fase de Domínio — Nível 3: Delineamento Corporal**  
+  Trabalhar flexibilidade consciente: comer por intenção, não por impulso.  
+  A nutricionista valida autonomia; o personal regula estímulo para preservar performance e recuperação.
+
+- **Fase Final — Over Line — Nível 4: Shape Prime**  
+  Refinar detalhes de composição corporal sem comprometer saúde mental.  
+  Nutrição e treino atuam para manter o shape prime com estratégias sustentáveis, evitando extremos.
 
 ---
 
@@ -126,13 +154,12 @@ O corpo responde melhor quando sente segurança — coerência é o segredo da a
 
 ---
 
-## 2.6 Sincronização Nutrição–Treino
+## 2.6 Sincronização Nutrição–Treino (sem tabela)
 
-| Nível | Resposta Neural | Foco Nutricional | Estratégia Integrada |
-|-------|-----------------|-----------------|----------------------|
-| Fundação | Segurança e ritmo | Estabilidade glicêmica | Hidratar e comer com constância |
-| Ascensão | Estímulo dopaminérgico | Energia moderada e antioxidantes | Refeições ao redor do treino |
-| Domínio | Consolidação neural | Suporte neuroendócrino | Nutrição de precisão e recuperação |
+- **Fundação (Nível 1):** segurança e ritmo; foco em estabilidade glicêmica, boa hidratação e horários minimamente organizados.  
+- **Ascensão (Nível 2):** reforço dopaminérgico; energia moderada, boa oferta proteica e antioxidantes; refeições estratégicas ao redor do treino.  
+- **Domínio (Nível 3):** consolidação; suporte neuroendócrino, timing de nutrientes e atenção à recuperação.  
+- **Over Line (Nível 4):** refinamento; ajustes pontuais de carboidrato, sódio, água e rotina alimentar para manutenção do shape prime sem neurose.
 
 ---
 
@@ -146,13 +173,27 @@ O Evo360 parte de um princípio simples: o treino muda o cérebro; o corpo apena
 
 ---
 
-## 3.2 Estrutura por Nível
+## 3.2 Estrutura por Fase e Nível (sem tabela)
 
-| Nível | Objetivo Central | Base Fisiológica | Adaptação Neural |
-|-------|------------------|------------------|------------------|
-| Fundação | Reaprender e criar constância | Coordenação e controle postural | Neuroplasticidade inicial |
-| Ascensão | Fortalecer e progredir | Hipertrofia básica | Prazer pelo esforço |
-| Domínio | Consolidar performance | Força e resistência neural | Automação e foco interno |
+- **Fase de Fundação — Nível 1: Reconexão Física**  
+  Objetivo: reaprender a se mover, criar constância e reconstruir a base física e mental.  
+  Base fisiológica: coordenação, controle postural, resistência leve.  
+  Adaptação neural: neuroplasticidade inicial e retomada da conexão corpo–mente.
+
+- **Fase de Ascensão — Nível 2: Refinamento Muscular**  
+  Objetivo: fortalecer, refinar execução e fazer o músculo responder melhor ao estímulo.  
+  Base fisiológica: hipertrofia básica, estabilidade articular, aumento gradual de carga.  
+  Adaptação neural: prazer no esforço e consolidação do ritual de treino.
+
+- **Fase de Domínio — Nível 3: Delineamento Corporal**  
+  Objetivo: consolidar performance, direcionar foco estético e aprimorar consciência muscular.  
+  Base fisiológica: força intermediária/avançada, resistência localizada, maior volume de treino.  
+  Adaptação neural: automação do padrão treinante e foco interno profundo.
+
+- **Fase Final — Over Line — Nível 4: Shape Prime**  
+  Objetivo: operar no ápice da linha corporal da aluna, com maturidade de execução e alta eficiência.  
+  Base fisiológica: força bem estabelecida, boa capacidade cardiorrespiratória, refinamento de detalhes estéticos.  
+  Adaptação neural: coordenação fina, senso de corpo elevado e alta autoconfiança física.
 
 ---
 
@@ -167,16 +208,26 @@ O Evo360 parte de um princípio simples: o treino muda o cérebro; o corpo apena
 
 ---
 
-## 3.4 Parâmetros Técnicos
+## 3.4 Parâmetros Técnicos (sem tabela)
 
-| Variável | Fundação | Ascensão | Domínio |
-|-----------|-----------|-----------|----------|
-| Séries | 2–3 | 3–4 | 4–5 |
-| Repetições | 12–15 | 10–12 | 6–10 |
-| Descanso | 45–75s | 60–90s | 75–120s |
-| %1RM | 50–65% | 65–80% | 75–85% |
-| Métodos | Circuito, pirâmide truncada | Bi-set, drop leve | Rest-pause, falha técnica |
-| Freq. Semanal | 3–4 | 4–5 | 5–6 |
+- **Fundação — Nível 1:**  
+  2–3 séries; 12–15 repetições; 45–75 segundos de descanso; cerca de 50–65% de 1RM.  
+  Métodos: circuito leve, pirâmide truncada, isometria curta.  
+  Frequência semanal: 3–4 sessões.
+
+- **Ascensão — Nível 2:**  
+  3–4 séries; 10–12 repetições; 60–90 segundos de descanso; cerca de 65–80% de 1RM.  
+  Métodos: bi-set moderado, drop leve, super-séries seletivas.  
+  Frequência semanal: 4–5 sessões.
+
+- **Domínio — Nível 3:**  
+  4–5 séries; 6–10 repetições; 75–120 segundos de descanso; cerca de 75–85% de 1RM.  
+  Métodos: rest-pause controlado, falha técnica, pré-exaustão estratégica.  
+  Frequência semanal: 5–6 sessões.
+
+- **Over Line — Nível 4 (Shape Prime):**  
+  Volume e intensidade semelhantes ao Domínio, com ajustes finos de carga, foco em qualidade de contração, simetria e recuperação.  
+  Métodos: combinações avançadas usadas com critério, evitando excesso para preservar o shape e o sistema nervoso.
 
 ---
 
@@ -198,13 +249,12 @@ O treino ensina disciplina, prazer no esforço e constância.
 
 ---
 
-## 4.2 Dopamina e Motivação Sustentável
+## 4.2 Dopamina e Motivação Sustentável (sem tabela)
 
-| Fase | Reação Neural | Estratégia |
-|------|----------------|-------------|
-| Fundação | Busca prazer rápido | Microvitórias |
-| Ascensão | Prazer no progresso | Feedback positivo |
-| Domínio | Prazer no processo | Disciplina automática |
+- **Fundação (Nível 1):** tendência ao prazer rápido; estratégia: microvitórias, metas simples e previsíveis.  
+- **Ascensão (Nível 2):** prazer no progresso; estratégia: métricas claras, comparação com o próprio histórico.  
+- **Domínio (Nível 3):** prazer no processo; estratégia: disciplina automática, foco em refinamento.  
+- **Over Line (Nível 4):** prazer na excelência; estratégia: manutenção inteligente, evitar perfeccionismo destrutivo.
 
 ---
 
@@ -239,12 +289,10 @@ O método ensina o cérebro a agir sem depender de força de vontade.
 
 ## 4.7 Ferramentas Mentais
 
-| Ferramenta | Propósito |
-|-------------|-----------|
-| Ancoragem Respiratória | Reduz ansiedade |
-| Microvisualização | Antecipar sucesso |
-| Journaling Pós-Treino | Fixar aprendizado |
-| Reflexão de Propósito | Reforçar identidade |
+- Ancoragem Respiratória (reduz ansiedade).  
+- Microvisualização (antecipa sucesso).  
+- Journaling Pós-Treino (fixa aprendizado).  
+- Reflexão de Propósito (reforça identidade).
 
 ---
 
@@ -255,85 +303,70 @@ O método ensina o cérebro a agir sem depender de força de vontade.
 ## 5.1 Objetivo da Fase Profissional
 
 O acompanhamento dentro do Bella Prime não é apenas prestação de serviço — é uma intervenção neurocomportamental.  
-O propósito é induzir aprendizado duradouro no sistema nervoso da aluna, guiando corpo e mente para um mesmo padrão de constância.
-
-Cada contato profissional (avaliação, ajuste de treino ou plano alimentar) atua como reforço sináptico: o cérebro aprende que movimento, foco e descanso fazem parte de um mesmo ciclo.
+Cada contato profissional atua como reforço sináptico de movimento, foco e descanso.
 
 > O profissional não treina o corpo. Ele educa o cérebro a permanecer em movimento.
 
 ---
 
-## 5.2 Estrutura de Acompanhamento
+## 5.2 Camadas do Acompanhamento (sem tabela)
 
-O método trabalha com três camadas complementares:
+- **Camada Biológica (personal + nutricionista):**  
+  Ajuste fisiológico e metabólico por meio de treino, alimentação e sono.
 
-| Camada | Profissional Responsável | Foco Principal | Ferramentas |
-|---------|---------------------------|----------------|--------------|
-| Biológica | Personal + Nutricionista | Ajuste fisiológico e metabólico | Treino, alimentação, sono |
-| Comportamental | Personal | Rotina, constância, reforço de hábitos | Diário, tarefas mentais |
-| Perceptiva | Ambos | Autoconhecimento e estabilidade emocional | Escalas de esforço e humor |
+- **Camada Comportamental (personal):**  
+  Organização de rotina, constância, reforço de hábitos, uso de diários e tarefas mentais.
 
-O equilíbrio entre elas determina a sustentabilidade do progresso.
+- **Camada Perceptiva (personal + nutricionista):**  
+  Autoconhecimento, leitura de sinais emocionais, escalas de esforço, humor e carga subjetiva.
 
 ---
 
 ## 5.3 Avaliação Inicial e Diagnóstico Neurocomportamental
 
-A primeira etapa mapeia três dimensões:
+Mapear:  
+- Corpo (composição, postura, força, resistência).  
+- Mente (crenças limitantes, gatilhos, diálogo interno).  
+- Rotina (tempo disponível, ambiente, sono, alimentação).
 
-1. **Corpo:** composição, postura, força e resistência.  
-2. **Mente:** crenças limitantes, gatilhos de desistência e diálogo interno.  
-3. **Rotina:** tempo, ambiente, sono e alimentação.
-
-Esse diagnóstico define o nível de entrada e o tipo de suporte necessário — físico, digital ou híbrido.  
-É um mapa neural e fisiológico, não apenas uma triagem.
-
-Indicadores:  
-presença no treino, relação emocional com a comida, grau de autossabotagem, discurso interno e foco.
+Isso define o nível de entrada e o tipo de suporte (presencial, digital ou híbrido).  
+Indicadores importantes: presença no treino, relação emocional com a comida, grau de autossabotagem, discurso interno e foco.
 
 ---
 
-## 5.4 Periodização Integrada Corpo–Mente
+## 5.4 Periodização Integrada Corpo–Mente (sem tabela)
 
-O Bella Prime adota ciclos mensais com foco alternado em **atenção**, **constância**, **intensidade** e **autocontrole**.  
-Cada ciclo trabalha um eixo neural, sustentado por treino e nutrição sincronizados.
+- **1º Ciclo — Fundação / Nível 1:**  
+  Ênfase em conexão corpo–mente; educativos leves; estabilidade glicêmica; criação de rotina mínima.
 
-| Ciclo | Ênfase Neural | Estratégia de Treino | Diretriz Nutricional | Foco Mental |
-|--------|---------------|---------------------|----------------------|--------------|
-| 1º — Fundação | Conexão corpo–mente | Treinos educativos e leves | Estabilidade glicêmica | Criação de rotina |
-| 2º — Ascensão | Motivação intrínseca | Força e progressão | Suporte energético | Reforço de propósito |
-| 3º — Domínio | Foco e resiliência | Métodos avançados e autoregulação | Ajuste fino e performance | Identidade consolidada |
+- **2º Ciclo — Ascensão / Nível 2:**  
+  Ênfase em motivação intrínseca; treinos focados em força e progressão; suporte energético; reforço de propósito e autoeficácia.
+
+- **3º Ciclo — Domínio / Nível 3:**  
+  Ênfase em foco, resiliência e delineamento; métodos mais avançados; recuperação bem estruturada.
+
+- **Nível 4 — Over Line (Shape Prime):**  
+  Ênfase em sustentação do shape e da saúde mental; ajustes finos, sem radicalismos.
 
 ---
 
 ## 5.5 Check-ins e Feedbacks
 
-A comunicação constante é o centro do processo.  
-Sem feedback, o cérebro retorna aos antigos padrões.
+- Check-in leve semanal: energia, sono, humor, percepção corporal.  
+- Revisão quinzenal: ajustes técnicos e nutricionais.  
+- Reavaliação: a cada 30–60 dias.
 
-**Periodicidade sugerida:**
-
-- Check-in leve semanal (energia, sono, humor).  
-- Revisão quinzenal com ajustes técnicos e nutricionais.  
-- Reavaliação a cada 30–60 dias.
-
-Três perguntas-chave:
+Perguntas-chave:  
 1. O que funcionou bem?  
 2. O que travou?  
 3. O que será feito diferente?
-
-Essas perguntas ativam metacognição — a cliente aprende a observar o próprio comportamento.
 
 ---
 
 ## 5.6 Relatórios e Indicadores de Progresso
 
-Os relatórios combinam indicadores físicos e emocionais.
-
-**Indicadores físicos:** RCQ, RCE, força, resistência, volume de treino, composição corporal.  
-**Indicadores emocionais:** frequência, autopercepção, controle alimentar, sono e foco.
-
-Esses cruzamentos revelam fadiga neural, compulsão ou resistência mental — permitindo ajustes sem frustração.
+- **Indicadores físicos:** RCQ, RCE, força, resistência, volume de treino, composição corporal.  
+- **Indicadores emocionais:** frequência, autopercepção, controle alimentar, sono, foco.
 
 > A meta é ensinar o corpo a render sem punir a mente.
 
@@ -341,41 +374,26 @@ Esses cruzamentos revelam fadiga neural, compulsão ou resistência mental — p
 
 ## 5.7 Sistema de Reforço Positivo
 
-Todo avanço precisa de reconhecimento.  
-O reforço dopaminérgico saudável mantém o cérebro engajado.
-
-Formas práticas:
-
-- Elogio específico (não genérico).  
-- Check visual de progresso.  
-- Metas desbloqueáveis.  
-- Rankings de consistência (opcional).
+Elogios específicos, comparações com o próprio histórico, checagens visuais, metas desbloqueáveis e, se fizer sentido, rankings de consistência.
 
 ---
 
 ## 5.8 Autonomia e Transição entre Níveis
 
-O avanço não é estético, é comportamental.
-
-Critérios principais:
-
-- Constância ≥ 80%.  
+Critérios gerais:  
+- Constância ≥ 80% na fase.  
 - Presença mental e execução consciente.  
-- Equilíbrio emocional.  
+- Equilíbrio emocional mínimo.  
 - Recuperação adequada.
 
-A liberação é conjunta (personal + nutri).  
-Essa validação evita recaídas e reforça segurança emocional.
+A liberação é conjunta (personal + nutricionista).  
+Isso reforça segurança emocional e reduz recaídas.
 
 ---
 
 ## 5.9 Postura Profissional e Linguagem
 
-A linguagem molda comportamento.  
-O cérebro responde melhor a instruções conscientes que a ordens imperativas.
-
-**Trocas recomendadas:**
-
+Trocas recomendadas:  
 - “Força!” → “Sente o movimento.”  
 - “Aguenta!” → “Mantém o ritmo.”  
 - “Não pode!” → “Isso te afasta do que você quer.”
@@ -386,17 +404,10 @@ O cérebro responde melhor a instruções conscientes que a ordens imperativas.
 
 ## 5.10 Síntese Integrada
 
-O Bella Prime é uma metodologia de transformação integral sustentada por:
+Neurociência + Fisiologia + Consciência.  
+A aluna muda o corpo e a forma de existir.
 
-1. **Neurociência:** ensinar o cérebro a sustentar o comportamento.  
-2. **Fisiologia:** treinar o corpo para expressar o aprendizado.  
-3. **Consciência:** alinhar propósito, ação e prazer.
-
-A mulher que conclui o processo não só muda o corpo — muda a forma de existir.
-
-> O treino molda músculos.  
-> O hábito molda comportamento.  
-> O propósito molda destino.
+---
 
 <div class="page-break"></div>
 
@@ -404,118 +415,92 @@ A mulher que conclui o processo não só muda o corpo — muda a forma de existi
 
 ## 6.1 Visão Geral
 
-A avaliação no Bella Prime é multidimensional: corpo, mente e rotina são analisados como um único sistema.  
-O objetivo é compreender padrões, não apenas medir números.
+A avaliação é multidimensional e busca padrões, não só números.  
 
-> A avaliação é um diagnóstico de aprendizado — não uma auditoria estética.
+> É um diagnóstico de aprendizado — não uma auditoria estética.
 
 ---
 
 ## 6.2 Etapas da Avaliação
 
 1. **Anamnese Neurocomportamental**  
-   - Identifica crenças limitantes, padrões de desistência e relação emocional com corpo e comida.  
-   - Usa escalas Likert (1–5) para autoconfiança, presença e motivação.
+   Crenças limitantes, histórico de desistência, relação com corpo e comida; escalas simples (1–5) de motivação, autoconfiança e presença.  
 
 2. **Avaliação Física e Postural**  
-   - Circunferâncias, RCQ, RCE e fotogrametria postural.  
-   - Observa compensações e restrições motoras.
+   Circunferências, RCQ, RCE, fotogrametria postural, observação de compensações e restrições motoras.  
 
 3. **Avaliação Metabólica e Nutricional**  
-   - Histórico de saúde, digestão, hidratação, TMB e GET.  
-   - Conecta deficiências alimentares a neurotransmissores (triptofano, tirosina, magnésio, ômega-3).
+   Histórico clínico, digestão, hidratação, TMB, GET, sinais de carências nutricionais e sua relação com neurotransmissores.  
 
 4. **Avaliação Psicofisiológica**  
-   - Percepção de estresse, qualidade do sono e variabilidade da FC.  
-   - Indica se o sistema está mais simpático (ação) ou parassimpático (recuperação).
+   Percepção de estresse, qualidade do sono, sensação de fadiga e, quando possível, variabilidade da frequência cardíaca.
 
 ---
 
-## 6.3 Escala de Progressão Bella Prime
+## 6.3 Escala de Progressão Bella Prime (sem tabela)
 
-| Indicador | Fundação | Ascensão | Domínio |
-|------------|-----------|-----------|----------|
-| Adesão semanal | ≥ 70 % | ≥ 80 % | ≥ 90 % |
-| Presença mental | Atenção intermitente | Atenção estável | Foco automático |
-| Regulação emocional | Ansiedade controlada | Consciência dos gatilhos | Autocontrole |
-| Sono / recuperação | Variável | Regular | Ótimo |
-| Execução técnica | Corrige com ajuda | Executa com autonomia | Ensina pelo exemplo |
-| Consistência alimentar | Consciente | Planejada | Naturalmente integrada |
+- **Fase de Fundação — Nível 1:**  
+  Adesão semanal em torno de 70% ou mais; atenção ainda intermitente; sono e alimentação em fase de organização.  
 
-Avanço ocorre quando 5 de 6 critérios se mantêm por 4 semanas consecutivas.
+- **Fase de Ascensão — Nível 2:**  
+  Adesão ≥ 80%; atenção mais estável; maior consciência de gatilhos emocionais; rotina mais previsível.  
 
----
+- **Fase de Domínio — Nível 3:**  
+  Adesão ≥ 90%; foco quase automático; alto grau de autocontrole emocional; execução técnica consistente; alimentação predominantemente alinhada.  
 
-## 6.4 Ficha de Acompanhamento Integrada
+- **Fase Final — Over Line — Nível 4 (Shape Prime):**  
+  Manutenção dos padrões do Domínio com maturidade emocional; capacidade de se ajustar sozinha com pouco suporte.
 
-**Bella Prime – Registro Profissional**
-
-| Campo | Descrição |
-|--------|-----------|
-| Nome |  |
-| Nível atual | Fundação / Ascensão / Domínio |
-| Data de início |  |
-| Objetivo | Emagrecimento / Hipertrofia / Reeducação |
-| Profissional (Treino) |  |
-| Profissional (Nutrição) |  |
-| Adesão (%) |  |
-| Sono (h) |  |
-| Estresse (1–5) |  |
-| Foco (1–5) |  |
-| Observações gerais |  |
-| Próximos ajustes |  |
-
-Sugestão: digitalizar no Google Forms para gerar relatórios automáticos.
+Avança quem sustenta pelo menos cinco desses critérios durante cerca de quatro semanas consecutivas.
 
 ---
 
-## 6.5 Indicadores de Alerta
+## 6.4 Ficha de Acompanhamento Integrada (sem tabela)
 
-| Sintoma | Interpretação | Ação |
-|----------|----------------|------|
-| Falta de foco | Fadiga mental | Reduzir volume |
-| Insônia | Cortisol alto | Inserir respiração noturna |
-| Queda de performance | Overtraining neural | Pausa ativa |
-| Compulsão | Desequilíbrio dopaminérgico | Revisar sono e recompensas |
-| Apatia | Falta de estímulo | Criar micro-metas |
+Itens essenciais:  
+nome, nível atual, data de início, objetivo, profissional de treino, profissional de nutrição, adesão (%), sono (horas médias), estresse (1–5), foco (1–5), observações gerais e próximos ajustes.  
+Sugestão: usar Google Forms e planilhas para gerar histórico automático.
 
-Esses sinais pedem ajuste de estímulo — não punição.
+---
+
+## 6.5 Indicadores de Alerta (sem tabela)
+
+- Falta de foco constante → suspeita de fadiga mental → reduzir volume ou complexidade dos treinos.  
+- Insônia prolongada → possível elevação de cortisol → propor higiene do sono e respiração noturna.  
+- Queda de performance acentuada → risco de overreaching/overtraining neural → planejar pausa ativa.  
+- Compulsão alimentar recorrente → desregulação dopaminérgica + falta de sono/rotina → revisar sono, recompensas e organização alimentar.  
+- Apatia e desânimo → pouco estímulo ou ausência de propósito claro → criar micro-metas e reforçar sentido.
 
 ---
 
 ## 6.6 Comunicação Interprofissional
 
-Fluxo recomendado:
-
-1. Relatório quinzenal do personal.  
-2. Relatório mensal da nutricionista.  
-3. Feedback cruzado com ajustes.
-
-Usar planilha compartilhada ou Drive seguro.
+Relatório quinzenal do personal e mensal da nutricionista, com feedback cruzado.  
+Uso de planilhas ou documentos em nuvem com acesso restrito.
 
 ---
 
 ## 6.7 Avaliação Final
 
-Comparar indicadores físicos e emocionais:  
-força, postura, sono, humor, constância e percepção corporal.  
-A devolutiva deve destacar evolução e próximos passos.
+Comparar força, postura, sono, humor, constância e percepção corporal entre início e fim de ciclo.  
+A devolutiva deve destacar evolução, não só apontar pendências.
 
 ---
 
 ## 6.8 Ética Profissional
 
-O personal não prescreve dieta.  
-A nutricionista não altera volume de treino.  
-Ambos educam comportamento.  
-A ética gera confiança — e confiança é aderência.
+Personal não prescreve dieta.  
+Nutricionista não prescreve treino.  
+Ambos discutem comportamento e rotina.
+
+Ética gera confiança — e confiança gera aderência.
 
 ---
 
 ## 6.9 Síntese da Parte 6
 
-A avaliação integrada mede consciência, não apenas peso.  
-O progresso é a evidência de uma mente que aprendeu a cuidar do corpo.
+Avaliar é medir consciência e aprendizado.  
+Progresso real é evidência de uma mente que aprendeu a cuidar do próprio corpo.
 
 ---
 
@@ -526,43 +511,45 @@ O progresso é a evidência de uma mente que aprendeu a cuidar do corpo.
 ## 7.1 Princípio
 
 Todo atendimento Bella Prime é neuroeducacional:  
-cada fala ou ajuste reforça aprendizado no sistema nervoso.
+cada fala ou ajuste reforça um padrão no sistema nervoso.
 
 ---
 
-## 7.2 Macroetapas do Atendimento
+## 7.2 Macroetapas (sem tabela)
 
-| Etapa | Foco | Ação | Resultado |
-|--------|------|-------|-----------|
-| Onboarding | Vínculo e segurança | Diagnóstico + apresentação do método | Clareza e engajamento |
-| Planejamento | Estratégia inicial | Entrega do plano de treino + nutrição | Direção |
-| Acompanhamento | Sustentar hábitos | Check-ins semanais | Constância |
-| Reavaliação | Medir evolução | Revisão de dados | Reforço positivo |
-| Transição | Consolidar aprendizado | Ritual de mudança | Motivação intrínseca |
+- **Onboarding:** vínculo e segurança; apresentação da proposta.  
+- **Planejamento:** estratégia inicial de treino, nutrição e rotina.  
+- **Acompanhamento:** sustentação de hábitos e correções.  
+- **Reavaliação:** leitura de evolução.  
+- **Transição de nível:** ritualizar o avanço.
 
 ---
 
 ## 7.3 Onboarding
 
-Foco em acolhimento e clareza, não em jargão técnico.  
-Mostrar o mapa dos níveis (Fundação → Ascensão → Domínio).  
-A cliente precisa sentir “agora faz sentido”.
+Foco em acolhimento, clareza e simplicidade.  
+Apresentar o mapa de evolução:  
+**Fase de Fundação → Fase de Ascensão → Fase de Domínio → Fase Final Over Line (Shape Prime).**
+
+A cliente precisa sentir: “agora faz sentido”.
 
 ---
 
 ## 7.4 Entrega do Plano
 
-Apresentar estrutura, propósito e benefícios neurofisiológicos.  
-Usar roteiro guiado:  
-1️⃣ O que vai sentir → 2️⃣ O que vai aprender → 3️⃣ O que vai conquistar.  
-Isso ancora dopamina e propósito.
+Usar o roteiro:  
+1. O que ela vai sentir.  
+2. O que ela vai aprender.  
+3. O que ela vai conquistar.
+
+Isso ancora dopamina, segurança e propósito.
 
 ---
 
 ## 7.5 Acompanhamento
 
-Manter tom leve e proativo.  
-Check-ins semanais, feedback quinzenal.  
+Check-ins semanais com linguagem leve e objetiva.  
+Feedback quinzenal com ajustes práticos.  
 Encerrar sempre com reforço positivo — o cérebro grava o último tom.
 
 ---
@@ -570,49 +557,49 @@ Encerrar sempre com reforço positivo — o cérebro grava o último tom.
 ## 7.6 Linguagem Padronizada
 
 Curta, direta e afetiva.  
-Evitar culpa → substituir por ajuste.  
-Exemplo:  
-> “Tá tudo bem recalibrar. O importante é manter o corpo em movimento e a mente presente.”
+Evitar culpa; substituir por ajuste.
+
+> “Tá tudo bem recalibrar.  
+> O importante é manter o corpo em movimento e a mente presente.”
 
 ---
 
 ## 7.7 Reavaliação
 
 A cada 30 ou 60 dias.  
-Incluir dados objetivos + escala emocional.  
-Mostrar progresso visual — ver evolução reforça identidade.
+Incluir dados objetivos (medidas, performance) e subjetivos (sono, humor, estresse, autopercepção).  
+Mostrar evolução visual quando possível.
 
 ---
 
 ## 7.8 Ritual de Transição de Nível
 
-Mensagem personalizada, nova ficha e desafio simbólico.  
-Ativa dopamina e serotonina → reconhecimento + estabilidade.
+Mensagem personalizada, nova ficha de treino, novos focos nutricionais e um pequeno desafio simbólico.  
+Isso marca o cérebro com a sensação de conquista.
 
 ---
 
 ## 7.9 Atendimento Digital e Híbrido
 
-Mesmo tom emocional do presencial.  
-Ferramentas: Forms, Drive, WhatsApp Business, PDF padronizado.  
-Clareza é empatia.
+Reproduzir o mesmo tom humano do presencial.  
+Usar Forms, Drive, WhatsApp Business, PDFs e vídeos explicativos.  
+Clareza é empatia — especialmente no digital.
 
 ---
 
-## 7.10 Padrão Visual da Marca
+## 7.10 Padrão Visual
 
-Cores: preto, vermelho e dourado.  
-Tipografia limpa e divisores dourados.  
-Estilo realista com energia e propósito.  
+Cores principais: preto, vermelho e dourado.  
+Tipografia limpa, divisores dourados, estética de realismo estilizado com energia e propósito.  
 Design também é neurocomunicação.
 
 ---
 
-## 7.11 Filosofia de Atendimento
+## 7.11 Filosofia
 
-1. Humanidade → entender antes de instruir.  
-2. Clareza → falar o necessário.  
-3. Propósito → explicar por que fazer.
+1. Entender antes de instruir.  
+2. Falar o necessário, sem excesso de jargão.  
+3. Reforçar o porquê, não só o como.
 
 ---
 
@@ -629,89 +616,84 @@ Empatia gera adesão; ciência sustenta resultado.
 
 ## 8.1 Base Integrada
 
-Treino e nutrição são duas linguagens que dizem a mesma coisa:  
-“você está evoluindo”.
+Treino e nutrição são duas formas de dizer a mesma coisa para o cérebro:  
+“você está evoluindo e está seguro enquanto faz isso”.
 
 ---
 
-## 8.2 Funções de Cada Profissional
+## 8.2 Funções
 
-**Personal Trainer**  
-- Avalia condição física e emocional.  
-- Prescreve treino seguro e educativo.  
-- Monitora foco, postura e constância.
+- **Personal Trainer:**  
+  Avalia condição física e emocional; prescreve treino seguro e educativo; monitora foco, postura e constância.  
 
-**Nutricionista**  
-- Ajusta alimentação ao estímulo do treino.  
-- Observa sono, digestão e humor.  
-- Educa comportamento alimentar.
+- **Nutricionista:**  
+  Ajusta alimentação ao estímulo do treino; observa sono, digestão e humor; educa comportamento alimentar.
 
 ---
 
-## 8.3 Comunicação e Alinhamento
+## 8.3 Comunicação
 
-Reunião quinzenal (10–15 min).  
-Planilha com indicadores físicos + emocionais.  
-Usar linguagem de “nossa cliente”.  
-Relatar fatos, não opiniões.
+Reuniões rápidas (quinzenais ou mensais), com relatório direto.  
+Foco em dados, não em opinião.
 
 ---
 
-## 8.4 Sincronização Treino × Nutrição
+## 8.4 Sincronização (sem tabela)
 
-| Nível | Ênfase Fisiológica | Foco Nutricional | Intervenção Comportamental |
-|--------|--------------------|------------------|---------------------------|
-| Fundação | Adaptação neural | Estabilizar glicemia e hidratação | Criar rotina |
-| Ascensão | Força e resistência | Aumentar energia e proteína | Reforçar disciplina |
-| Domínio | Performance | Ajuste fino e timing | Identidade consolidada |
+- Fundação / Nível 1: adaptação neural e criação de rotina de treino e alimentação.  
+- Ascensão / Nível 2: fortalecimento, aumento de energia e disciplina.  
+- Domínio / Nível 3: performance moderada/alta, timing de nutrientes, refinamento de execução.  
+- Over Line / Nível 4: manutenção inteligente, estratégias finas para preservar shape e saúde mental.
 
 ---
 
 ## 8.5 Feedback Integrado
 
-Três dimensões:  
-1️⃣ Biológica  2️⃣ Comportamental  3️⃣ Cognitiva.  
-Exemplo:  
-> “O corpo respondeu bem à constância. Agora vamos ajustar sono e autocuidado pra manter o ritmo.”
+Trabalhar sempre em três dimensões:  
+biológica (corpo), comportamental (rotina) e cognitiva (entendimento).
+
+> “O corpo respondeu bem à constância; agora vamos ajustar sono e autocuidado pra manter o ritmo.”
 
 ---
 
 ## 8.6 Relatórios Mensais
 
-Seções: Resumo da fase → Treino → Nutrição → Comportamento → Próximos passos.  
-Gráfico de Evolução Integrada (opcional).  
+Estrutura recomendada:  
+Resumo da fase → Treino → Nutrição → Comportamento → Próximos passos.  
+Quando possível, incluir gráfico simples de evolução.
 
 ---
 
 ## 8.7 Indicadores Compartilhados
 
-Energia, sono, humor, foco, fome, recuperação e autoimagem.  
-Esses dados substituem a obsessão pelo peso — e representam verdadeira saúde mental e física.
+Energia, sono, humor, foco, fome, recuperação, autoimagem.  
+Esses dados traduzem saúde real melhor que peso isolado.
 
 ---
 
-## 8.8 Protocolos de Crise
+## 8.8 Crises
 
 1. Escuta ativa.  
-2. Reduzir volume ou restrição.  
+2. Redução temporária de volume ou restrição.  
 3. Reforço positivo.  
-4. Plano de retomada.  
-Correção gentil reprograma melhor que punição dura.
+4. Plano de retomada.
+
+Correção gentil reorganiza melhor o sistema nervoso do que punição brusca.
 
 ---
 
 ## 8.9 Ética e Limites
 
-Cada profissional atua em seu campo, mas partilha propósito.  
-Discussões sempre baseadas em dados e respeito.  
-A ética amplifica impacto e longevidade da parceria.
+Cada profissional atua em seu escopo, mas compartilha propósito.  
+Conflitos são resolvidos com base em dados e respeito.  
+A ética amplia impacto e longevidade da parceria.
 
 ---
 
 ## 8.10 Síntese
 
-O personal e a nutricionista são dois hemisférios do mesmo cérebro profissional.  
-Um regula energia; outro direciona ação.  
+Personal e nutricionista funcionam como dois hemisférios do mesmo cérebro profissional.  
+Um regula energia; o outro direciona ação.  
 Ambos ensinam consciência.
 
 ---
@@ -722,63 +704,131 @@ Ambos ensinam consciência.
 
 ## 9.1 Estrutura Geral
 
-Aprendizado em camadas: o corpo e o cérebro evoluem juntos.  
-Fundação = segurança neural. Ascensão = reforço dopaminérgico. Domínio = autonomia.
+Os níveis do Bella Prime são organizados em quatro fases progressivas:
+
+- **Fase de Fundação — Nível 1: Reconexão Física**  
+  Objetivo central: reconstruir a base comportamental, física e mental.  
+  Padrão mínimo: cerca de 80% de consistência semanal.  
+  Nesta fase, a aluna aprende a reconectar corpo e mente. O foco não está em intensidade, mas em reaprender postura, movimento, consciência corporal e regularidade. A prioridade é desenvolver constância, entender o próprio ritmo e criar estabilidade emocional ligada ao treino e à rotina. Aqui nasce o hábito, a confiança e o senso de capacidade física.
+
+- **Fase de Ascensão — Nível 2: Refinamento Muscular**  
+  Objetivo central: aumentar o estímulo, corrigir falhas e consolidar técnica.  
+  Padrão mínimo: cerca de 80% de consistência semanal.  
+  Nesta etapa, o treinamento ganha mais forma. A aluna já tem uma base sólida, então começa o refinamento: movimentos mais limpos, músculos respondendo melhor, ajustes de postura e execução pensando em qualidade. Aqui o corpo começa a mostrar definição e força mais visíveis, entrando na zona real de evolução estética.
+
+- **Fase de Domínio — Nível 3: Delineamento Corporal**  
+  Objetivo central: transformar o padrão corporal e aproximar do shape desejado.  
+  Padrão mínimo: cerca de 80% de consistência semanal.  
+  A aluna entra em uma fase focada em estética com técnica. Há maior domínio do próprio corpo, mais coordenação, ativação muscular eficiente e capacidade de suportar treinos mais desafiadores. O foco é delinear curvas, reduzir pontos específicos de incômodo e elevar o visual do shape para outro patamar.
+
+- **Fase Final — Over Line — Nível 4: Shape Prime**  
+  Objetivo central: shape prime — o ápice da linha corporal da aluna.  
+  Padrão mínimo: cerca de 80% de consistência semanal.  
+  Este é o nível máximo do processo. A aluna se encontra com o melhor padrão corporal que já teve, conciliando força, definição, simetria, autoestima e maturidade de execução. O corpo responde rapidamente, a disciplina está consolidada e o shape atinge seu auge. Aqui a palavra é excelência — estética, técnica e mental.
 
 ---
 
-### 🧩 Fundação — Reconexão Corpo-Mente
+### Fase de Fundação — Nível 1: Reconexão Física
 
-**Objetivo:** reeducar o sistema nervoso para o movimento.  
-Duração 6–8 semanas · Intensidade 50–65 % 1RM · RPE 6–7.  
+Objetivo: reeducar o sistema nervoso para o movimento e reconstruir a base física e mental.  
 
-Treino: mobilidade, coordenação e força de base.  
-Métodos: circuito leve, pirâmide truncada, isometria curta.  
-Cardio: 15–25 min a 60–70 % FCr.  
-Nutrição: regular glicemia e hidratação.  
-Comportamento: microvitórias e auto-observação.
+Duração aproximada: 6–8 semanas.  
+Intensidade: 50–65% de 1RM; RPE em torno de 6–7.  
+
+Estrutura geral:  
+- Treinos educativos, com foco em coordenação, controle postural e padrões fundamentais.  
+- Ênfase em amplitude, controle e respeito aos limites atuais.  
+- Cardio leve (15–25 minutos), zona entre 60–70% da FCr, para regular o sistema nervoso.  
+
+Nutrição:  
+- Regular glicemia e hidratação.  
+- Construir consistência básica na alimentação, sem restrições radicais.  
+
+Comportamento:  
+- Microvitórias, checklists simples, reforço de presença nos treinos.  
 
 > O Fundação não treina músculos — treina consciência.
 
 ---
 
-### 🔺 Ascensão — Consolidação e Crescimento
+### Fase de Ascensão — Nível 2: Refinamento Muscular
 
-**Objetivo:** fortalecer corpo e mente sob estresse positivo.  
-Duração 8–10 semanas · 65–80 % 1RM · RPE 7–8.  
+Objetivo: fortalecer corpo e mente sob estresse positivo, refinando padrão muscular e técnico.  
 
-Treino: ABCD/ABCDE, força e resistência.  
-Métodos: piramidal, drop leve, super-séries.  
-Cardio: até 30 min (65–80 % FCr).  
-Nutrição: ajuste energético, proteína 1.6–2 g/kg, antioxidantes.  
-Comportamento: visualização e autoescrita.  
+Duração aproximada: 8–10 semanas.  
+Intensidade: 65–80% de 1RM; RPE em torno de 7–8.  
 
-> O Ascensão não treina força — treina identidade.
+Estrutura geral:  
+- Estruturas de treino como ABCD/ABCDE.  
+- Ênfase em força básica, resistência, ajustes de execução e controle do tempo sob tensão.  
+- Métodos como pirâmide, drop leve e super-séries bem posicionadas.  
+- Cardio moderado (até 30 minutos) em torno de 65–80% da FCr, para condicionamento e gestão de estresse.
 
----
+Nutrição:  
+- Ajuste energético de acordo com a carga de treino.  
+- Proteína entre 1,6–2 g/kg, foco em alimentos minimamente processados e antioxidantes.
 
-### 👑 Domínio — Autonomia e Propósito
+Comportamento:  
+- Visualização de objetivos, autoescrita simples (diário de treino) e reforço de identidade como “pessoa que treina”.
 
-**Objetivo:** consolidar autoeficácia e equilíbrio neural.  
-75–90 % 1RM · RPE 8–9 · 5–6 x semana.  
-
-Treino: performance e propriocepção.  
-Métodos: rest-pause, pré-exaustão, cluster.  
-Nutrição: autogestão e timing alimentar.  
-Comportamento: reflexão e mentoria a outras alunas.
-
-> O Domínio não busca resultado — manifesta quem você se tornou.
+> O Ascensão não treina só força — treina identidade.
 
 ---
 
-## 9.10 Progresso Resumido
+### Fase de Domínio — Nível 3: Delineamento Corporal
 
-| Aspecto | Fundação | Ascensão | Domínio |
-|----------|-----------|-----------|----------|
-| Cérebro | Aprendizado motor | Reforço dopaminérgico | Sincronia cortical-límbica |
-| Corpo | Coordenação | Força | Performance |
-| Comportamento | Hábito | Rotina | Autonomia |
-| Foco mental | Presença | Consistência | Propósito |
+Objetivo: consolidar autoeficácia, equilíbrio neural e direcionar a estética de forma consciente.  
+
+Intensidade: em torno de 75–90% de 1RM; RPE 8–9; frequência de treino 5–6x por semana (quando compatível com rotina e saúde).  
+
+Estrutura geral:  
+- Treinos com foco em performance relativa e consciência muscular.  
+- Métodos avançados aplicados com critério: rest-pause, pré-exaustão, cluster e variações mais densas.  
+- Cardio ajustado para manter saúde cardiovascular e composição corporal, sem exaustão crônica.
+
+Nutrição:  
+- Autogestão maior; timing de nutrientes mais estratégico (pré/pós-treino).  
+- Ajustes finos em carboidrato, gorduras e micronutrientes.
+
+Comportamento:  
+- Reflexão sobre limites saudáveis, monitoramento de sinais de excesso e capacidade de mentorar outras alunas em estágios anteriores.
+
+> O Domínio não busca só resultado — manifesta quem você se tornou até aqui.
+
+---
+
+### Fase Final — Over Line — Nível 4: Shape Prime
+
+Objetivo: operar no ápice do padrão estético, técnico e mental — o **shape prime** da aluna.  
+
+Intensidade: semelhante ao Domínio, porém com foco maior em **qualidade** do que em “provar algo”.  
+
+Estrutura geral:  
+- Manutenção inteligente de volume e intensidade.  
+- Refinamento de pontos específicos (simetria, detalhes de membros, transição de linhas corporais).  
+- Priorização de recuperação, sono, gestão de estresse e longevidade articular.
+
+Nutrição:  
+- Estratégias pontuais para manter definição e saúde hormonal.  
+- Evitar ciclos extremos de restrição e compensação.  
+- Foco em consistência e capacidade de sustentar o padrão desejado.
+
+Comportamento:  
+- Alto grau de maturidade: a aluna entende o próprio corpo, seus limites e o custo de manter o shape.  
+- Menos necessidade de validação externa; mais alinhamento com propósito pessoal.
+
+> No Over Line, o objetivo não é “chegar lá” — é saber permanecer bem lá.
+
+---
+
+## 9.10 Progresso Resumido (sem tabela)
+
+Ao longo das fases:
+
+- O **cérebro** evolui de aprendizado motor básico → reforço dopaminérgico → sincronia cortical–límbica → eficiência e maturidade neural.  
+- O **corpo** progride de coordenação simples → força e refinamento técnico → delineamento → forma prime.  
+- O **comportamento** avança de hábito inicial → rotina sólida → autonomia → autogestão.  
+- O **foco mental** evolui de presença intermitente → consistência → propósito → excelência sustentável.
 
 ---
 
@@ -789,59 +839,55 @@ Comportamento: reflexão e mentoria a outras alunas.
 ## 10.1 Princípios
 
 Falar para o sistema nervoso, não só para a razão.  
-Evitar ameaça e ativar competência e pertencimento.
+Evitar ameaça; ativar competência e pertencimento.
 
 ---
 
 ## 10.2 Tom de Voz
 
-Firme, calmo e humano: autoridade + empatia.  
-Direto sem dureza, didático sem frieza.
+Firme, calmo e humano.  
+Autoridade com empatia, sem teatralizar.
 
 ---
 
-## 10.3 Estrutura dos 3 C
+## 10.3 Os 3 C
 
-**Clareza → Contexto → Calma**  
-Exemplo:  
+- **Clareza** – dizer exatamente o que importa.  
+- **Contexto** – explicar por que aquilo importa.  
+- **Calma** – transmitir segurança, não urgência desesperada.
+
+Exemplo:
+
 > “Essa semana o foco é manter três treinos e dormir melhor.  
-Isso ajuda o corpo a consolidar o aprendizado e regula sua energia.  
-Mesmo que não saia perfeito, você continua no caminho.”
-
-Sem esses três C, a comunicação perde força e aumenta resistência emocional.
+> Isso ajuda seu corpo a consolidar o que já aprendeu.  
+> Mesmo que não saia perfeito, você continua no caminho.”
 
 ---
 
-## 10.4 Linguagem que Cura
+## 10.4 Linguagem que Cura (sem tabela)
 
-Evite comandos punitivos. Substitua:
+- “Você errou.” → “Vamos ajustar.”  
+- “Você está atrasada.” → “O importante é que voltou.”  
+- “Faltou foco.” → “Vamos reforçar sua atenção.”  
+- “Você precisa melhorar.” → “Tem espaço pra evoluir aqui.”
 
-| Linguagem comum | Versão Bella Prime |
-|-----------------|-------------------|
-| “Você errou.” | “Vamos ajustar.” |
-| “Está atrasada.” | “O importante é voltar.” |
-| “Faltou foco.” | “Vamos reforçar sua atenção.” |
-| “Precisa melhorar.” | “Tem espaço pra evoluir.” |
-
-> O cérebro grava o tom antes das palavras.
+> O cérebro registra o tom antes das palavras.
 
 ---
 
-## 10.5 O Efeito Espelho
+## 10.5 Efeito Espelho
 
-A cliente regula o próprio estado emocional espelhando o do profissional.  
-Fale devagar, respire, mantenha tom seguro.  
-Antes de atender, pense: *“qual energia quero que ela sinta?”*
+A cliente regula seu estado emocional espelhando o profissional.  
+Respirar, falar devagar e manter consistência no tom é parte do protocolo.
 
 ---
 
-## 10.6 Storytelling Neuroeducativo
+## 10.6 Storytelling
 
-Use analogias simples que gerem dopamina e memória.  
-Exemplo:  
-> “Treinar é como plantar: no começo parece que nada muda, mas as raízes estão crescendo.”
+Usar analogias e imagens simples:  
+“Treinar é como plantar. No começo parece que nada muda, mas as raízes estão crescendo.”
 
-Pequenas histórias tornam a ciência emocionalmente compreensível.
+Histórias curtas ajudam o cérebro a guardar o conteúdo.
 
 ---
 
@@ -849,164 +895,162 @@ Pequenas histórias tornam a ciência emocionalmente compreensível.
 
 Estrutura de três passos:
 
-1. **Reconhecimento** – valide o esforço.  
-2. **Correção leve** – ajuste o processo.  
-3. **Propósito** – explique o porquê.
+1. Reconhecimento do esforço.  
+2. Correção leve do processo.  
+3. Relembrar o propósito.
 
-> “Você manteve o treino mesmo cansada.  
-Vamos testar um horário novo pra otimizar energia.  
-Assim o corpo aprende o ritmo ideal.”
-
-O cérebro grava os últimos cinco segundos da conversa — termine com reforço.
+> “Você manteve os treinos mesmo cansada.  
+> Agora vamos ajustar o horário pra encaixar melhor na sua rotina.  
+> Isso vai facilitar seu corpo a responder ainda mais.”
 
 ---
 
 ## 10.8 Comunicação Escrita
 
-Escrita direta, frases curtas e espaçadas.  
-Máximo de dois emojis por bloco.  
-Evite caixa alta.  
-Exemplo:
-
-> “Oi 🙂  
-> Vi que manteve os treinos essa semana 👏  
-> Ajustar o pós-treino vai te ajudar a recuperar melhor.  
-> Continua firme — tá evoluindo!”
+Frases curtas, parágrafos bem espaçados, até dois emojis quando fizer sentido, sem uso de caixa alta agressiva.
 
 ---
 
 ## 10.9 Comunicação entre Profissionais
 
-Tom colaborativo e técnico, sem ego.  
-Foco no resultado comum, não na autoria.  
-> “Notei queda de energia. Podemos revisar carga ou reforçar alimentação pré-treino?”
+Tom colaborativo, técnico e objetivo.  
+Foco em dados e necessidades da cliente, não em vaidade de área.
 
 ---
 
-## 10.10 Neurociência da Comunicação
+## 10.10 Neurociência da Comunicação (sem tabela)
 
-| Tipo de interação | Neurotransmissor predominante | Efeito |
-|--------------------|-------------------------------|--------|
-| Reforço positivo | Dopamina | Motivação |
-| Empatia genuína | Oxitocina | Confiança |
-| Clareza técnica | Noradrenalina leve | Foco |
-| Ameaça ou culpa | Cortisol | Resistência |
+- Reforço positivo → dopamina → motivação.  
+- Empatia genuína → oxitocina → confiança.  
+- Clareza técnica → noradrenalina em nível funcional → foco.  
+- Discurso ameaçador ou culpabilizador → cortisol → resistência e fuga.
 
-> Toda frase é um estímulo químico. Fale com intenção.
+> Toda frase é um microestímulo químico. Fale com intenção.
 
 ---
 
 ## 10.11 Comunicação em Crise
 
-Roteiro:  
-1️⃣ Escuta → 2️⃣ Validação → 3️⃣ Reenquadramento → 4️⃣ Direcionamento.  
-Evite “não pode desistir”; prefira “vamos respirar e retomar”.
+Roteiro:
 
-> Em crise, o tom é terapêutico — não técnico.
+1. Escutar sem interromper.  
+2. Validar a experiência (“faz sentido você se sentir assim”).  
+3. Reenquadrar (“isso é um ponto da jornada, não o fim”).  
+4. Direcionar para um passo concreto de retomada.
 
 ---
 
 ## 10.12 Reforço Identitário
 
-Elogie o comportamento, não o resultado.  
-> “Você está cada vez mais presente — é bonito ver essa versão surgindo.”
+Elogiar o comportamento, não só o resultado:
 
-Isso ativa autoestima neural (dopamina + serotonina).
+> “Você está se mostrando muito mais presente com você mesma.”
+
+Isso ajuda a construir autoestima ancorada em atitude, não apenas em estética.
 
 ---
 
-## 10.13 Síntese da Parte 10
+## 10.13 Síntese
 
 A comunicação é o treino invisível.  
-Palavras moldam química, e química molda comportamento.  
-> Fale para o corpo, ensine à mente, e o coração seguirá.
+Palavras treinam química, e química treina comportamento.
 
 ---
 
 <div class="page-break"></div>
 
-# Parte 11 — Diretrizes Finais e Anexo Técnico Profissional
+# Parte 11 — Diretrizes Finais e Anexo Técnico
 
-## 11.1 Filosofia do Método Bella Prime
+## 11.1 Filosofia
 
-Sistema integrativo que une neurociência, comportamento e treinamento físico.  
-Não é protocolo rígido: é ferramenta para autonomia.
+O Bella Prime integra neurociência, comportamento e treinamento físico.  
+Não é apenas um protocolo: é uma ferramenta de construção de autonomia.
 
 > “Mudar o corpo é consequência; mudar a mente é libertação.”
 
 ---
 
-## 11.2 Estrutura de Aplicação Profissional
+## 11.2 Aplicação Profissional
+
+Fluxo sugerido:
 
 1. Diagnóstico físico e comportamental.  
-2. Prescrição de treino e rotina.  
+2. Prescrição de treino alinhada ao nível.  
 3. Diretrizes nutricionais integradas.  
 4. Tarefas mentais semanais.  
-5. Feedback quinzenal.
+5. Feedback quinzenal e reavaliação periódica.
 
 > O treino muda o corpo; o comportamento mantém o resultado.
 
 ---
 
-## 11.3 Diretrizes Técnicas por Nível
+## 11.3 Diretrizes por Nível (sem tabela)
 
-| Nível | Foco Neuromotor | Intensidade | Estratégia Mental | Apoio Nutricional |
-|--------|-----------------|--------------|------------------|------------------|
-| Fundação | Mobilidade e consciência corporal | 50–65 % 1RM | Construção de rotina | Reeducação alimentar |
-| Ascensão | Força e resistência | 65–75 % 1RM | Autorregulação emocional | Estabilidade glicêmica |
-| Domínio | Potência e refinamento técnico | 75–85 % 1RM | Propósito no treino | Ajuste fino de nutrientes |
+- **Fase de Fundação — Nível 1 (Reconexão Física):**  
+  Mobilidade, consciência corporal, intensidade em torno de 50–65% de 1RM; construção de rotina e reeducação alimentar.  
 
-> Treinar o corpo é reprogramar o sistema nervoso.
+- **Fase de Ascensão — Nível 2 (Refinamento Muscular):**  
+  Força e resistência moderadas, 65–75% de 1RM; desenvolvimento de autorregulação emocional; alimentação mais estável.  
+
+- **Fase de Domínio — Nível 3 (Delineamento Corporal):**  
+  Potência moderada/alta, refinamento técnico, 75–85% de 1RM; treino guiado por propósito; ajustes finos de nutrientes.  
+
+- **Fase Final — Over Line — Nível 4 (Shape Prime):**  
+  Manutenção e refinamento do ápice estético e funcional, com equilíbrio entre resultado, saúde mental e longevidade articular/metabólica.
 
 ---
 
 ## 11.4 Sinergia Profissional
 
-Educação Física: estimula o movimento.  
-Nutrição: regula o metabolismo.  
-Neurociência: dá sentido ao processo.  
+Educação física estimula movimento.  
+Nutrição organiza combustível e recuperação.  
+Neurociência oferece o mapa e o porquê.
 
-Juntas, mantêm dopamina (motivação), serotonina (estabilidade) e GABA (calma) em equilíbrio — a base da constância neural.
+Juntas, essas três frentes ajudam a manter dopamina (motivação), serotonina (estabilidade) e GABA (calma) mais equilibradas — base da constância.
 
 ---
 
-## 11.5 Checkpoints de Avaliação
+## 11.5 Checkpoints
 
-**Objetivos:** frequência ≥ 80 %, melhora de postura e sono, menos dor.  
-**Subjetivos:** prazer no processo, redução de culpa, clareza de propósito.
+Indicadores objetivos:  
+frequência ≥ 80%, melhora de postura, menos dor, mais força e resistência.  
 
-> O melhor indicador é quando a cliente começa a se conduzir sozinha.
+Indicadores subjetivos:  
+mais prazer no processo, menos culpa, clareza de propósito, maior senso de identidade.
+
+> O melhor sinal é quando a cliente começa a se conduzir sozinha com responsabilidade.
 
 ---
 
 ## 11.6 Comunicação Neuropositiva
 
-Prefira “vamos ajustar” a “você falhou”.  
-A segurança emocional mantém o sistema límbico aberto ao aprendizado.
+Sempre que possível, trocar “falha” por “ajuste”.  
+A segurança emocional mantém o sistema límbico aberto para aprender.
 
 ---
 
-## 11.7 Estrutura de Feedback Integrado
+## 11.7 Feedback Integrado
 
-1. Reconhecer → 2. Ajustar → 3. Ancorar propósito.  
-> “Você manteve foco; agora ajustamos o horário pra encaixar melhor. Assim o corpo aprende sem se esgotar.”
+Reconhecer → Ajustar → Ancorar propósito:
+
+> “Você manteve o foco.  
+> Agora vamos só organizar melhor os horários dos treinos.  
+> Isso vai deixar seu corpo e sua cabeça andando ainda mais na mesma direção.”
 
 ---
 
 ## 11.8 Propósito Final
 
-O Bella Prime ensina autogestão física e emocional.  
-O profissional guia; a aluna aprende a observar e ajustar.  
-O resultado real é identidade fortalecida.
+Ensinar autogestão física e emocional.  
+O profissional guia o processo; a aluna aprende a se observar e se ajustar.
 
 > “Quem entende o próprio corpo não precisa de controle — precisa de consciência.”
 
 ---
 
-## 11.9 Conclusão do Manual Profissional
+## 11.9 Conclusão
 
-Este manual alinha ciência, prática e empatia.  
-Cada treino, refeição e tarefa mental foi desenhado para respeitar a biologia da mudança.  
+Este manual alinha ciência, prática e empatia para estruturar o Tratamento Bella Prime como um verdadeiro **processo de transformação sustentada**.  
 
 **Fórmula Bella Prime:**  
-> **Neurociência + Constância + Propósito = Transformação Sustentável.**
+**Neurociência + Constância + Propósito = Transformação Sustentável.**
