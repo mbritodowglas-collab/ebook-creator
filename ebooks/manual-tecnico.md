@@ -440,13 +440,13 @@ A avaliação é multidimensional e busca padrões, não só números.
 ## 6.3 Escala de Progressão Bella Prime (sem tabela)
 
 - **Fase de Fundação — Nível 1:**  
-  Adesão semanal em torno de 70% ou mais; atenção ainda intermitente; sono e alimentação em fase de organização.  
+  Adesão semanal em torno de 80% ou mais; atenção ainda intermitente; sono e alimentação em fase de organização.  
 
 - **Fase de Ascensão — Nível 2:**  
   Adesão ≥ 80%; atenção mais estável; maior consciência de gatilhos emocionais; rotina mais previsível.  
 
 - **Fase de Domínio — Nível 3:**  
-  Adesão ≥ 90%; foco quase automático; alto grau de autocontrole emocional; execução técnica consistente; alimentação predominantemente alinhada.  
+  Adesão ≥ 80%; foco quase automático; alto grau de autocontrole emocional; execução técnica consistente; alimentação predominantemente alinhada.  
 
 - **Fase Final — Over Line — Nível 4 (Shape Prime):**  
   Manutenção dos padrões do Domínio com maturidade emocional; capacidade de se ajustar sozinha com pouco suporte.
