@@ -338,7 +338,7 @@ Coloco este material como ponto de partida para uma parceria. A partir daqui, po
 
   <p class="author-cta">
     <strong>Contato para implementação do Digital Trainer Pro:</strong><br>
-    <strong>E-mail:</strong> contato@mdpersonal.com.br (exemplo)<br>
+    <strong>E-mail:</strong> mdowglastrainer@gmail.com<br>
     <strong>WhatsApp:</strong> 92 98103-7222
   </p>
 
