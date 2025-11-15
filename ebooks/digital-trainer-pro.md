@@ -41,13 +41,25 @@ date: "2025"
 
 # <span id="apresentacao">Apresentação</span>
 
-O mercado de Educação Física mudou. Os alunos estão no celular, as decisões acontecem nas redes e a percepção de valor de um profissional começa muito antes do primeiro treino: começa na **presença digital**. Hoje, quem não aparece de forma clara, organizada e profissional simplesmente deixa de existir para uma parte importante do público.
+O cenário digital mudou a forma como profissionais de Educação Física se apresentam, se comunicam e captam novos alunos. Hoje, ter presença online não é luxo — é requisito básico para quem quer se destacar, ser encontrado e transmitir profissionalismo. 
+Ainda assim, a maioria dos professores e estagiários nunca recebeu orientação técnica sobre como construir essa presença. Não aprenderam a criar um site, estruturar uma página de serviços ou comunicar seus diferenciais de maneira clara.  
+E é justamente aí que o **Digital Trainer Pro** entra.
 
-Esse cenário cria um desafio para as academias: manter um time tecnicamente bom já não é suficiente. É preciso ter **professores que se posicionem bem**, que comuniquem seus serviços, que saibam se apresentar e que consigam, com responsabilidade, ampliar o alcance da própria carteira de alunos. O problema é que a maioria desses profissionais nunca foi preparada para isso.
+Este programa nasceu da necessidade crescente de transformar professores em **profissionais digitais completos** — não apenas bons técnicos de treino, mas profissionais capazes de se apresentar com clareza, organização e autoridade no ambiente online.  
+Combinando **ChatGPT** e **GitHub Pages**, ferramentas que permitem construir sites profissionais de forma acessível e sem custo, o Digital Trainer Pro torna possível algo que antes parecia distante: cada professor ter **seu próprio hub profissional**, seu cartão de visita digital, seu espaço oficial para apresentar serviços e direcionar potenciais alunos.
 
-Foi exatamente nesse contexto que nasceu o **Digital Trainer Pro**: um programa de formação pensado para tirar os professores da posição de “consumidores passivos de tecnologia” e colocá-los como protagonistas da própria presença digital. A proposta é simples e direta: **ensinar o time a criar sites profissionais de personal trainer usando ChatGPT e GitHub**, de forma estruturada, didática e totalmente aplicada à realidade da Educação Física.
+Este material existe para apresentar essa proposta.  
+Uma formação prática, objetiva e totalmente aplicada ao universo da Educação Física.  
+A ideia não é transformar nenhum professor em programador, mas mostrar que, com o método certo, **qualquer profissional pode publicar seu próprio site em poucas horas**, sem complicação, sem depender de terceiros e com aparência totalmente profissional.
 
-Este material apresenta a proposta do programa, o impacto esperado para a equipe e os benefícios estratégicos para a academia como um todo.
+O Digital Trainer Pro é mais do que um curso.  
+É uma ferramenta de **posicionamento**, **crescimento de carreira** e **fortalecimento institucional**.  
+Ao capacitar a equipe, a academia forma um time mais preparado para o futuro, mais competitivo e mais conectado com as demandas atuais dos alunos.
+
+Este é o ponto de partida para uma nova fase do trabalho:  
+professores mais fortes, alunos mais confiantes e uma academia mais moderna.
+
+— **Márcio Dowglas**, criador do Digital Trainer Pro
 
 <hr class="divider-gold">
 
