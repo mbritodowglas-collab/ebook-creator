@@ -41,7 +41,7 @@ date: "2025"
 
 # <span id="apresentacao">Apresentação</span>
 
-O cenário digital mudou a forma como profissionais de Educação Física se apresentam, se comunicam e captam novos alunos. Hoje, ter presença online não é luxo — é requisito básico para quem quer se destacar, ser encontrado e transmitir profissionalismo. 
+O cenário digital mudou a forma como profissionais de Educação Física se apresentam, se comunicam e captam novos alunos. Hoje, ter presença online não é luxo — é requisito básico para quem quer se destacar, ser encontrado e transmitir profissionalismo.  
 Ainda assim, a maioria dos professores e estagiários nunca recebeu orientação técnica sobre como construir essa presença. Não aprenderam a criar um site, estruturar uma página de serviços ou comunicar seus diferenciais de maneira clara.  
 E é justamente aí que o **Digital Trainer Pro** entra.
 
@@ -63,7 +63,9 @@ professores mais fortes, alunos mais confiantes e uma academia mais moderna.
 
 <hr class="divider-gold">
 
-# <span id="cap1">Capítulo 1 — Por que o Digital Trainer Pro existe</span>
+<div class="page-break"></div>
+
+# <span id="cap1">Capítulo 1 — O Início de Tudo</span>
 
 A maioria dos profissionais de Educação Física entra no mercado com uma formação sólida em anatomia, fisiologia, metodologia de treino e, em alguns casos, em avaliação física e prescrição avançada. Porém, quase nenhum deles recebe formação consistente em:
 
